@@ -1,0 +1,2265 @@
+<result>
+  <summary>
+    <apicawatch_version>0.3.4-0</apicawatch_version>
+    <started_utc>2015-09-15 06:29:00.505</started_utc>
+    <stopped_utc>2015-09-15 06:29:04.592</stopped_utc>
+    <duration_ms>4087</duration_ms>
+    <scenario>0</scenario>
+    <step_count>1</step_count>
+    <browser_name>Firefox</browser_name>
+    <browser_version>21.0</browser_version>
+    <browser_lang>en-US</browser_lang>
+    <tz_offset_minutes>0</tz_offset_minutes>
+    <page_count>1</page_count>
+    <url_count>39</url_count>
+    <http_transaction_count>39</http_transaction_count>
+    <received_bytes>2506737</received_bytes>
+    <sent_bytes>11855</sent_bytes>
+    <content_size_bytes>2039474</content_size_bytes>
+    <prm_page_timeout_secs>undefined</prm_page_timeout_secs>
+    <prm_url_timeout_secs>undefined</prm_url_timeout_secs>
+    <prm_activity_timeout_secs>undefined</prm_activity_timeout_secs>
+    <dns_lookup_count>7</dns_lookup_count>
+    <connect_count>7</connect_count>
+  </summary>
+  <steps>
+    <step>
+      <summary>
+        <url_count>39</url_count>
+        <page_count>1</page_count>
+        <step_number>1</step_number>
+        <started_utc>2015-09-15 06:29:00.505</started_utc>
+        <stopped_utc>2015-09-15 06:29:04.592</stopped_utc>
+        <duration_ms>4087</duration_ms>
+        <target_url>http://www.zauq.com/</target_url>
+        <received_bytes>2506737</received_bytes>
+        <sent_bytes>11855</sent_bytes>
+        <content_size_bytes>2039474</content_size_bytes>
+        <offset_ms>0</offset_ms>
+        <http_transaction_count>39</http_transaction_count>
+        <dns_lookup_count>7</dns_lookup_count>
+        <connect_count>7</connect_count>
+        <performance_timing>
+          <navigationStart_utc>2015-09-15 06:29:00.489</navigationStart_utc>
+          <unloadEvent_ms start_utc="0">0</unloadEvent_ms>
+          <unloadEventEnd_utc>0</unloadEventEnd_utc>
+          <redirect_ms start_utc="0">0</redirect_ms>
+          <redirectEnd_utc>0</redirectEnd_utc>
+          <fetchStart_utc>2015-09-15 06:29:00.489</fetchStart_utc>
+          <domainLookup_ms start_utc="2015-09-15 06:29:00.499">484</domainLookup_ms>
+          <domainLookupEnd_utc>2015-09-15 06:29:00.983</domainLookupEnd_utc>
+          <connect_ms start_utc="2015-09-15 06:29:00.984">106</connect_ms>
+          <connectEnd_utc>2015-09-15 06:29:01.090</connectEnd_utc>
+          <requestStart_utc>2015-09-15 06:29:01.090</requestStart_utc>
+          <response_ms start_utc="2015-09-15 06:29:01.319">108</response_ms>
+          <responseEnd_utc>2015-09-15 06:29:01.427</responseEnd_utc>
+          <domLoading_utc>2015-09-15 06:29:01.321</domLoading_utc>
+          <domInteractive_utc>2015-09-15 06:29:02.557</domInteractive_utc>
+          <domContentLoadedEvent_ms start_utc="2015-09-15 06:29:02.631">16</domContentLoadedEvent_ms>
+          <domContentLoadedEventEnd_utc>2015-09-15 06:29:02.647</domContentLoadedEventEnd_utc>
+          <domComplete_utc>2015-09-15 06:29:04.613</domComplete_utc>
+          <loadEvent_ms start_utc="0">0</loadEvent_ms>
+          <loadEventEnd_utc>0</loadEventEnd_utc>
+        </performance_timing>
+        <html_title>Home | Zauq Group</html_title>
+      </summary>
+      <pages>
+        <page>
+          <summary>
+            <started_utc>2015-09-15 06:29:00.505</started_utc>
+            <offset_ms>0</offset_ms>
+            <url_count>39</url_count>
+            <html_title>Home | Zauq Group</html_title>
+          </summary>
+          <urls>
+            <url>
+              <summary>
+                <url>http://www.zauq.com/</url>
+                <url_number>1</url_number>
+                <offset_ms>0</offset_ms>
+                <started_utc>2015-09-15 06:29:00.505</started_utc>
+                <elapsed_ms>924</elapsed_ms>
+                <http_method>GET</http_method>
+                <redirect>0</redirect>
+                <cachebefore_url_present>0</cachebefore_url_present>
+                <sent_bytes>282</sent_bytes>
+                <received_bytes>20010</received_bytes>
+                <content_size_bytes>0</content_size_bytes>
+                <completed>1</completed>
+                <dynamic type="none">0</dynamic>
+                <request_cookie_count>0</request_cookie_count>
+                <response_cookie_count>0</response_cookie_count>
+                <content_mime_type>text/html</content_mime_type>
+                <http_status_code>200</http_status_code>
+                <http_result>OK</http_result>
+                <error_code>0</error_code>
+                <error_message></error_message>
+                <response_status_line>HTTP/1.1 200 OK</response_status_line>
+                <request_line>GET / HTTP/1.1</request_line>
+                <server_ip>192.185.169.166</server_ip>
+                <server_port>80</server_port>
+                <dnslookup_url_offset_ms>0</dnslookup_url_offset_ms>
+                <dnslookup_duration_ms>477</dnslookup_duration_ms>
+                <blocked_url_offset_ms>477</blocked_url_offset_ms>
+                <blocked_duration_ms>3</blocked_duration_ms>
+                <connect_url_offset_ms>480</connect_url_offset_ms>
+                <connect_duration_ms>107</connect_duration_ms>
+                <send_url_offset_ms>587</send_url_offset_ms>
+                <send_duration_ms>0</send_duration_ms>
+                <wait_url_offset_ms>587</wait_url_offset_ms>
+                <wait_duration_ms>228</wait_duration_ms>
+                <receive_url_offset_ms>815</receive_url_offset_ms>
+                <receive_duration_ms>109</receive_duration_ms>
+              </summary>
+              <request-headers />
+              <response-headers />
+              <timing>
+                <requestId>1</requestId>
+                <index>0</index>
+                <request_start>1442298540505</request_start>
+                <queue_end>3</queue_end>
+                <dns_end>480</dns_end>
+                <blocked_end>0</blocked_end>
+                <connect_start>480</connect_start>
+                <connect_end>587</connect_end>
+                <send_start>587</send_start>
+                <send_end>587</send_end>
+                <wait_end>815</wait_end>
+                <request_end>1442298541429</request_end>
+              </timing>
+            </url>
+            <url>
+              <summary>
+                <url>http://www.zauq.com/css/pace.css</url>
+                <url_number>2</url_number>
+                <offset_ms>860</offset_ms>
+                <started_utc>2015-09-15 06:29:01.365</started_utc>
+                <elapsed_ms>237</elapsed_ms>
+                <http_method>GET</http_method>
+                <redirect>0</redirect>
+                <cachebefore_url_present>0</cachebefore_url_present>
+                <sent_bytes>280</sent_bytes>
+                <received_bytes>568</received_bytes>
+                <content_size_bytes>0</content_size_bytes>
+                <completed>1</completed>
+                <dynamic type="none">0</dynamic>
+                <request_cookie_count>0</request_cookie_count>
+                <response_cookie_count>0</response_cookie_count>
+                <content_mime_type>text/css</content_mime_type>
+                <http_status_code>200</http_status_code>
+                <http_result>OK</http_result>
+                <error_code>0</error_code>
+                <error_message></error_message>
+                <response_status_line>HTTP/1.1 200 OK</response_status_line>
+                <request_line>GET /css/pace.css HTTP/1.1</request_line>
+                <server_ip>192.185.169.166</server_ip>
+                <server_port>80</server_port>
+                <dnslookup_url_offset_ms>0</dnslookup_url_offset_ms>
+                <dnslookup_duration_ms>0</dnslookup_duration_ms>
+                <blocked_url_offset_ms>0</blocked_url_offset_ms>
+                <blocked_duration_ms>0</blocked_duration_ms>
+                <connect_url_offset_ms>0</connect_url_offset_ms>
+                <connect_duration_ms>0</connect_duration_ms>
+                <send_url_offset_ms>0</send_url_offset_ms>
+                <send_duration_ms>0</send_duration_ms>
+                <wait_url_offset_ms>0</wait_url_offset_ms>
+                <wait_duration_ms>237</wait_duration_ms>
+                <receive_url_offset_ms>237</receive_url_offset_ms>
+                <receive_duration_ms>0</receive_duration_ms>
+              </summary>
+              <request-headers />
+              <response-headers />
+              <timing>
+                <requestId>5</requestId>
+                <index>1</index>
+                <request_start>1442298541365</request_start>
+                <queue_end>0</queue_end>
+                <dns_end>0</dns_end>
+                <blocked_end>0</blocked_end>
+                <connect_start>0</connect_start>
+                <connect_end>0</connect_end>
+                <send_start>0</send_start>
+                <send_end>0</send_end>
+                <wait_end>237</wait_end>
+                <request_end>1442298541602</request_end>
+              </timing>
+            </url>
+            <url>
+              <summary>
+                <url>http://www.zauq.com/js/pace.min.js</url>
+                <url_number>3</url_number>
+                <offset_ms>860</offset_ms>
+                <started_utc>2015-09-15 06:29:01.365</started_utc>
+                <elapsed_ms>245</elapsed_ms>
+                <http_method>GET</http_method>
+                <redirect>0</redirect>
+                <cachebefore_url_present>0</cachebefore_url_present>
+                <sent_bytes>267</sent_bytes>
+                <received_bytes>12744</received_bytes>
+                <content_size_bytes>0</content_size_bytes>
+                <completed>1</completed>
+                <dynamic type="none">0</dynamic>
+                <request_cookie_count>0</request_cookie_count>
+                <response_cookie_count>0</response_cookie_count>
+                <content_mime_type>application/javascript</content_mime_type>
+                <http_status_code>200</http_status_code>
+                <http_result>OK</http_result>
+                <error_code>0</error_code>
+                <error_message></error_message>
+                <response_status_line>HTTP/1.1 200 OK</response_status_line>
+                <request_line>GET /js/pace.min.js HTTP/1.1</request_line>
+                <server_ip>192.185.169.166</server_ip>
+                <server_port>80</server_port>
+                <dnslookup_url_offset_ms>0</dnslookup_url_offset_ms>
+                <dnslookup_duration_ms>1</dnslookup_duration_ms>
+                <blocked_url_offset_ms>1</blocked_url_offset_ms>
+                <blocked_duration_ms>0</blocked_duration_ms>
+                <connect_url_offset_ms>1</connect_url_offset_ms>
+                <connect_duration_ms>106</connect_duration_ms>
+                <send_url_offset_ms>107</send_url_offset_ms>
+                <send_duration_ms>0</send_duration_ms>
+                <wait_url_offset_ms>107</wait_url_offset_ms>
+                <wait_duration_ms>138</wait_duration_ms>
+                <receive_url_offset_ms>245</receive_url_offset_ms>
+                <receive_duration_ms>0</receive_duration_ms>
+              </summary>
+              <request-headers />
+              <response-headers />
+              <timing>
+                <requestId>6</requestId>
+                <index>2</index>
+                <request_start>1442298541365</request_start>
+                <queue_end>0</queue_end>
+                <dns_end>1</dns_end>
+                <blocked_end>0</blocked_end>
+                <connect_start>1</connect_start>
+                <connect_end>107</connect_end>
+                <send_start>64</send_start>
+                <send_end>64</send_end>
+                <wait_end>202</wait_end>
+                <request_end>1442298541567</request_end>
+              </timing>
+            </url>
+            <url>
+              <summary>
+                <url>http://www.zauq.com/css/bootstrap.min.css</url>
+                <url_number>4</url_number>
+                <offset_ms>861</offset_ms>
+                <started_utc>2015-09-15 06:29:01.366</started_utc>
+                <elapsed_ms>341</elapsed_ms>
+                <http_method>GET</http_method>
+                <redirect>0</redirect>
+                <cachebefore_url_present>0</cachebefore_url_present>
+                <sent_bytes>289</sent_bytes>
+                <received_bytes>99781</received_bytes>
+                <content_size_bytes>0</content_size_bytes>
+                <completed>1</completed>
+                <dynamic type="none">0</dynamic>
+                <request_cookie_count>0</request_cookie_count>
+                <response_cookie_count>0</response_cookie_count>
+                <content_mime_type>text/css</content_mime_type>
+                <http_status_code>200</http_status_code>
+                <http_result>OK</http_result>
+                <error_code>0</error_code>
+                <error_message></error_message>
+                <response_status_line>HTTP/1.1 200 OK</response_status_line>
+                <request_line>GET /css/bootstrap.min.css HTTP/1.1</request_line>
+                <server_ip>192.185.169.166</server_ip>
+                <server_port>80</server_port>
+                <dnslookup_url_offset_ms>0</dnslookup_url_offset_ms>
+                <dnslookup_duration_ms>0</dnslookup_duration_ms>
+                <blocked_url_offset_ms>0</blocked_url_offset_ms>
+                <blocked_duration_ms>0</blocked_duration_ms>
+                <connect_url_offset_ms>0</connect_url_offset_ms>
+                <connect_duration_ms>106</connect_duration_ms>
+                <send_url_offset_ms>106</send_url_offset_ms>
+                <send_duration_ms>0</send_duration_ms>
+                <wait_url_offset_ms>106</wait_url_offset_ms>
+                <wait_duration_ms>129</wait_duration_ms>
+                <receive_url_offset_ms>235</receive_url_offset_ms>
+                <receive_duration_ms>106</receive_duration_ms>
+              </summary>
+              <request-headers />
+              <response-headers />
+              <timing>
+                <requestId>7</requestId>
+                <index>3</index>
+                <request_start>1442298541366</request_start>
+                <queue_end>0</queue_end>
+                <dns_end>0</dns_end>
+                <blocked_end>0</blocked_end>
+                <connect_start>0</connect_start>
+                <connect_end>106</connect_end>
+                <send_start>106</send_start>
+                <send_end>106</send_end>
+                <wait_end>235</wait_end>
+                <request_end>1442298541707</request_end>
+              </timing>
+            </url>
+            <url>
+              <summary>
+                <url>http://www.zauq.com/css/font-awesome.min.css</url>
+                <url_number>5</url_number>
+                <offset_ms>861</offset_ms>
+                <started_utc>2015-09-15 06:29:01.366</started_utc>
+                <elapsed_ms>229</elapsed_ms>
+                <http_method>GET</http_method>
+                <redirect>0</redirect>
+                <cachebefore_url_present>0</cachebefore_url_present>
+                <sent_bytes>292</sent_bytes>
+                <received_bytes>18003</received_bytes>
+                <content_size_bytes>0</content_size_bytes>
+                <completed>1</completed>
+                <dynamic type="none">0</dynamic>
+                <request_cookie_count>0</request_cookie_count>
+                <response_cookie_count>0</response_cookie_count>
+                <content_mime_type>text/css</content_mime_type>
+                <http_status_code>200</http_status_code>
+                <http_result>OK</http_result>
+                <error_code>0</error_code>
+                <error_message></error_message>
+                <response_status_line>HTTP/1.1 200 OK</response_status_line>
+                <request_line>GET /css/font-awesome.min.css HTTP/1.1</request_line>
+                <server_ip>192.185.169.166</server_ip>
+                <server_port>80</server_port>
+                <dnslookup_url_offset_ms>0</dnslookup_url_offset_ms>
+                <dnslookup_duration_ms>0</dnslookup_duration_ms>
+                <blocked_url_offset_ms>0</blocked_url_offset_ms>
+                <blocked_duration_ms>0</blocked_duration_ms>
+                <connect_url_offset_ms>0</connect_url_offset_ms>
+                <connect_duration_ms>107</connect_duration_ms>
+                <send_url_offset_ms>107</send_url_offset_ms>
+                <send_duration_ms>1</send_duration_ms>
+                <wait_url_offset_ms>108</wait_url_offset_ms>
+                <wait_duration_ms>121</wait_duration_ms>
+                <receive_url_offset_ms>229</receive_url_offset_ms>
+                <receive_duration_ms>0</receive_duration_ms>
+              </summary>
+              <request-headers />
+              <response-headers />
+              <timing>
+                <requestId>8</requestId>
+                <index>4</index>
+                <request_start>1442298541366</request_start>
+                <queue_end>0</queue_end>
+                <dns_end>0</dns_end>
+                <blocked_end>0</blocked_end>
+                <connect_start>0</connect_start>
+                <connect_end>107</connect_end>
+                <send_start>106</send_start>
+                <send_end>107</send_end>
+                <wait_end>228</wait_end>
+                <request_end>1442298541594</request_end>
+              </timing>
+            </url>
+            <url>
+              <summary>
+                <url>http://www.zauq.com/css/animate.min.css</url>
+                <url_number>6</url_number>
+                <offset_ms>863</offset_ms>
+                <started_utc>2015-09-15 06:29:01.368</started_utc>
+                <elapsed_ms>232</elapsed_ms>
+                <http_method>GET</http_method>
+                <redirect>0</redirect>
+                <cachebefore_url_present>0</cachebefore_url_present>
+                <sent_bytes>287</sent_bytes>
+                <received_bytes>56067</received_bytes>
+                <content_size_bytes>0</content_size_bytes>
+                <completed>1</completed>
+                <dynamic type="none">0</dynamic>
+                <request_cookie_count>0</request_cookie_count>
+                <response_cookie_count>0</response_cookie_count>
+                <content_mime_type>text/css</content_mime_type>
+                <http_status_code>200</http_status_code>
+                <http_result>OK</http_result>
+                <error_code>0</error_code>
+                <error_message></error_message>
+                <response_status_line>HTTP/1.1 200 OK</response_status_line>
+                <request_line>GET /css/animate.min.css HTTP/1.1</request_line>
+                <server_ip>192.185.169.166</server_ip>
+                <server_port>80</server_port>
+                <dnslookup_url_offset_ms>0</dnslookup_url_offset_ms>
+                <dnslookup_duration_ms>0</dnslookup_duration_ms>
+                <blocked_url_offset_ms>0</blocked_url_offset_ms>
+                <blocked_duration_ms>0</blocked_duration_ms>
+                <connect_url_offset_ms>0</connect_url_offset_ms>
+                <connect_duration_ms>108</connect_duration_ms>
+                <send_url_offset_ms>108</send_url_offset_ms>
+                <send_duration_ms>0</send_duration_ms>
+                <wait_url_offset_ms>108</wait_url_offset_ms>
+                <wait_duration_ms>124</wait_duration_ms>
+                <receive_url_offset_ms>232</receive_url_offset_ms>
+                <receive_duration_ms>0</receive_duration_ms>
+              </summary>
+              <request-headers />
+              <response-headers />
+              <timing>
+                <requestId>9</requestId>
+                <index>5</index>
+                <request_start>1442298541368</request_start>
+                <queue_end>0</queue_end>
+                <dns_end>0</dns_end>
+                <blocked_end>0</blocked_end>
+                <connect_start>0</connect_start>
+                <connect_end>108</connect_end>
+                <send_start>105</send_start>
+                <send_end>105</send_end>
+                <wait_end>229</wait_end>
+                <request_end>1442298541597</request_end>
+              </timing>
+            </url>
+            <url>
+              <summary>
+                <url>http://www.zauq.com/css/prettyPhoto.css</url>
+                <url_number>7</url_number>
+                <offset_ms>863</offset_ms>
+                <started_utc>2015-09-15 06:29:01.368</started_utc>
+                <elapsed_ms>242</elapsed_ms>
+                <http_method>GET</http_method>
+                <redirect>0</redirect>
+                <cachebefore_url_present>0</cachebefore_url_present>
+                <sent_bytes>287</sent_bytes>
+                <received_bytes>20111</received_bytes>
+                <content_size_bytes>0</content_size_bytes>
+                <completed>1</completed>
+                <dynamic type="none">0</dynamic>
+                <request_cookie_count>0</request_cookie_count>
+                <response_cookie_count>0</response_cookie_count>
+                <content_mime_type>text/css</content_mime_type>
+                <http_status_code>200</http_status_code>
+                <http_result>OK</http_result>
+                <error_code>0</error_code>
+                <error_message></error_message>
+                <response_status_line>HTTP/1.1 200 OK</response_status_line>
+                <request_line>GET /css/prettyPhoto.css HTTP/1.1</request_line>
+                <server_ip>192.185.169.166</server_ip>
+                <server_port>80</server_port>
+                <dnslookup_url_offset_ms>0</dnslookup_url_offset_ms>
+                <dnslookup_duration_ms>0</dnslookup_duration_ms>
+                <blocked_url_offset_ms>0</blocked_url_offset_ms>
+                <blocked_duration_ms>108</blocked_duration_ms>
+                <connect_url_offset_ms>108</connect_url_offset_ms>
+                <connect_duration_ms>0</connect_duration_ms>
+                <send_url_offset_ms>108</send_url_offset_ms>
+                <send_duration_ms>0</send_duration_ms>
+                <wait_url_offset_ms>108</wait_url_offset_ms>
+                <wait_duration_ms>134</wait_duration_ms>
+                <receive_url_offset_ms>242</receive_url_offset_ms>
+                <receive_duration_ms>0</receive_duration_ms>
+              </summary>
+              <request-headers />
+              <response-headers />
+              <timing>
+                <requestId>10</requestId>
+                <index>6</index>
+                <request_start>1442298541368</request_start>
+                <queue_end>0</queue_end>
+                <dns_end>0</dns_end>
+                <blocked_end>108</blocked_end>
+                <connect_start>0</connect_start>
+                <connect_end>0</connect_end>
+                <send_start>108</send_start>
+                <send_end>108</send_end>
+                <wait_end>242</wait_end>
+                <request_end>1442298541610</request_end>
+              </timing>
+            </url>
+            <url>
+              <summary>
+                <url>http://www.zauq.com/css/main.css</url>
+                <url_number>8</url_number>
+                <offset_ms>864</offset_ms>
+                <started_utc>2015-09-15 06:29:01.369</started_utc>
+                <elapsed_ms>336</elapsed_ms>
+                <http_method>GET</http_method>
+                <redirect>0</redirect>
+                <cachebefore_url_present>0</cachebefore_url_present>
+                <sent_bytes>280</sent_bytes>
+                <received_bytes>46267</received_bytes>
+                <content_size_bytes>0</content_size_bytes>
+                <completed>1</completed>
+                <dynamic type="none">0</dynamic>
+                <request_cookie_count>0</request_cookie_count>
+                <response_cookie_count>0</response_cookie_count>
+                <content_mime_type>text/css</content_mime_type>
+                <http_status_code>200</http_status_code>
+                <http_result>OK</http_result>
+                <error_code>0</error_code>
+                <error_message></error_message>
+                <response_status_line>HTTP/1.1 200 OK</response_status_line>
+                <request_line>GET /css/main.css HTTP/1.1</request_line>
+                <server_ip>192.185.169.166</server_ip>
+                <server_port>80</server_port>
+                <dnslookup_url_offset_ms>0</dnslookup_url_offset_ms>
+                <dnslookup_duration_ms>0</dnslookup_duration_ms>
+                <blocked_url_offset_ms>0</blocked_url_offset_ms>
+                <blocked_duration_ms>198</blocked_duration_ms>
+                <connect_url_offset_ms>198</connect_url_offset_ms>
+                <connect_duration_ms>0</connect_duration_ms>
+                <send_url_offset_ms>198</send_url_offset_ms>
+                <send_duration_ms>0</send_duration_ms>
+                <wait_url_offset_ms>198</wait_url_offset_ms>
+                <wait_duration_ms>138</wait_duration_ms>
+                <receive_url_offset_ms>336</receive_url_offset_ms>
+                <receive_duration_ms>0</receive_duration_ms>
+              </summary>
+              <request-headers />
+              <response-headers />
+              <timing>
+                <requestId>11</requestId>
+                <index>7</index>
+                <request_start>1442298541369</request_start>
+                <queue_end>0</queue_end>
+                <dns_end>0</dns_end>
+                <blocked_end>198</blocked_end>
+                <connect_start>0</connect_start>
+                <connect_end>0</connect_end>
+                <send_start>198</send_start>
+                <send_end>198</send_end>
+                <wait_end>336</wait_end>
+                <request_end>1442298541705</request_end>
+              </timing>
+            </url>
+            <url>
+              <summary>
+                <url>http://www.zauq.com/css/responsive.css</url>
+                <url_number>9</url_number>
+                <offset_ms>864</offset_ms>
+                <started_utc>2015-09-15 06:29:01.369</started_utc>
+                <elapsed_ms>345</elapsed_ms>
+                <http_method>GET</http_method>
+                <redirect>0</redirect>
+                <cachebefore_url_present>0</cachebefore_url_present>
+                <sent_bytes>286</sent_bytes>
+                <received_bytes>4702</received_bytes>
+                <content_size_bytes>0</content_size_bytes>
+                <completed>1</completed>
+                <dynamic type="none">0</dynamic>
+                <request_cookie_count>0</request_cookie_count>
+                <response_cookie_count>0</response_cookie_count>
+                <content_mime_type>text/css</content_mime_type>
+                <http_status_code>200</http_status_code>
+                <http_result>OK</http_result>
+                <error_code>0</error_code>
+                <error_message></error_message>
+                <response_status_line>HTTP/1.1 200 OK</response_status_line>
+                <request_line>GET /css/responsive.css HTTP/1.1</request_line>
+                <server_ip>192.185.169.166</server_ip>
+                <server_port>80</server_port>
+                <dnslookup_url_offset_ms>0</dnslookup_url_offset_ms>
+                <dnslookup_duration_ms>0</dnslookup_duration_ms>
+                <blocked_url_offset_ms>0</blocked_url_offset_ms>
+                <blocked_duration_ms>225</blocked_duration_ms>
+                <connect_url_offset_ms>225</connect_url_offset_ms>
+                <connect_duration_ms>0</connect_duration_ms>
+                <send_url_offset_ms>225</send_url_offset_ms>
+                <send_duration_ms>0</send_duration_ms>
+                <wait_url_offset_ms>225</wait_url_offset_ms>
+                <wait_duration_ms>120</wait_duration_ms>
+                <receive_url_offset_ms>345</receive_url_offset_ms>
+                <receive_duration_ms>0</receive_duration_ms>
+              </summary>
+              <request-headers />
+              <response-headers />
+              <timing>
+                <requestId>12</requestId>
+                <index>8</index>
+                <request_start>1442298541369</request_start>
+                <queue_end>0</queue_end>
+                <dns_end>0</dns_end>
+                <blocked_end>225</blocked_end>
+                <connect_start>0</connect_start>
+                <connect_end>0</connect_end>
+                <send_start>225</send_start>
+                <send_end>225</send_end>
+                <wait_end>345</wait_end>
+                <request_end>1442298541714</request_end>
+              </timing>
+            </url>
+            <url>
+              <summary>
+                <url>http://www.zauq.com/images/Zauq_Group_Logo.png</url>
+                <url_number>10</url_number>
+                <offset_ms>864</offset_ms>
+                <started_utc>2015-09-15 06:29:01.369</started_utc>
+                <elapsed_ms>468</elapsed_ms>
+                <http_method>GET</http_method>
+                <redirect>0</redirect>
+                <cachebefore_url_present>0</cachebefore_url_present>
+                <sent_bytes>309</sent_bytes>
+                <received_bytes>9049</received_bytes>
+                <content_size_bytes>8833</content_size_bytes>
+                <completed>1</completed>
+                <dynamic type="none">0</dynamic>
+                <request_cookie_count>0</request_cookie_count>
+                <response_cookie_count>0</response_cookie_count>
+                <content_mime_type>image/png</content_mime_type>
+                <http_status_code>200</http_status_code>
+                <http_result>OK</http_result>
+                <error_code>0</error_code>
+                <error_message></error_message>
+                <response_status_line>HTTP/1.1 200 OK</response_status_line>
+                <request_line>GET /images/Zauq_Group_Logo.png HTTP/1.1</request_line>
+                <server_ip>192.185.169.166</server_ip>
+                <server_port>80</server_port>
+                <dnslookup_url_offset_ms>0</dnslookup_url_offset_ms>
+                <dnslookup_duration_ms>0</dnslookup_duration_ms>
+                <blocked_url_offset_ms>0</blocked_url_offset_ms>
+                <blocked_duration_ms>346</blocked_duration_ms>
+                <connect_url_offset_ms>346</connect_url_offset_ms>
+                <connect_duration_ms>0</connect_duration_ms>
+                <send_url_offset_ms>346</send_url_offset_ms>
+                <send_duration_ms>0</send_duration_ms>
+                <wait_url_offset_ms>346</wait_url_offset_ms>
+                <wait_duration_ms>122</wait_duration_ms>
+                <receive_url_offset_ms>468</receive_url_offset_ms>
+                <receive_duration_ms>0</receive_duration_ms>
+              </summary>
+              <request-headers />
+              <response-headers />
+              <timing>
+                <requestId>13</requestId>
+                <index>9</index>
+                <request_start>1442298541369</request_start>
+                <queue_end>0</queue_end>
+                <dns_end>0</dns_end>
+                <blocked_end>346</blocked_end>
+                <connect_start>0</connect_start>
+                <connect_end>0</connect_end>
+                <send_start>346</send_start>
+                <send_end>346</send_end>
+                <wait_end>468</wait_end>
+                <request_end>1442298541837</request_end>
+              </timing>
+            </url>
+            <url>
+              <summary>
+                <url>http://www.zauq.com/images/slider/img_01.png</url>
+                <url_number>11</url_number>
+                <offset_ms>948</offset_ms>
+                <started_utc>2015-09-15 06:29:01.453</started_utc>
+                <elapsed_ms>1563</elapsed_ms>
+                <http_method>GET</http_method>
+                <redirect>0</redirect>
+                <cachebefore_url_present>0</cachebefore_url_present>
+                <sent_bytes>307</sent_bytes>
+                <received_bytes>258320</received_bytes>
+                <content_size_bytes>258102</content_size_bytes>
+                <completed>1</completed>
+                <dynamic type="none">0</dynamic>
+                <request_cookie_count>0</request_cookie_count>
+                <response_cookie_count>0</response_cookie_count>
+                <content_mime_type>image/png</content_mime_type>
+                <http_status_code>200</http_status_code>
+                <http_result>OK</http_result>
+                <error_code>0</error_code>
+                <error_message></error_message>
+                <response_status_line>HTTP/1.1 200 OK</response_status_line>
+                <request_line>GET /images/slider/img_01.png HTTP/1.1</request_line>
+                <server_ip>192.185.169.166</server_ip>
+                <server_port>80</server_port>
+                <dnslookup_url_offset_ms>0</dnslookup_url_offset_ms>
+                <dnslookup_duration_ms>0</dnslookup_duration_ms>
+                <blocked_url_offset_ms>0</blocked_url_offset_ms>
+                <blocked_duration_ms>262</blocked_duration_ms>
+                <connect_url_offset_ms>262</connect_url_offset_ms>
+                <connect_duration_ms>0</connect_duration_ms>
+                <send_url_offset_ms>262</send_url_offset_ms>
+                <send_duration_ms>0</send_duration_ms>
+                <wait_url_offset_ms>262</wait_url_offset_ms>
+                <wait_duration_ms>340</wait_duration_ms>
+                <receive_url_offset_ms>602</receive_url_offset_ms>
+                <receive_duration_ms>961</receive_duration_ms>
+              </summary>
+              <request-headers />
+              <response-headers />
+              <timing>
+                <requestId>26</requestId>
+                <index>10</index>
+                <request_start>1442298541453</request_start>
+                <queue_end>0</queue_end>
+                <dns_end>0</dns_end>
+                <blocked_end>262</blocked_end>
+                <connect_start>0</connect_start>
+                <connect_end>0</connect_end>
+                <send_start>262</send_start>
+                <send_end>262</send_end>
+                <wait_end>602</wait_end>
+                <request_end>1442298543016</request_end>
+              </timing>
+            </url>
+            <url>
+              <summary>
+                <url>http://www.zauq.com/images/slider/img2.png</url>
+                <url_number>12</url_number>
+                <offset_ms>948</offset_ms>
+                <started_utc>2015-09-15 06:29:01.453</started_utc>
+                <elapsed_ms>1192</elapsed_ms>
+                <http_method>GET</http_method>
+                <redirect>0</redirect>
+                <cachebefore_url_present>0</cachebefore_url_present>
+                <sent_bytes>305</sent_bytes>
+                <received_bytes>177444</received_bytes>
+                <content_size_bytes>177226</content_size_bytes>
+                <completed>1</completed>
+                <dynamic type="none">0</dynamic>
+                <request_cookie_count>0</request_cookie_count>
+                <response_cookie_count>0</response_cookie_count>
+                <content_mime_type>image/png</content_mime_type>
+                <http_status_code>200</http_status_code>
+                <http_result>OK</http_result>
+                <error_code>0</error_code>
+                <error_message></error_message>
+                <response_status_line>HTTP/1.1 200 OK</response_status_line>
+                <request_line>GET /images/slider/img2.png HTTP/1.1</request_line>
+                <server_ip>192.185.169.166</server_ip>
+                <server_port>80</server_port>
+                <dnslookup_url_offset_ms>0</dnslookup_url_offset_ms>
+                <dnslookup_duration_ms>0</dnslookup_duration_ms>
+                <blocked_url_offset_ms>0</blocked_url_offset_ms>
+                <blocked_duration_ms>262</blocked_duration_ms>
+                <connect_url_offset_ms>262</connect_url_offset_ms>
+                <connect_duration_ms>0</connect_duration_ms>
+                <send_url_offset_ms>262</send_url_offset_ms>
+                <send_duration_ms>0</send_duration_ms>
+                <wait_url_offset_ms>262</wait_url_offset_ms>
+                <wait_duration_ms>288</wait_duration_ms>
+                <receive_url_offset_ms>550</receive_url_offset_ms>
+                <receive_duration_ms>642</receive_duration_ms>
+              </summary>
+              <request-headers />
+              <response-headers />
+              <timing>
+                <requestId>27</requestId>
+                <index>11</index>
+                <request_start>1442298541453</request_start>
+                <queue_end>0</queue_end>
+                <dns_end>0</dns_end>
+                <blocked_end>262</blocked_end>
+                <connect_start>0</connect_start>
+                <connect_end>0</connect_end>
+                <send_start>262</send_start>
+                <send_end>262</send_end>
+                <wait_end>550</wait_end>
+                <request_end>1442298542645</request_end>
+              </timing>
+            </url>
+            <url>
+              <summary>
+                <url>http://www.zauq.com/images/slider/img3.png</url>
+                <url_number>13</url_number>
+                <offset_ms>948</offset_ms>
+                <started_utc>2015-09-15 06:29:01.453</started_utc>
+                <elapsed_ms>1334</elapsed_ms>
+                <http_method>GET</http_method>
+                <redirect>0</redirect>
+                <cachebefore_url_present>0</cachebefore_url_present>
+                <sent_bytes>305</sent_bytes>
+                <received_bytes>291899</received_bytes>
+                <content_size_bytes>291681</content_size_bytes>
+                <completed>1</completed>
+                <dynamic type="none">0</dynamic>
+                <request_cookie_count>0</request_cookie_count>
+                <response_cookie_count>0</response_cookie_count>
+                <content_mime_type>image/png</content_mime_type>
+                <http_status_code>200</http_status_code>
+                <http_result>OK</http_result>
+                <error_code>0</error_code>
+                <error_message></error_message>
+                <response_status_line>HTTP/1.1 200 OK</response_status_line>
+                <request_line>GET /images/slider/img3.png HTTP/1.1</request_line>
+                <server_ip>192.185.169.166</server_ip>
+                <server_port>80</server_port>
+                <dnslookup_url_offset_ms>0</dnslookup_url_offset_ms>
+                <dnslookup_duration_ms>0</dnslookup_duration_ms>
+                <blocked_url_offset_ms>0</blocked_url_offset_ms>
+                <blocked_duration_ms>262</blocked_duration_ms>
+                <connect_url_offset_ms>262</connect_url_offset_ms>
+                <connect_duration_ms>0</connect_duration_ms>
+                <send_url_offset_ms>262</send_url_offset_ms>
+                <send_duration_ms>0</send_duration_ms>
+                <wait_url_offset_ms>262</wait_url_offset_ms>
+                <wait_duration_ms>313</wait_duration_ms>
+                <receive_url_offset_ms>575</receive_url_offset_ms>
+                <receive_duration_ms>759</receive_duration_ms>
+              </summary>
+              <request-headers />
+              <response-headers />
+              <timing>
+                <requestId>28</requestId>
+                <index>12</index>
+                <request_start>1442298541453</request_start>
+                <queue_end>0</queue_end>
+                <dns_end>0</dns_end>
+                <blocked_end>262</blocked_end>
+                <connect_start>0</connect_start>
+                <connect_end>0</connect_end>
+                <send_start>262</send_start>
+                <send_end>262</send_end>
+                <wait_end>575</wait_end>
+                <request_end>1442298542787</request_end>
+              </timing>
+            </url>
+            <url>
+              <summary>
+                <url>http://www.zauq.com/images/group/tradelinx.png</url>
+                <url_number>14</url_number>
+                <offset_ms>948</offset_ms>
+                <started_utc>2015-09-15 06:29:01.453</started_utc>
+                <elapsed_ms>387</elapsed_ms>
+                <http_method>GET</http_method>
+                <redirect>0</redirect>
+                <cachebefore_url_present>0</cachebefore_url_present>
+                <sent_bytes>309</sent_bytes>
+                <received_bytes>12229</received_bytes>
+                <content_size_bytes>12012</content_size_bytes>
+                <completed>1</completed>
+                <dynamic type="none">0</dynamic>
+                <request_cookie_count>0</request_cookie_count>
+                <response_cookie_count>0</response_cookie_count>
+                <content_mime_type>image/png</content_mime_type>
+                <http_status_code>200</http_status_code>
+                <http_result>OK</http_result>
+                <error_code>0</error_code>
+                <error_message></error_message>
+                <response_status_line>HTTP/1.1 200 OK</response_status_line>
+                <request_line>GET /images/group/tradelinx.png HTTP/1.1</request_line>
+                <server_ip>192.185.169.166</server_ip>
+                <server_port>80</server_port>
+                <dnslookup_url_offset_ms>0</dnslookup_url_offset_ms>
+                <dnslookup_duration_ms>0</dnslookup_duration_ms>
+                <blocked_url_offset_ms>0</blocked_url_offset_ms>
+                <blocked_duration_ms>262</blocked_duration_ms>
+                <connect_url_offset_ms>262</connect_url_offset_ms>
+                <connect_duration_ms>0</connect_duration_ms>
+                <send_url_offset_ms>262</send_url_offset_ms>
+                <send_duration_ms>0</send_duration_ms>
+                <wait_url_offset_ms>262</wait_url_offset_ms>
+                <wait_duration_ms>125</wait_duration_ms>
+                <receive_url_offset_ms>387</receive_url_offset_ms>
+                <receive_duration_ms>0</receive_duration_ms>
+              </summary>
+              <request-headers />
+              <response-headers />
+              <timing>
+                <requestId>29</requestId>
+                <index>13</index>
+                <request_start>1442298541453</request_start>
+                <queue_end>0</queue_end>
+                <dns_end>0</dns_end>
+                <blocked_end>262</blocked_end>
+                <connect_start>0</connect_start>
+                <connect_end>0</connect_end>
+                <send_start>262</send_start>
+                <send_end>262</send_end>
+                <wait_end>387</wait_end>
+                <request_end>1442298541840</request_end>
+              </timing>
+            </url>
+            <url>
+              <summary>
+                <url>http://www.zauq.com/images/group/zauq-international.png</url>
+                <url_number>15</url_number>
+                <offset_ms>948</offset_ms>
+                <started_utc>2015-09-15 06:29:01.453</started_utc>
+                <elapsed_ms>525</elapsed_ms>
+                <http_method>GET</http_method>
+                <redirect>0</redirect>
+                <cachebefore_url_present>0</cachebefore_url_present>
+                <sent_bytes>318</sent_bytes>
+                <received_bytes>5787</received_bytes>
+                <content_size_bytes>5571</content_size_bytes>
+                <completed>1</completed>
+                <dynamic type="none">0</dynamic>
+                <request_cookie_count>0</request_cookie_count>
+                <response_cookie_count>0</response_cookie_count>
+                <content_mime_type>image/png</content_mime_type>
+                <http_status_code>200</http_status_code>
+                <http_result>OK</http_result>
+                <error_code>0</error_code>
+                <error_message></error_message>
+                <response_status_line>HTTP/1.1 200 OK</response_status_line>
+                <request_line>GET /images/group/zauq-international.png HTTP/1.1</request_line>
+                <server_ip>192.185.169.166</server_ip>
+                <server_port>80</server_port>
+                <dnslookup_url_offset_ms>0</dnslookup_url_offset_ms>
+                <dnslookup_duration_ms>0</dnslookup_duration_ms>
+                <blocked_url_offset_ms>0</blocked_url_offset_ms>
+                <blocked_duration_ms>384</blocked_duration_ms>
+                <connect_url_offset_ms>384</connect_url_offset_ms>
+                <connect_duration_ms>0</connect_duration_ms>
+                <send_url_offset_ms>384</send_url_offset_ms>
+                <send_duration_ms>0</send_duration_ms>
+                <wait_url_offset_ms>384</wait_url_offset_ms>
+                <wait_duration_ms>141</wait_duration_ms>
+                <receive_url_offset_ms>525</receive_url_offset_ms>
+                <receive_duration_ms>0</receive_duration_ms>
+              </summary>
+              <request-headers />
+              <response-headers />
+              <timing>
+                <requestId>30</requestId>
+                <index>14</index>
+                <request_start>1442298541453</request_start>
+                <queue_end>0</queue_end>
+                <dns_end>0</dns_end>
+                <blocked_end>384</blocked_end>
+                <connect_start>0</connect_start>
+                <connect_end>0</connect_end>
+                <send_start>384</send_start>
+                <send_end>384</send_end>
+                <wait_end>525</wait_end>
+                <request_end>1442298541978</request_end>
+              </timing>
+            </url>
+            <url>
+              <summary>
+                <url>http://www.zauq.com/images/zauq_solutions_logo.png</url>
+                <url_number>16</url_number>
+                <offset_ms>948</offset_ms>
+                <started_utc>2015-09-15 06:29:01.453</started_utc>
+                <elapsed_ms>522</elapsed_ms>
+                <http_method>GET</http_method>
+                <redirect>0</redirect>
+                <cachebefore_url_present>0</cachebefore_url_present>
+                <sent_bytes>313</sent_bytes>
+                <received_bytes>6554</received_bytes>
+                <content_size_bytes>6338</content_size_bytes>
+                <completed>1</completed>
+                <dynamic type="none">0</dynamic>
+                <request_cookie_count>0</request_cookie_count>
+                <response_cookie_count>0</response_cookie_count>
+                <content_mime_type>image/png</content_mime_type>
+                <http_status_code>200</http_status_code>
+                <http_result>OK</http_result>
+                <error_code>0</error_code>
+                <error_message></error_message>
+                <response_status_line>HTTP/1.1 200 OK</response_status_line>
+                <request_line>GET /images/zauq_solutions_logo.png HTTP/1.1</request_line>
+                <server_ip>192.185.169.166</server_ip>
+                <server_port>80</server_port>
+                <dnslookup_url_offset_ms>0</dnslookup_url_offset_ms>
+                <dnslookup_duration_ms>0</dnslookup_duration_ms>
+                <blocked_url_offset_ms>0</blocked_url_offset_ms>
+                <blocked_duration_ms>387</blocked_duration_ms>
+                <connect_url_offset_ms>387</connect_url_offset_ms>
+                <connect_duration_ms>0</connect_duration_ms>
+                <send_url_offset_ms>387</send_url_offset_ms>
+                <send_duration_ms>0</send_duration_ms>
+                <wait_url_offset_ms>387</wait_url_offset_ms>
+                <wait_duration_ms>134</wait_duration_ms>
+                <receive_url_offset_ms>521</receive_url_offset_ms>
+                <receive_duration_ms>1</receive_duration_ms>
+              </summary>
+              <request-headers />
+              <response-headers />
+              <timing>
+                <requestId>31</requestId>
+                <index>15</index>
+                <request_start>1442298541453</request_start>
+                <queue_end>0</queue_end>
+                <dns_end>0</dns_end>
+                <blocked_end>387</blocked_end>
+                <connect_start>0</connect_start>
+                <connect_end>0</connect_end>
+                <send_start>387</send_start>
+                <send_end>387</send_end>
+                <wait_end>521</wait_end>
+                <request_end>1442298541975</request_end>
+              </timing>
+            </url>
+            <url>
+              <summary>
+                <url>http://www.zauq.com/images/group/air-technology.png</url>
+                <url_number>17</url_number>
+                <offset_ms>948</offset_ms>
+                <started_utc>2015-09-15 06:29:01.453</started_utc>
+                <elapsed_ms>532</elapsed_ms>
+                <http_method>GET</http_method>
+                <redirect>0</redirect>
+                <cachebefore_url_present>0</cachebefore_url_present>
+                <sent_bytes>314</sent_bytes>
+                <received_bytes>5717</received_bytes>
+                <content_size_bytes>5501</content_size_bytes>
+                <completed>1</completed>
+                <dynamic type="none">0</dynamic>
+                <request_cookie_count>0</request_cookie_count>
+                <response_cookie_count>0</response_cookie_count>
+                <content_mime_type>image/png</content_mime_type>
+                <http_status_code>200</http_status_code>
+                <http_result>OK</http_result>
+                <error_code>0</error_code>
+                <error_message></error_message>
+                <response_status_line>HTTP/1.1 200 OK</response_status_line>
+                <request_line>GET /images/group/air-technology.png HTTP/1.1</request_line>
+                <server_ip>192.185.169.166</server_ip>
+                <server_port>80</server_port>
+                <dnslookup_url_offset_ms>0</dnslookup_url_offset_ms>
+                <dnslookup_duration_ms>0</dnslookup_duration_ms>
+                <blocked_url_offset_ms>0</blocked_url_offset_ms>
+                <blocked_duration_ms>402</blocked_duration_ms>
+                <connect_url_offset_ms>402</connect_url_offset_ms>
+                <connect_duration_ms>0</connect_duration_ms>
+                <send_url_offset_ms>402</send_url_offset_ms>
+                <send_duration_ms>0</send_duration_ms>
+                <wait_url_offset_ms>402</wait_url_offset_ms>
+                <wait_duration_ms>130</wait_duration_ms>
+                <receive_url_offset_ms>532</receive_url_offset_ms>
+                <receive_duration_ms>0</receive_duration_ms>
+              </summary>
+              <request-headers />
+              <response-headers />
+              <timing>
+                <requestId>32</requestId>
+                <index>16</index>
+                <request_start>1442298541453</request_start>
+                <queue_end>0</queue_end>
+                <dns_end>0</dns_end>
+                <blocked_end>402</blocked_end>
+                <connect_start>0</connect_start>
+                <connect_end>0</connect_end>
+                <send_start>402</send_start>
+                <send_end>402</send_end>
+                <wait_end>532</wait_end>
+                <request_end>1442298541985</request_end>
+              </timing>
+            </url>
+            <url>
+              <summary>
+                <url>http://www.zauq.com/images/group/xymatix.png</url>
+                <url_number>18</url_number>
+                <offset_ms>948</offset_ms>
+                <started_utc>2015-09-15 06:29:01.453</started_utc>
+                <elapsed_ms>675</elapsed_ms>
+                <http_method>GET</http_method>
+                <redirect>0</redirect>
+                <cachebefore_url_present>0</cachebefore_url_present>
+                <sent_bytes>307</sent_bytes>
+                <received_bytes>6870</received_bytes>
+                <content_size_bytes>6654</content_size_bytes>
+                <completed>1</completed>
+                <dynamic type="none">0</dynamic>
+                <request_cookie_count>0</request_cookie_count>
+                <response_cookie_count>0</response_cookie_count>
+                <content_mime_type>image/png</content_mime_type>
+                <http_status_code>200</http_status_code>
+                <http_result>OK</http_result>
+                <error_code>0</error_code>
+                <error_message></error_message>
+                <response_status_line>HTTP/1.1 200 OK</response_status_line>
+                <request_line>GET /images/group/xymatix.png HTTP/1.1</request_line>
+                <server_ip>192.185.169.166</server_ip>
+                <server_port>80</server_port>
+                <dnslookup_url_offset_ms>0</dnslookup_url_offset_ms>
+                <dnslookup_duration_ms>0</dnslookup_duration_ms>
+                <blocked_url_offset_ms>0</blocked_url_offset_ms>
+                <blocked_duration_ms>522</blocked_duration_ms>
+                <connect_url_offset_ms>522</connect_url_offset_ms>
+                <connect_duration_ms>0</connect_duration_ms>
+                <send_url_offset_ms>522</send_url_offset_ms>
+                <send_duration_ms>0</send_duration_ms>
+                <wait_url_offset_ms>522</wait_url_offset_ms>
+                <wait_duration_ms>153</wait_duration_ms>
+                <receive_url_offset_ms>675</receive_url_offset_ms>
+                <receive_duration_ms>0</receive_duration_ms>
+              </summary>
+              <request-headers />
+              <response-headers />
+              <timing>
+                <requestId>33</requestId>
+                <index>17</index>
+                <request_start>1442298541453</request_start>
+                <queue_end>0</queue_end>
+                <dns_end>0</dns_end>
+                <blocked_end>522</blocked_end>
+                <connect_start>0</connect_start>
+                <connect_end>0</connect_end>
+                <send_start>522</send_start>
+                <send_end>522</send_end>
+                <wait_end>675</wait_end>
+                <request_end>1442298542128</request_end>
+              </timing>
+            </url>
+            <url>
+              <summary>
+                <url>http://www.zauq.com/images/group/air-ofy.png</url>
+                <url_number>19</url_number>
+                <offset_ms>949</offset_ms>
+                <started_utc>2015-09-15 06:29:01.454</started_utc>
+                <elapsed_ms>729</elapsed_ms>
+                <http_method>GET</http_method>
+                <redirect>0</redirect>
+                <cachebefore_url_present>0</cachebefore_url_present>
+                <sent_bytes>307</sent_bytes>
+                <received_bytes>5041</received_bytes>
+                <content_size_bytes>4825</content_size_bytes>
+                <completed>1</completed>
+                <dynamic type="none">0</dynamic>
+                <request_cookie_count>0</request_cookie_count>
+                <response_cookie_count>0</response_cookie_count>
+                <content_mime_type>image/png</content_mime_type>
+                <http_status_code>200</http_status_code>
+                <http_result>OK</http_result>
+                <error_code>0</error_code>
+                <error_message></error_message>
+                <response_status_line>HTTP/1.1 200 OK</response_status_line>
+                <request_line>GET /images/group/air-ofy.png HTTP/1.1</request_line>
+                <server_ip>192.185.169.166</server_ip>
+                <server_port>80</server_port>
+                <dnslookup_url_offset_ms>0</dnslookup_url_offset_ms>
+                <dnslookup_duration_ms>0</dnslookup_duration_ms>
+                <blocked_url_offset_ms>0</blocked_url_offset_ms>
+                <blocked_duration_ms>524</blocked_duration_ms>
+                <connect_url_offset_ms>524</connect_url_offset_ms>
+                <connect_duration_ms>0</connect_duration_ms>
+                <send_url_offset_ms>524</send_url_offset_ms>
+                <send_duration_ms>0</send_duration_ms>
+                <wait_url_offset_ms>524</wait_url_offset_ms>
+                <wait_duration_ms>205</wait_duration_ms>
+                <receive_url_offset_ms>729</receive_url_offset_ms>
+                <receive_duration_ms>0</receive_duration_ms>
+              </summary>
+              <request-headers />
+              <response-headers />
+              <timing>
+                <requestId>34</requestId>
+                <index>18</index>
+                <request_start>1442298541454</request_start>
+                <queue_end>0</queue_end>
+                <dns_end>0</dns_end>
+                <blocked_end>524</blocked_end>
+                <connect_start>0</connect_start>
+                <connect_end>0</connect_end>
+                <send_start>524</send_start>
+                <send_end>524</send_end>
+                <wait_end>729</wait_end>
+                <request_end>1442298542183</request_end>
+              </timing>
+            </url>
+            <url>
+              <summary>
+                <url>http://www.zauq.com/js/jquery.js</url>
+                <url_number>20</url_number>
+                <offset_ms>949</offset_ms>
+                <started_utc>2015-09-15 06:29:01.454</started_utc>
+                <elapsed_ms>908</elapsed_ms>
+                <http_method>GET</http_method>
+                <redirect>0</redirect>
+                <cachebefore_url_present>0</cachebefore_url_present>
+                <sent_bytes>265</sent_bytes>
+                <received_bytes>93343</received_bytes>
+                <content_size_bytes>0</content_size_bytes>
+                <completed>1</completed>
+                <dynamic type="none">0</dynamic>
+                <request_cookie_count>0</request_cookie_count>
+                <response_cookie_count>0</response_cookie_count>
+                <content_mime_type>application/javascript</content_mime_type>
+                <http_status_code>200</http_status_code>
+                <http_result>OK</http_result>
+                <error_code>0</error_code>
+                <error_message></error_message>
+                <response_status_line>HTTP/1.1 200 OK</response_status_line>
+                <request_line>GET /js/jquery.js HTTP/1.1</request_line>
+                <server_ip>192.185.169.166</server_ip>
+                <server_port>80</server_port>
+                <dnslookup_url_offset_ms>0</dnslookup_url_offset_ms>
+                <dnslookup_duration_ms>0</dnslookup_duration_ms>
+                <blocked_url_offset_ms>0</blocked_url_offset_ms>
+                <blocked_duration_ms>531</blocked_duration_ms>
+                <connect_url_offset_ms>531</connect_url_offset_ms>
+                <connect_duration_ms>0</connect_duration_ms>
+                <send_url_offset_ms>531</send_url_offset_ms>
+                <send_duration_ms>0</send_duration_ms>
+                <wait_url_offset_ms>531</wait_url_offset_ms>
+                <wait_duration_ms>161</wait_duration_ms>
+                <receive_url_offset_ms>692</receive_url_offset_ms>
+                <receive_duration_ms>216</receive_duration_ms>
+              </summary>
+              <request-headers />
+              <response-headers />
+              <timing>
+                <requestId>35</requestId>
+                <index>19</index>
+                <request_start>1442298541454</request_start>
+                <queue_end>0</queue_end>
+                <dns_end>0</dns_end>
+                <blocked_end>531</blocked_end>
+                <connect_start>0</connect_start>
+                <connect_end>0</connect_end>
+                <send_start>531</send_start>
+                <send_end>531</send_end>
+                <wait_end>692</wait_end>
+                <request_end>1442298542362</request_end>
+              </timing>
+            </url>
+            <url>
+              <summary>
+                <url>http://www.zauq.com/js/bootstrap.min.js</url>
+                <url_number>21</url_number>
+                <offset_ms>949</offset_ms>
+                <started_utc>2015-09-15 06:29:01.454</started_utc>
+                <elapsed_ms>801</elapsed_ms>
+                <http_method>GET</http_method>
+                <redirect>0</redirect>
+                <cachebefore_url_present>0</cachebefore_url_present>
+                <sent_bytes>272</sent_bytes>
+                <received_bytes>28059</received_bytes>
+                <content_size_bytes>0</content_size_bytes>
+                <completed>1</completed>
+                <dynamic type="none">0</dynamic>
+                <request_cookie_count>0</request_cookie_count>
+                <response_cookie_count>0</response_cookie_count>
+                <content_mime_type>application/javascript</content_mime_type>
+                <http_status_code>200</http_status_code>
+                <http_result>OK</http_result>
+                <error_code>0</error_code>
+                <error_message></error_message>
+                <response_status_line>HTTP/1.1 200 OK</response_status_line>
+                <request_line>GET /js/bootstrap.min.js HTTP/1.1</request_line>
+                <server_ip>192.185.169.166</server_ip>
+                <server_port>80</server_port>
+                <dnslookup_url_offset_ms>0</dnslookup_url_offset_ms>
+                <dnslookup_duration_ms>0</dnslookup_duration_ms>
+                <blocked_url_offset_ms>0</blocked_url_offset_ms>
+                <blocked_duration_ms>674</blocked_duration_ms>
+                <connect_url_offset_ms>674</connect_url_offset_ms>
+                <connect_duration_ms>0</connect_duration_ms>
+                <send_url_offset_ms>674</send_url_offset_ms>
+                <send_duration_ms>0</send_duration_ms>
+                <wait_url_offset_ms>674</wait_url_offset_ms>
+                <wait_duration_ms>127</wait_duration_ms>
+                <receive_url_offset_ms>801</receive_url_offset_ms>
+                <receive_duration_ms>0</receive_duration_ms>
+              </summary>
+              <request-headers />
+              <response-headers />
+              <timing>
+                <requestId>36</requestId>
+                <index>20</index>
+                <request_start>1442298541454</request_start>
+                <queue_end>0</queue_end>
+                <dns_end>0</dns_end>
+                <blocked_end>674</blocked_end>
+                <connect_start>0</connect_start>
+                <connect_end>0</connect_end>
+                <send_start>674</send_start>
+                <send_end>674</send_end>
+                <wait_end>801</wait_end>
+                <request_end>1442298542255</request_end>
+              </timing>
+            </url>
+            <url>
+              <summary>
+                <url>http://www.zauq.com/js/jquery.prettyPhoto.js</url>
+                <url_number>22</url_number>
+                <offset_ms>949</offset_ms>
+                <started_utc>2015-09-15 06:29:01.454</started_utc>
+                <elapsed_ms>852</elapsed_ms>
+                <http_method>GET</http_method>
+                <redirect>0</redirect>
+                <cachebefore_url_present>0</cachebefore_url_present>
+                <sent_bytes>277</sent_bytes>
+                <received_bytes>22297</received_bytes>
+                <content_size_bytes>0</content_size_bytes>
+                <completed>1</completed>
+                <dynamic type="none">0</dynamic>
+                <request_cookie_count>0</request_cookie_count>
+                <response_cookie_count>0</response_cookie_count>
+                <content_mime_type>application/javascript</content_mime_type>
+                <http_status_code>200</http_status_code>
+                <http_result>OK</http_result>
+                <error_code>0</error_code>
+                <error_message></error_message>
+                <response_status_line>HTTP/1.1 200 OK</response_status_line>
+                <request_line>GET /js/jquery.prettyPhoto.js HTTP/1.1</request_line>
+                <server_ip>192.185.169.166</server_ip>
+                <server_port>80</server_port>
+                <dnslookup_url_offset_ms>0</dnslookup_url_offset_ms>
+                <dnslookup_duration_ms>0</dnslookup_duration_ms>
+                <blocked_url_offset_ms>0</blocked_url_offset_ms>
+                <blocked_duration_ms>729</blocked_duration_ms>
+                <connect_url_offset_ms>729</connect_url_offset_ms>
+                <connect_duration_ms>0</connect_duration_ms>
+                <send_url_offset_ms>729</send_url_offset_ms>
+                <send_duration_ms>0</send_duration_ms>
+                <wait_url_offset_ms>729</wait_url_offset_ms>
+                <wait_duration_ms>123</wait_duration_ms>
+                <receive_url_offset_ms>852</receive_url_offset_ms>
+                <receive_duration_ms>0</receive_duration_ms>
+              </summary>
+              <request-headers />
+              <response-headers />
+              <timing>
+                <requestId>37</requestId>
+                <index>21</index>
+                <request_start>1442298541454</request_start>
+                <queue_end>0</queue_end>
+                <dns_end>0</dns_end>
+                <blocked_end>729</blocked_end>
+                <connect_start>0</connect_start>
+                <connect_end>0</connect_end>
+                <send_start>729</send_start>
+                <send_end>729</send_end>
+                <wait_end>852</wait_end>
+                <request_end>1442298542306</request_end>
+              </timing>
+            </url>
+            <url>
+              <summary>
+                <url>http://www.zauq.com/js/jquery.isotope.min.js</url>
+                <url_number>23</url_number>
+                <offset_ms>949</offset_ms>
+                <started_utc>2015-09-15 06:29:01.454</started_utc>
+                <elapsed_ms>926</elapsed_ms>
+                <http_method>GET</http_method>
+                <redirect>0</redirect>
+                <cachebefore_url_present>0</cachebefore_url_present>
+                <sent_bytes>277</sent_bytes>
+                <received_bytes>16270</received_bytes>
+                <content_size_bytes>0</content_size_bytes>
+                <completed>1</completed>
+                <dynamic type="none">0</dynamic>
+                <request_cookie_count>0</request_cookie_count>
+                <response_cookie_count>0</response_cookie_count>
+                <content_mime_type>application/javascript</content_mime_type>
+                <http_status_code>200</http_status_code>
+                <http_result>OK</http_result>
+                <error_code>0</error_code>
+                <error_message></error_message>
+                <response_status_line>HTTP/1.1 200 OK</response_status_line>
+                <request_line>GET /js/jquery.isotope.min.js HTTP/1.1</request_line>
+                <server_ip>192.185.169.166</server_ip>
+                <server_port>80</server_port>
+                <dnslookup_url_offset_ms>0</dnslookup_url_offset_ms>
+                <dnslookup_duration_ms>0</dnslookup_duration_ms>
+                <blocked_url_offset_ms>0</blocked_url_offset_ms>
+                <blocked_duration_ms>801</blocked_duration_ms>
+                <connect_url_offset_ms>801</connect_url_offset_ms>
+                <connect_duration_ms>0</connect_duration_ms>
+                <send_url_offset_ms>801</send_url_offset_ms>
+                <send_duration_ms>0</send_duration_ms>
+                <wait_url_offset_ms>801</wait_url_offset_ms>
+                <wait_duration_ms>125</wait_duration_ms>
+                <receive_url_offset_ms>926</receive_url_offset_ms>
+                <receive_duration_ms>0</receive_duration_ms>
+              </summary>
+              <request-headers />
+              <response-headers />
+              <timing>
+                <requestId>38</requestId>
+                <index>22</index>
+                <request_start>1442298541454</request_start>
+                <queue_end>0</queue_end>
+                <dns_end>0</dns_end>
+                <blocked_end>801</blocked_end>
+                <connect_start>0</connect_start>
+                <connect_end>0</connect_end>
+                <send_start>801</send_start>
+                <send_end>801</send_end>
+                <wait_end>926</wait_end>
+                <request_end>1442298542380</request_end>
+              </timing>
+            </url>
+            <url>
+              <summary>
+                <url>http://www.zauq.com/js/main.js</url>
+                <url_number>24</url_number>
+                <offset_ms>949</offset_ms>
+                <started_utc>2015-09-15 06:29:01.454</started_utc>
+                <elapsed_ms>983</elapsed_ms>
+                <http_method>GET</http_method>
+                <redirect>0</redirect>
+                <cachebefore_url_present>0</cachebefore_url_present>
+                <sent_bytes>263</sent_bytes>
+                <received_bytes>1914</received_bytes>
+                <content_size_bytes>0</content_size_bytes>
+                <completed>1</completed>
+                <dynamic type="none">0</dynamic>
+                <request_cookie_count>0</request_cookie_count>
+                <response_cookie_count>0</response_cookie_count>
+                <content_mime_type>application/javascript</content_mime_type>
+                <http_status_code>200</http_status_code>
+                <http_result>OK</http_result>
+                <error_code>0</error_code>
+                <error_message></error_message>
+                <response_status_line>HTTP/1.1 200 OK</response_status_line>
+                <request_line>GET /js/main.js HTTP/1.1</request_line>
+                <server_ip>192.185.169.166</server_ip>
+                <server_port>80</server_port>
+                <dnslookup_url_offset_ms>0</dnslookup_url_offset_ms>
+                <dnslookup_duration_ms>0</dnslookup_duration_ms>
+                <blocked_url_offset_ms>0</blocked_url_offset_ms>
+                <blocked_duration_ms>852</blocked_duration_ms>
+                <connect_url_offset_ms>852</connect_url_offset_ms>
+                <connect_duration_ms>0</connect_duration_ms>
+                <send_url_offset_ms>852</send_url_offset_ms>
+                <send_duration_ms>0</send_duration_ms>
+                <wait_url_offset_ms>852</wait_url_offset_ms>
+                <wait_duration_ms>131</wait_duration_ms>
+                <receive_url_offset_ms>983</receive_url_offset_ms>
+                <receive_duration_ms>0</receive_duration_ms>
+              </summary>
+              <request-headers />
+              <response-headers />
+              <timing>
+                <requestId>39</requestId>
+                <index>23</index>
+                <request_start>1442298541454</request_start>
+                <queue_end>0</queue_end>
+                <dns_end>0</dns_end>
+                <blocked_end>852</blocked_end>
+                <connect_start>0</connect_start>
+                <connect_end>0</connect_end>
+                <send_start>852</send_start>
+                <send_end>852</send_end>
+                <wait_end>983</wait_end>
+                <request_end>1442298542437</request_end>
+              </timing>
+            </url>
+            <url>
+              <summary>
+                <url>http://www.zauq.com/js/wow.min.js</url>
+                <url_number>25</url_number>
+                <offset_ms>950</offset_ms>
+                <started_utc>2015-09-15 06:29:01.455</started_utc>
+                <elapsed_ms>1052</elapsed_ms>
+                <http_method>GET</http_method>
+                <redirect>0</redirect>
+                <cachebefore_url_present>0</cachebefore_url_present>
+                <sent_bytes>266</sent_bytes>
+                <received_bytes>5013</received_bytes>
+                <content_size_bytes>0</content_size_bytes>
+                <completed>1</completed>
+                <dynamic type="none">0</dynamic>
+                <request_cookie_count>0</request_cookie_count>
+                <response_cookie_count>0</response_cookie_count>
+                <content_mime_type>application/javascript</content_mime_type>
+                <http_status_code>200</http_status_code>
+                <http_result>OK</http_result>
+                <error_code>0</error_code>
+                <error_message></error_message>
+                <response_status_line>HTTP/1.1 200 OK</response_status_line>
+                <request_line>GET /js/wow.min.js HTTP/1.1</request_line>
+                <server_ip>192.185.169.166</server_ip>
+                <server_port>80</server_port>
+                <dnslookup_url_offset_ms>0</dnslookup_url_offset_ms>
+                <dnslookup_duration_ms>0</dnslookup_duration_ms>
+                <blocked_url_offset_ms>0</blocked_url_offset_ms>
+                <blocked_duration_ms>907</blocked_duration_ms>
+                <connect_url_offset_ms>907</connect_url_offset_ms>
+                <connect_duration_ms>0</connect_duration_ms>
+                <send_url_offset_ms>907</send_url_offset_ms>
+                <send_duration_ms>0</send_duration_ms>
+                <wait_url_offset_ms>907</wait_url_offset_ms>
+                <wait_duration_ms>145</wait_duration_ms>
+                <receive_url_offset_ms>1052</receive_url_offset_ms>
+                <receive_duration_ms>0</receive_duration_ms>
+              </summary>
+              <request-headers />
+              <response-headers />
+              <timing>
+                <requestId>40</requestId>
+                <index>24</index>
+                <request_start>1442298541455</request_start>
+                <queue_end>0</queue_end>
+                <dns_end>0</dns_end>
+                <blocked_end>907</blocked_end>
+                <connect_start>0</connect_start>
+                <connect_end>0</connect_end>
+                <send_start>907</send_start>
+                <send_end>907</send_end>
+                <wait_end>1052</wait_end>
+                <request_end>1442298542507</request_end>
+              </timing>
+            </url>
+            <url>
+              <summary>
+                <url>http://fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,600italic,700italic,800italic,400,600,700,300,800</url>
+                <url_number>26</url_number>
+                <offset_ms>1254</offset_ms>
+                <started_utc>2015-09-15 06:29:01.759</started_utc>
+                <elapsed_ms>31</elapsed_ms>
+                <http_method>GET</http_method>
+                <redirect>0</redirect>
+                <cachebefore_url_present>0</cachebefore_url_present>
+                <sent_bytes>378</sent_bytes>
+                <received_bytes>2964</received_bytes>
+                <content_size_bytes>565</content_size_bytes>
+                <completed>1</completed>
+                <dynamic type="none">0</dynamic>
+                <request_cookie_count>0</request_cookie_count>
+                <response_cookie_count>0</response_cookie_count>
+                <content_mime_type>text/css</content_mime_type>
+                <http_status_code>200</http_status_code>
+                <http_result>OK</http_result>
+                <error_code>0</error_code>
+                <error_message></error_message>
+                <response_status_line>HTTP/1.1 200 OK</response_status_line>
+                <request_line>GET /css?family=Open+Sans:300italic,400italic,600italic,700italic,800italic,400,600,700,300,800 HTTP/1.1</request_line>
+                <server_ip>173.194.65.95</server_ip>
+                <server_port>80</server_port>
+                <dnslookup_url_offset_ms>0</dnslookup_url_offset_ms>
+                <dnslookup_duration_ms>10</dnslookup_duration_ms>
+                <blocked_url_offset_ms>10</blocked_url_offset_ms>
+                <blocked_duration_ms>2</blocked_duration_ms>
+                <connect_url_offset_ms>12</connect_url_offset_ms>
+                <connect_duration_ms>6</connect_duration_ms>
+                <send_url_offset_ms>18</send_url_offset_ms>
+                <send_duration_ms>0</send_duration_ms>
+                <wait_url_offset_ms>18</wait_url_offset_ms>
+                <wait_duration_ms>13</wait_duration_ms>
+                <receive_url_offset_ms>31</receive_url_offset_ms>
+                <receive_duration_ms>0</receive_duration_ms>
+              </summary>
+              <request-headers />
+              <response-headers />
+              <timing>
+                <requestId>83</requestId>
+                <index>25</index>
+                <request_start>1442298541759</request_start>
+                <queue_end>2</queue_end>
+                <dns_end>12</dns_end>
+                <blocked_end>0</blocked_end>
+                <connect_start>12</connect_start>
+                <connect_end>18</connect_end>
+                <send_start>18</send_start>
+                <send_end>18</send_end>
+                <wait_end>31</wait_end>
+                <request_end>1442298541790</request_end>
+              </timing>
+            </url>
+            <url>
+              <summary>
+                <url>http://www.google-analytics.com/analytics.js</url>
+                <url_number>27</url_number>
+                <offset_ms>1368</offset_ms>
+                <started_utc>2015-09-15 06:29:01.873</started_utc>
+                <elapsed_ms>8</elapsed_ms>
+                <http_method>GET</http_method>
+                <redirect>0</redirect>
+                <cachebefore_url_present>0</cachebefore_url_present>
+                <sent_bytes>277</sent_bytes>
+                <received_bytes>25592</received_bytes>
+                <content_size_bytes>11090</content_size_bytes>
+                <completed>1</completed>
+                <dynamic type="none">0</dynamic>
+                <request_cookie_count>0</request_cookie_count>
+                <response_cookie_count>0</response_cookie_count>
+                <content_mime_type>text/javascript</content_mime_type>
+                <http_status_code>200</http_status_code>
+                <http_result>OK</http_result>
+                <error_code>0</error_code>
+                <error_message></error_message>
+                <response_status_line>HTTP/1.1 200 OK</response_status_line>
+                <request_line>GET /analytics.js HTTP/1.1</request_line>
+                <server_ip>173.194.65.102</server_ip>
+                <server_port>80</server_port>
+                <dnslookup_url_offset_ms>0</dnslookup_url_offset_ms>
+                <dnslookup_duration_ms>0</dnslookup_duration_ms>
+                <blocked_url_offset_ms>0</blocked_url_offset_ms>
+                <blocked_duration_ms>0</blocked_duration_ms>
+                <connect_url_offset_ms>0</connect_url_offset_ms>
+                <connect_duration_ms>0</connect_duration_ms>
+                <send_url_offset_ms>0</send_url_offset_ms>
+                <send_duration_ms>0</send_duration_ms>
+                <wait_url_offset_ms>0</wait_url_offset_ms>
+                <wait_duration_ms>8</wait_duration_ms>
+                <receive_url_offset_ms>8</receive_url_offset_ms>
+                <receive_duration_ms>0</receive_duration_ms>
+              </summary>
+              <request-headers />
+              <response-headers />
+              <timing>
+                <requestId>95</requestId>
+                <index>26</index>
+                <request_start>1442298541873</request_start>
+                <queue_end>0</queue_end>
+                <dns_end>0</dns_end>
+                <blocked_end>0</blocked_end>
+                <connect_start>0</connect_start>
+                <connect_end>0</connect_end>
+                <send_start>0</send_start>
+                <send_end>0</send_end>
+                <wait_end>8</wait_end>
+                <request_end>1442298541881</request_end>
+              </timing>
+            </url>
+            <url>
+              <summary>
+                <url>http://www.zauq.com/images/slider/bg1.jpg</url>
+                <url_number>28</url_number>
+                <offset_ms>1387</offset_ms>
+                <started_utc>2015-09-15 06:29:01.892</started_utc>
+                <elapsed_ms>730</elapsed_ms>
+                <http_method>GET</http_method>
+                <redirect>0</redirect>
+                <cachebefore_url_present>0</cachebefore_url_present>
+                <sent_bytes>304</sent_bytes>
+                <received_bytes>36929</received_bytes>
+                <content_size_bytes>36711</content_size_bytes>
+                <completed>1</completed>
+                <dynamic type="none">0</dynamic>
+                <request_cookie_count>0</request_cookie_count>
+                <response_cookie_count>0</response_cookie_count>
+                <content_mime_type>image/jpeg</content_mime_type>
+                <http_status_code>200</http_status_code>
+                <http_result>OK</http_result>
+                <error_code>0</error_code>
+                <error_message></error_message>
+                <response_status_line>HTTP/1.1 200 OK</response_status_line>
+                <request_line>GET /images/slider/bg1.jpg HTTP/1.1</request_line>
+                <server_ip>192.185.169.166</server_ip>
+                <server_port>80</server_port>
+                <dnslookup_url_offset_ms>0</dnslookup_url_offset_ms>
+                <dnslookup_duration_ms>0</dnslookup_duration_ms>
+                <blocked_url_offset_ms>0</blocked_url_offset_ms>
+                <blocked_duration_ms>488</blocked_duration_ms>
+                <connect_url_offset_ms>488</connect_url_offset_ms>
+                <connect_duration_ms>0</connect_duration_ms>
+                <send_url_offset_ms>488</send_url_offset_ms>
+                <send_duration_ms>0</send_duration_ms>
+                <wait_url_offset_ms>488</wait_url_offset_ms>
+                <wait_duration_ms>131</wait_duration_ms>
+                <receive_url_offset_ms>619</receive_url_offset_ms>
+                <receive_duration_ms>111</receive_duration_ms>
+              </summary>
+              <request-headers />
+              <response-headers />
+              <timing>
+                <requestId>96</requestId>
+                <index>27</index>
+                <request_start>1442298541892</request_start>
+                <queue_end>0</queue_end>
+                <dns_end>0</dns_end>
+                <blocked_end>488</blocked_end>
+                <connect_start>0</connect_start>
+                <connect_end>0</connect_end>
+                <send_start>488</send_start>
+                <send_end>488</send_end>
+                <wait_end>619</wait_end>
+                <request_end>1442298542622</request_end>
+              </timing>
+            </url>
+            <url>
+              <summary>
+                <url>http://www.zauq.com/images/slider/bg2.jpg</url>
+                <url_number>29</url_number>
+                <offset_ms>1387</offset_ms>
+                <started_utc>2015-09-15 06:29:01.892</started_utc>
+                <elapsed_ms>663</elapsed_ms>
+                <http_method>GET</http_method>
+                <redirect>0</redirect>
+                <cachebefore_url_present>0</cachebefore_url_present>
+                <sent_bytes>304</sent_bytes>
+                <received_bytes>14138</received_bytes>
+                <content_size_bytes>13920</content_size_bytes>
+                <completed>1</completed>
+                <dynamic type="none">0</dynamic>
+                <request_cookie_count>0</request_cookie_count>
+                <response_cookie_count>0</response_cookie_count>
+                <content_mime_type>image/jpeg</content_mime_type>
+                <http_status_code>200</http_status_code>
+                <http_result>OK</http_result>
+                <error_code>0</error_code>
+                <error_message></error_message>
+                <response_status_line>HTTP/1.1 200 OK</response_status_line>
+                <request_line>GET /images/slider/bg2.jpg HTTP/1.1</request_line>
+                <server_ip>192.185.169.166</server_ip>
+                <server_port>80</server_port>
+                <dnslookup_url_offset_ms>0</dnslookup_url_offset_ms>
+                <dnslookup_duration_ms>0</dnslookup_duration_ms>
+                <blocked_url_offset_ms>0</blocked_url_offset_ms>
+                <blocked_duration_ms>545</blocked_duration_ms>
+                <connect_url_offset_ms>545</connect_url_offset_ms>
+                <connect_duration_ms>0</connect_duration_ms>
+                <send_url_offset_ms>545</send_url_offset_ms>
+                <send_duration_ms>0</send_duration_ms>
+                <wait_url_offset_ms>545</wait_url_offset_ms>
+                <wait_duration_ms>118</wait_duration_ms>
+                <receive_url_offset_ms>663</receive_url_offset_ms>
+                <receive_duration_ms>0</receive_duration_ms>
+              </summary>
+              <request-headers />
+              <response-headers />
+              <timing>
+                <requestId>97</requestId>
+                <index>28</index>
+                <request_start>1442298541892</request_start>
+                <queue_end>0</queue_end>
+                <dns_end>0</dns_end>
+                <blocked_end>545</blocked_end>
+                <connect_start>0</connect_start>
+                <connect_end>0</connect_end>
+                <send_start>545</send_start>
+                <send_end>545</send_end>
+                <wait_end>663</wait_end>
+                <request_end>1442298542555</request_end>
+              </timing>
+            </url>
+            <url>
+              <summary>
+                <url>http://www.zauq.com/images/slider/bg3.jpg</url>
+                <url_number>30</url_number>
+                <offset_ms>1387</offset_ms>
+                <started_utc>2015-09-15 06:29:01.892</started_utc>
+                <elapsed_ms>737</elapsed_ms>
+                <http_method>GET</http_method>
+                <redirect>0</redirect>
+                <cachebefore_url_present>0</cachebefore_url_present>
+                <sent_bytes>304</sent_bytes>
+                <received_bytes>18812</received_bytes>
+                <content_size_bytes>18594</content_size_bytes>
+                <completed>1</completed>
+                <dynamic type="none">0</dynamic>
+                <request_cookie_count>0</request_cookie_count>
+                <response_cookie_count>0</response_cookie_count>
+                <content_mime_type>image/jpeg</content_mime_type>
+                <http_status_code>200</http_status_code>
+                <http_result>OK</http_result>
+                <error_code>0</error_code>
+                <error_message></error_message>
+                <response_status_line>HTTP/1.1 200 OK</response_status_line>
+                <request_line>GET /images/slider/bg3.jpg HTTP/1.1</request_line>
+                <server_ip>192.185.169.166</server_ip>
+                <server_port>80</server_port>
+                <dnslookup_url_offset_ms>0</dnslookup_url_offset_ms>
+                <dnslookup_duration_ms>0</dnslookup_duration_ms>
+                <blocked_url_offset_ms>0</blocked_url_offset_ms>
+                <blocked_duration_ms>615</blocked_duration_ms>
+                <connect_url_offset_ms>615</connect_url_offset_ms>
+                <connect_duration_ms>0</connect_duration_ms>
+                <send_url_offset_ms>615</send_url_offset_ms>
+                <send_duration_ms>0</send_duration_ms>
+                <wait_url_offset_ms>615</wait_url_offset_ms>
+                <wait_duration_ms>122</wait_duration_ms>
+                <receive_url_offset_ms>737</receive_url_offset_ms>
+                <receive_duration_ms>0</receive_duration_ms>
+              </summary>
+              <request-headers />
+              <response-headers />
+              <timing>
+                <requestId>98</requestId>
+                <index>29</index>
+                <request_start>1442298541892</request_start>
+                <queue_end>0</queue_end>
+                <dns_end>0</dns_end>
+                <blocked_end>615</blocked_end>
+                <connect_start>0</connect_start>
+                <connect_end>0</connect_end>
+                <send_start>615</send_start>
+                <send_end>615</send_end>
+                <wait_end>737</wait_end>
+                <request_end>1442298542629</request_end>
+              </timing>
+            </url>
+            <url>
+              <summary>
+                <url>http://www.zauq.com/images/services/bg_services.png</url>
+                <url_number>31</url_number>
+                <offset_ms>1388</offset_ms>
+                <started_utc>2015-09-15 06:29:01.893</started_utc>
+                <elapsed_ms>2699</elapsed_ms>
+                <http_method>GET</http_method>
+                <redirect>0</redirect>
+                <cachebefore_url_present>0</cachebefore_url_present>
+                <sent_bytes>326</sent_bytes>
+                <received_bytes>1073203</received_bytes>
+                <content_size_bytes>1072984</content_size_bytes>
+                <completed>1</completed>
+                <dynamic type="none">0</dynamic>
+                <request_cookie_count>0</request_cookie_count>
+                <response_cookie_count>0</response_cookie_count>
+                <content_mime_type>image/png</content_mime_type>
+                <http_status_code>200</http_status_code>
+                <http_result>OK</http_result>
+                <error_code>0</error_code>
+                <error_message></error_message>
+                <response_status_line>HTTP/1.1 200 OK</response_status_line>
+                <request_line>GET /images/services/bg_services.png HTTP/1.1</request_line>
+                <server_ip>192.185.169.166</server_ip>
+                <server_port>80</server_port>
+                <dnslookup_url_offset_ms>0</dnslookup_url_offset_ms>
+                <dnslookup_duration_ms>0</dnslookup_duration_ms>
+                <blocked_url_offset_ms>0</blocked_url_offset_ms>
+                <blocked_duration_ms>662</blocked_duration_ms>
+                <connect_url_offset_ms>662</connect_url_offset_ms>
+                <connect_duration_ms>0</connect_duration_ms>
+                <send_url_offset_ms>662</send_url_offset_ms>
+                <send_duration_ms>0</send_duration_ms>
+                <wait_url_offset_ms>662</wait_url_offset_ms>
+                <wait_duration_ms>222</wait_duration_ms>
+                <receive_url_offset_ms>884</receive_url_offset_ms>
+                <receive_duration_ms>1815</receive_duration_ms>
+              </summary>
+              <request-headers />
+              <response-headers />
+              <timing>
+                <requestId>99</requestId>
+                <index>30</index>
+                <request_start>1442298541893</request_start>
+                <queue_end>0</queue_end>
+                <dns_end>0</dns_end>
+                <blocked_end>662</blocked_end>
+                <connect_start>0</connect_start>
+                <connect_end>0</connect_end>
+                <send_start>662</send_start>
+                <send_end>662</send_end>
+                <wait_end>884</wait_end>
+                <request_end>1442298544592</request_end>
+              </timing>
+            </url>
+            <url>
+              <summary>
+                <url>http://fonts.gstatic.com/s/opensans/v13/cJZKeOuBrn4kERxqtaUH3T8E0i7KZn-EPnyo3HZu7kw.woff</url>
+                <url_number>32</url_number>
+                <offset_ms>1391</offset_ms>
+                <started_utc>2015-09-15 06:29:01.896</started_utc>
+                <elapsed_ms>18</elapsed_ms>
+                <http_method>GET</http_method>
+                <redirect>0</redirect>
+                <cachebefore_url_present>0</cachebefore_url_present>
+                <sent_bytes>508</sent_bytes>
+                <received_bytes>20628</received_bytes>
+                <content_size_bytes>20248</content_size_bytes>
+                <completed>1</completed>
+                <dynamic type="none">0</dynamic>
+                <request_cookie_count>0</request_cookie_count>
+                <response_cookie_count>0</response_cookie_count>
+                <content_mime_type>font/woff</content_mime_type>
+                <http_status_code>200</http_status_code>
+                <http_result>OK</http_result>
+                <error_code>0</error_code>
+                <error_message></error_message>
+                <response_status_line>HTTP/1.1 200 OK</response_status_line>
+                <request_line>GET /s/opensans/v13/cJZKeOuBrn4kERxqtaUH3T8E0i7KZn-EPnyo3HZu7kw.woff HTTP/1.1</request_line>
+                <server_ip>173.194.65.94</server_ip>
+                <server_port>80</server_port>
+                <dnslookup_url_offset_ms>0</dnslookup_url_offset_ms>
+                <dnslookup_duration_ms>0</dnslookup_duration_ms>
+                <blocked_url_offset_ms>0</blocked_url_offset_ms>
+                <blocked_duration_ms>11</blocked_duration_ms>
+                <connect_url_offset_ms>11</connect_url_offset_ms>
+                <connect_duration_ms>0</connect_duration_ms>
+                <send_url_offset_ms>11</send_url_offset_ms>
+                <send_duration_ms>0</send_duration_ms>
+                <wait_url_offset_ms>11</wait_url_offset_ms>
+                <wait_duration_ms>7</wait_duration_ms>
+                <receive_url_offset_ms>18</receive_url_offset_ms>
+                <receive_duration_ms>0</receive_duration_ms>
+              </summary>
+              <request-headers />
+              <response-headers />
+              <timing>
+                <requestId>100</requestId>
+                <index>31</index>
+                <request_start>1442298541896</request_start>
+                <queue_end>0</queue_end>
+                <dns_end>0</dns_end>
+                <blocked_end>11</blocked_end>
+                <connect_start>0</connect_start>
+                <connect_end>0</connect_end>
+                <send_start>11</send_start>
+                <send_end>11</send_end>
+                <wait_end>18</wait_end>
+                <request_end>1442298541914</request_end>
+              </timing>
+            </url>
+            <url>
+              <summary>
+                <url>http://www.zauq.com/fonts/fontawesome-webfont.woff?v=4.0.3</url>
+                <url_number>33</url_number>
+                <offset_ms>1373</offset_ms>
+                <started_utc>2015-09-15 06:29:01.878</started_utc>
+                <elapsed_ms>552</elapsed_ms>
+                <http_method>GET</http_method>
+                <redirect>0</redirect>
+                <cachebefore_url_present>0</cachebefore_url_present>
+                <sent_bytes>0</sent_bytes>
+                <received_bytes>0</received_bytes>
+                <content_size_bytes>0</content_size_bytes>
+                <completed>0</completed>
+                <dynamic />
+                <request_cookie_count>0</request_cookie_count>
+                <response_cookie_count>0</response_cookie_count>
+                <content_mime_type>n/a</content_mime_type>
+                <http_status_code>0</http_status_code>
+                <http_result>n/a</http_result>
+                <error_code>12</error_code>
+                <error_message>REQUEST ABORTED</error_message>
+                <response_status_line>n/a</response_status_line>
+                <request_line>GET /fonts/fontawesome-webfont.woff?v=4.0.3 HTTP/1.1</request_line>
+                <server_ip>n/a</server_ip>
+                <server_port>n/a</server_port>
+                <dnslookup_url_offset_ms>0</dnslookup_url_offset_ms>
+                <dnslookup_duration_ms>0</dnslookup_duration_ms>
+                <blocked_url_offset_ms>0</blocked_url_offset_ms>
+                <blocked_duration_ms>0</blocked_duration_ms>
+                <connect_url_offset_ms>0</connect_url_offset_ms>
+                <connect_duration_ms>0</connect_duration_ms>
+                <send_url_offset_ms>0</send_url_offset_ms>
+                <send_duration_ms>0</send_duration_ms>
+                <wait_url_offset_ms>0</wait_url_offset_ms>
+                <wait_duration_ms>552</wait_duration_ms>
+                <receive_url_offset_ms>552</receive_url_offset_ms>
+                <receive_duration_ms>0</receive_duration_ms>
+              </summary>
+              <request-headers />
+              <response-headers />
+              <timing>
+                <requestId>101</requestId>
+                <index>32</index>
+                <request_start>1442298541878</request_start>
+                <queue_end>0</queue_end>
+                <dns_end>0</dns_end>
+                <blocked_end>0</blocked_end>
+                <connect_start>0</connect_start>
+                <connect_end>0</connect_end>
+                <send_start>0</send_start>
+                <send_end>0</send_end>
+                <wait_end>552</wait_end>
+                <request_end>1442298542430</request_end>
+              </timing>
+            </url>
+            <url>
+              <summary>
+                <url>http://fonts.gstatic.com/s/opensans/v13/MTP_ySUJH_bn48VBG8sNSnhCUOGz7vYGh680lGh-uXM.woff</url>
+                <url_number>34</url_number>
+                <offset_ms>1392</offset_ms>
+                <started_utc>2015-09-15 06:29:01.897</started_utc>
+                <elapsed_ms>17</elapsed_ms>
+                <http_method>GET</http_method>
+                <redirect>0</redirect>
+                <cachebefore_url_present>0</cachebefore_url_present>
+                <sent_bytes>508</sent_bytes>
+                <received_bytes>21240</received_bytes>
+                <content_size_bytes>20860</content_size_bytes>
+                <completed>1</completed>
+                <dynamic type="none">0</dynamic>
+                <request_cookie_count>0</request_cookie_count>
+                <response_cookie_count>0</response_cookie_count>
+                <content_mime_type>font/woff</content_mime_type>
+                <http_status_code>200</http_status_code>
+                <http_result>OK</http_result>
+                <error_code>0</error_code>
+                <error_message></error_message>
+                <response_status_line>HTTP/1.1 200 OK</response_status_line>
+                <request_line>GET /s/opensans/v13/MTP_ySUJH_bn48VBG8sNSnhCUOGz7vYGh680lGh-uXM.woff HTTP/1.1</request_line>
+                <server_ip>173.194.65.94</server_ip>
+                <server_port>80</server_port>
+                <dnslookup_url_offset_ms>0</dnslookup_url_offset_ms>
+                <dnslookup_duration_ms>0</dnslookup_duration_ms>
+                <blocked_url_offset_ms>0</blocked_url_offset_ms>
+                <blocked_duration_ms>10</blocked_duration_ms>
+                <connect_url_offset_ms>10</connect_url_offset_ms>
+                <connect_duration_ms>0</connect_duration_ms>
+                <send_url_offset_ms>10</send_url_offset_ms>
+                <send_duration_ms>0</send_duration_ms>
+                <wait_url_offset_ms>10</wait_url_offset_ms>
+                <wait_duration_ms>7</wait_duration_ms>
+                <receive_url_offset_ms>17</receive_url_offset_ms>
+                <receive_duration_ms>0</receive_duration_ms>
+              </summary>
+              <request-headers />
+              <response-headers />
+              <timing>
+                <requestId>102</requestId>
+                <index>33</index>
+                <request_start>1442298541897</request_start>
+                <queue_end>10</queue_end>
+                <dns_end>10</dns_end>
+                <blocked_end>0</blocked_end>
+                <connect_start>10</connect_start>
+                <connect_end>0</connect_end>
+                <send_start>10</send_start>
+                <send_end>10</send_end>
+                <wait_end>17</wait_end>
+                <request_end>1442298541914</request_end>
+              </timing>
+            </url>
+            <url>
+              <summary>
+                <url>http://www.zauq.com/fonts/glyphicons-halflings-regular.woff</url>
+                <url_number>35</url_number>
+                <offset_ms>1383</offset_ms>
+                <started_utc>2015-09-15 06:29:01.888</started_utc>
+                <elapsed_ms>542</elapsed_ms>
+                <http_method>GET</http_method>
+                <redirect>0</redirect>
+                <cachebefore_url_present>0</cachebefore_url_present>
+                <sent_bytes>0</sent_bytes>
+                <received_bytes>0</received_bytes>
+                <content_size_bytes>0</content_size_bytes>
+                <completed>0</completed>
+                <dynamic />
+                <request_cookie_count>0</request_cookie_count>
+                <response_cookie_count>0</response_cookie_count>
+                <content_mime_type>n/a</content_mime_type>
+                <http_status_code>0</http_status_code>
+                <http_result>n/a</http_result>
+                <error_code>12</error_code>
+                <error_message>REQUEST ABORTED</error_message>
+                <response_status_line>n/a</response_status_line>
+                <request_line>GET /fonts/glyphicons-halflings-regular.woff HTTP/1.1</request_line>
+                <server_ip>n/a</server_ip>
+                <server_port>n/a</server_port>
+                <dnslookup_url_offset_ms>0</dnslookup_url_offset_ms>
+                <dnslookup_duration_ms>0</dnslookup_duration_ms>
+                <blocked_url_offset_ms>0</blocked_url_offset_ms>
+                <blocked_duration_ms>0</blocked_duration_ms>
+                <connect_url_offset_ms>0</connect_url_offset_ms>
+                <connect_duration_ms>0</connect_duration_ms>
+                <send_url_offset_ms>0</send_url_offset_ms>
+                <send_duration_ms>0</send_duration_ms>
+                <wait_url_offset_ms>0</wait_url_offset_ms>
+                <wait_duration_ms>542</wait_duration_ms>
+                <receive_url_offset_ms>542</receive_url_offset_ms>
+                <receive_duration_ms>0</receive_duration_ms>
+              </summary>
+              <request-headers />
+              <response-headers />
+              <timing>
+                <requestId>103</requestId>
+                <index>34</index>
+                <request_start>1442298541888</request_start>
+                <queue_end>0</queue_end>
+                <dns_end>0</dns_end>
+                <blocked_end>0</blocked_end>
+                <connect_start>0</connect_start>
+                <connect_end>0</connect_end>
+                <send_start>0</send_start>
+                <send_end>0</send_end>
+                <wait_end>542</wait_end>
+                <request_end>1442298542430</request_end>
+              </timing>
+            </url>
+            <url>
+              <summary>
+                <url>http://www.google-analytics.com/r/collect?v=1&amp;amp;_v=j38&amp;amp;a=13650883&amp;amp;t=pageview&amp;amp;_s=1&amp;amp;dl=http%3A%2F%2Fwww.zauq.com%2F&amp;amp;ul=en-us&amp;amp;de=UTF-8&amp;amp;dt=Home%20%7C%20Zauq%20Group&amp;amp;sd=24-bit&amp;amp;sr=1024x768&amp;amp;vp=1004x664&amp;amp;je=0&amp;amp;_u=AEAAAEQAI~&amp;amp;jid=1556750245&amp;amp;cid=924243841.1442298542&amp;amp;tid=UA-64164820-1&amp;amp;_r=1&amp;amp;z=1946182353</url>
+                <url_number>36</url_number>
+                <offset_ms>1456</offset_ms>
+                <started_utc>2015-09-15 06:29:01.961</started_utc>
+                <elapsed_ms>52</elapsed_ms>
+                <http_method>GET</http_method>
+                <redirect>1</redirect>
+                <cachebefore_url_present>0</cachebefore_url_present>
+                <sent_bytes>407</sent_bytes>
+                <received_bytes>475</received_bytes>
+                <content_size_bytes>0</content_size_bytes>
+                <completed>1</completed>
+                <dynamic />
+                <request_cookie_count>0</request_cookie_count>
+                <response_cookie_count>0</response_cookie_count>
+                <content_mime_type>text/html; charset=UTF-8</content_mime_type>
+                <http_status_code>302</http_status_code>
+                <http_result>Found</http_result>
+                <error_code>0</error_code>
+                <error_message></error_message>
+                <response_status_line>HTTP/1.1 302 Found</response_status_line>
+                <request_line>GET /r/collect?v=1&amp;amp;aip=1&amp;amp;t=dc&amp;amp;_r=3&amp;amp;tid=UA-64164820-1&amp;amp;cid=924243841.1442298542&amp;amp;jid=1556750245&amp;amp;_v=j38&amp;amp;z=1946182353 HTTP/1.1</request_line>
+                <server_ip>n/a</server_ip>
+                <server_port>n/a</server_port>
+                <dnslookup_url_offset_ms>0</dnslookup_url_offset_ms>
+                <dnslookup_duration_ms>0</dnslookup_duration_ms>
+                <blocked_url_offset_ms>0</blocked_url_offset_ms>
+                <blocked_duration_ms>0</blocked_duration_ms>
+                <connect_url_offset_ms>0</connect_url_offset_ms>
+                <connect_duration_ms>0</connect_duration_ms>
+                <send_url_offset_ms>0</send_url_offset_ms>
+                <send_duration_ms>0</send_duration_ms>
+                <wait_url_offset_ms>0</wait_url_offset_ms>
+                <wait_duration_ms>15</wait_duration_ms>
+                <receive_url_offset_ms>15</receive_url_offset_ms>
+                <receive_duration_ms>37</receive_duration_ms>
+                <redirect_url>https://stats.g.doubleclick.net/r/collect?v=1&amp;amp;aip=1&amp;amp;t=dc&amp;amp;_r=3&amp;amp;tid=UA-64164820-1&amp;amp;cid=924243841.1442298542&amp;amp;jid=1556750245&amp;amp;_v=j38&amp;amp;z=1946182353</redirect_url>
+              </summary>
+              <request-headers />
+              <response-headers />
+              <timing>
+                <requestId>114</requestId>
+                <index>35</index>
+                <request_start>1442298541961</request_start>
+                <queue_end>0</queue_end>
+                <dns_end>0</dns_end>
+                <blocked_end>0</blocked_end>
+                <connect_start>0</connect_start>
+                <connect_end>0</connect_end>
+                <send_start>0</send_start>
+                <send_end>0</send_end>
+                <wait_end>15</wait_end>
+                <request_end>1442298542013</request_end>
+              </timing>
+            </url>
+            <url>
+              <summary>
+                <url>https://stats.g.doubleclick.net/r/collect?v=1&amp;amp;aip=1&amp;amp;t=dc&amp;amp;_r=3&amp;amp;tid=UA-64164820-1&amp;amp;cid=924243841.1442298542&amp;amp;jid=1556750245&amp;amp;_v=j38&amp;amp;z=1946182353</url>
+                <url_number>37</url_number>
+                <offset_ms>1584</offset_ms>
+                <started_utc>2015-09-15 06:29:02.089</started_utc>
+                <elapsed_ms>107</elapsed_ms>
+                <http_method>GET</http_method>
+                <redirect>0</redirect>
+                <cachebefore_url_present>0</cachebefore_url_present>
+                <sent_bytes>431</sent_bytes>
+                <received_bytes>511</received_bytes>
+                <content_size_bytes>35</content_size_bytes>
+                <completed>1</completed>
+                <dynamic type="none">0</dynamic>
+                <request_cookie_count>0</request_cookie_count>
+                <response_cookie_count>0</response_cookie_count>
+                <content_mime_type>image/gif</content_mime_type>
+                <http_status_code>200</http_status_code>
+                <http_result>OK</http_result>
+                <error_code>0</error_code>
+                <error_message></error_message>
+                <response_status_line>HTTP/1.1 200 OK</response_status_line>
+                <request_line>GET /r/collect?v=1&amp;amp;aip=1&amp;amp;t=dc&amp;amp;_r=3&amp;amp;tid=UA-64164820-1&amp;amp;cid=924243841.1442298542&amp;amp;jid=1556750245&amp;amp;_v=j38&amp;amp;z=1946182353 HTTP/1.1</request_line>
+                <server_ip>173.194.65.157</server_ip>
+                <server_port>443</server_port>
+                <dnslookup_url_offset_ms>0</dnslookup_url_offset_ms>
+                <dnslookup_duration_ms>0</dnslookup_duration_ms>
+                <blocked_url_offset_ms>0</blocked_url_offset_ms>
+                <blocked_duration_ms>90</blocked_duration_ms>
+                <connect_url_offset_ms>90</connect_url_offset_ms>
+                <connect_duration_ms>0</connect_duration_ms>
+                <send_url_offset_ms>90</send_url_offset_ms>
+                <send_duration_ms>0</send_duration_ms>
+                <wait_url_offset_ms>90</wait_url_offset_ms>
+                <wait_duration_ms>17</wait_duration_ms>
+                <receive_url_offset_ms>107</receive_url_offset_ms>
+                <receive_duration_ms>0</receive_duration_ms>
+              </summary>
+              <request-headers />
+              <response-headers />
+              <timing>
+                <requestId>114</requestId>
+                <index>36</index>
+                <request_start>1442298542089</request_start>
+                <queue_end>0</queue_end>
+                <dns_end>0</dns_end>
+                <blocked_end>90</blocked_end>
+                <connect_start>0</connect_start>
+                <connect_end>0</connect_end>
+                <send_start>90</send_start>
+                <send_end>90</send_end>
+                <wait_end>107</wait_end>
+                <request_end>1442298542196</request_end>
+              </timing>
+            </url>
+            <url>
+              <summary>
+                <url>http://www.zauq.com/fonts/fontawesome-webfont.woff?v=4.0.3</url>
+                <url_number>38</url_number>
+                <offset_ms>2083</offset_ms>
+                <started_utc>2015-09-15 06:29:02.588</started_utc>
+                <elapsed_ms>317</elapsed_ms>
+                <http_method>GET</http_method>
+                <redirect>0</redirect>
+                <cachebefore_url_present>0</cachebefore_url_present>
+                <sent_bytes>423</sent_bytes>
+                <received_bytes>44663</received_bytes>
+                <content_size_bytes>44432</content_size_bytes>
+                <completed>1</completed>
+                <dynamic type="none">0</dynamic>
+                <request_cookie_count>0</request_cookie_count>
+                <response_cookie_count>0</response_cookie_count>
+                <content_mime_type>application/x-font-woff</content_mime_type>
+                <http_status_code>200</http_status_code>
+                <http_result>OK</http_result>
+                <error_code>0</error_code>
+                <error_message></error_message>
+                <response_status_line>HTTP/1.1 200 OK</response_status_line>
+                <request_line>GET /fonts/fontawesome-webfont.woff?v=4.0.3 HTTP/1.1</request_line>
+                <server_ip>192.185.169.166</server_ip>
+                <server_port>80</server_port>
+                <dnslookup_url_offset_ms>0</dnslookup_url_offset_ms>
+                <dnslookup_duration_ms>0</dnslookup_duration_ms>
+                <blocked_url_offset_ms>0</blocked_url_offset_ms>
+                <blocked_duration_ms>42</blocked_duration_ms>
+                <connect_url_offset_ms>42</connect_url_offset_ms>
+                <connect_duration_ms>0</connect_duration_ms>
+                <send_url_offset_ms>42</send_url_offset_ms>
+                <send_duration_ms>0</send_duration_ms>
+                <wait_url_offset_ms>42</wait_url_offset_ms>
+                <wait_duration_ms>167</wait_duration_ms>
+                <receive_url_offset_ms>209</receive_url_offset_ms>
+                <receive_duration_ms>108</receive_duration_ms>
+              </summary>
+              <request-headers />
+              <response-headers />
+              <timing>
+                <requestId>189</requestId>
+                <index>37</index>
+                <request_start>1442298542588</request_start>
+                <queue_end>0</queue_end>
+                <dns_end>0</dns_end>
+                <blocked_end>42</blocked_end>
+                <connect_start>0</connect_start>
+                <connect_end>0</connect_end>
+                <send_start>42</send_start>
+                <send_end>42</send_end>
+                <wait_end>209</wait_end>
+                <request_end>1442298542905</request_end>
+              </timing>
+            </url>
+            <url>
+              <summary>
+                <url>http://www.zauq.com/fonts/glyphicons-halflings-regular.woff</url>
+                <url_number>39</url_number>
+                <offset_ms>2083</offset_ms>
+                <started_utc>2015-09-15 06:29:02.588</started_utc>
+                <elapsed_ms>227</elapsed_ms>
+                <http_method>GET</http_method>
+                <redirect>0</redirect>
+                <cachebefore_url_present>0</cachebefore_url_present>
+                <sent_bytes>421</sent_bytes>
+                <received_bytes>23523</received_bytes>
+                <content_size_bytes>23292</content_size_bytes>
+                <completed>1</completed>
+                <dynamic type="none">0</dynamic>
+                <request_cookie_count>0</request_cookie_count>
+                <response_cookie_count>0</response_cookie_count>
+                <content_mime_type>application/x-font-woff</content_mime_type>
+                <http_status_code>200</http_status_code>
+                <http_result>OK</http_result>
+                <error_code>0</error_code>
+                <error_message></error_message>
+                <response_status_line>HTTP/1.1 200 OK</response_status_line>
+                <request_line>GET /fonts/glyphicons-halflings-regular.woff HTTP/1.1</request_line>
+                <server_ip>192.185.169.166</server_ip>
+                <server_port>80</server_port>
+                <dnslookup_url_offset_ms>0</dnslookup_url_offset_ms>
+                <dnslookup_duration_ms>0</dnslookup_duration_ms>
+                <blocked_url_offset_ms>0</blocked_url_offset_ms>
+                <blocked_duration_ms>57</blocked_duration_ms>
+                <connect_url_offset_ms>57</connect_url_offset_ms>
+                <connect_duration_ms>0</connect_duration_ms>
+                <send_url_offset_ms>57</send_url_offset_ms>
+                <send_duration_ms>0</send_duration_ms>
+                <wait_url_offset_ms>57</wait_url_offset_ms>
+                <wait_duration_ms>170</wait_duration_ms>
+                <receive_url_offset_ms>227</receive_url_offset_ms>
+                <receive_duration_ms>0</receive_duration_ms>
+              </summary>
+              <request-headers />
+              <response-headers />
+              <timing>
+                <requestId>190</requestId>
+                <index>38</index>
+                <request_start>1442298542588</request_start>
+                <queue_end>0</queue_end>
+                <dns_end>0</dns_end>
+                <blocked_end>57</blocked_end>
+                <connect_start>0</connect_start>
+                <connect_end>0</connect_end>
+                <send_start>57</send_start>
+                <send_end>57</send_end>
+                <wait_end>227</wait_end>
+                <request_end>1442298542815</request_end>
+              </timing>
+            </url>
+          </urls>
+        </page>
+      </pages>
+    </step>
+  </steps>
+</result>
