@@ -20,7 +20,9 @@ public class HelloWorld {
     Endpoint.publish(address, implementor);
     
 
-    MASSTTTETERRR
 
+    MASSTTTETERRR
+combined
+    saved,,?
 
 }
