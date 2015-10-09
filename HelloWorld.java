@@ -18,11 +18,18 @@ public class HelloWorld {
     Object implementor = new HelloWorld ();
     String address = "http://localhost:9000/HelloWorld";
     Endpoint.publish(address, implementor);
+ } 
 
-    this is a change again    tsddf  dbvdhgfffggfffghghf   morning......
-  } 
 
-    saved,,?
+ALL TOGATHER
+@this is a change again    tsddf  dbvdhgfffggfffghghf   morning......
+@lets work with MasterCC..that is a localcopy of Master..
+@    MASSTTTETERRR
+@combined
+@    saved,,?
 
-finaly edited after a merge
+@<<<<<<< HEAD
+@finaly edited after a merge
+@=======
+@>>>>>>> refs/heads/masterCC
 }
