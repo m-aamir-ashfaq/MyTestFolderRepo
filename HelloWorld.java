@@ -20,7 +20,7 @@ public class HelloWorld {
     Endpoint.publish(address, implementor);
     
 
-
+lets work with MasterCC..that is a localcopy of Master..
     MASSTTTETERRR
 combined
     saved,,?
