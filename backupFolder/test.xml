@@ -1,0 +1,2488 @@
+<result>
+  <summary>
+    <apicawatch_version>0.3.4-0</apicawatch_version>
+    <started_utc>2015-07-29 10:00:46.105</started_utc>
+    <stopped_utc>2015-07-29 10:00:49.506</stopped_utc>
+    <duration_ms>3401</duration_ms>
+    <scenario>0</scenario>
+    <step_count>1</step_count>
+    <browser_name>Firefox</browser_name>
+    <browser_version>21.0</browser_version>
+    <browser_lang>en-US</browser_lang>
+    <tz_offset_minutes>0</tz_offset_minutes>
+    <page_count>1</page_count>
+    <url_count>43</url_count>
+    <http_transaction_count>43</http_transaction_count>
+    <received_bytes>1127005</received_bytes>
+    <sent_bytes>17341</sent_bytes>
+    <content_size_bytes>394189</content_size_bytes>
+    <prm_page_timeout_secs>undefined</prm_page_timeout_secs>
+    <prm_url_timeout_secs>undefined</prm_url_timeout_secs>
+    <prm_activity_timeout_secs>undefined</prm_activity_timeout_secs>
+    <dns_lookup_count>5</dns_lookup_count>
+    <connect_count>5</connect_count>
+  </summary>
+  <steps>
+    <step>
+      <summary>
+        <url_count>43</url_count>
+        <page_count>1</page_count>
+        <step_number>1</step_number>
+        <started_utc>2015-07-29 10:00:46.105</started_utc>
+        <stopped_utc>2015-07-29 10:00:49.506</stopped_utc>
+        <duration_ms>3401</duration_ms>
+        <target_url>http://stet2.tetbihar.net/StudentLogin.aspx</target_url>
+        <received_bytes>1127005</received_bytes>
+        <sent_bytes>17341</sent_bytes>
+        <content_size_bytes>394189</content_size_bytes>
+        <offset_ms>0</offset_ms>
+        <http_transaction_count>43</http_transaction_count>
+        <dns_lookup_count>5</dns_lookup_count>
+        <connect_count>5</connect_count>
+        <performance_timing>
+          <navigationStart_utc>2015-07-29 10:00:46.089</navigationStart_utc>
+          <unloadEvent_ms start_utc="0">0</unloadEvent_ms>
+          <unloadEventEnd_utc>0</unloadEventEnd_utc>
+          <redirect_ms start_utc="0">0</redirect_ms>
+          <redirectEnd_utc>0</redirectEnd_utc>
+          <fetchStart_utc>2015-07-29 10:00:46.089</fetchStart_utc>
+          <domainLookup_ms start_utc="2015-07-29 10:00:46.097">521</domainLookup_ms>
+          <domainLookupEnd_utc>2015-07-29 10:00:46.618</domainLookupEnd_utc>
+          <connect_ms start_utc="2015-07-29 10:00:46.618">192</connect_ms>
+          <connectEnd_utc>2015-07-29 10:00:46.810</connectEnd_utc>
+          <requestStart_utc>2015-07-29 10:00:46.810</requestStart_utc>
+          <response_ms start_utc="2015-07-29 10:00:47.026">386</response_ms>
+          <responseEnd_utc>2015-07-29 10:00:47.412</responseEnd_utc>
+          <domLoading_utc>2015-07-29 10:00:47.028</domLoading_utc>
+          <domInteractive_utc>2015-07-29 10:00:48.952</domInteractive_utc>
+          <domContentLoadedEvent_ms start_utc="2015-07-29 10:00:49.023">10</domContentLoadedEvent_ms>
+          <domContentLoadedEventEnd_utc>2015-07-29 10:00:49.033</domContentLoadedEventEnd_utc>
+          <domComplete_utc>2015-07-29 10:00:49.517</domComplete_utc>
+          <loadEvent_ms start_utc="0">0</loadEvent_ms>
+          <loadEventEnd_utc>0</loadEventEnd_utc>
+        </performance_timing>
+        <html_title>Welcome to TET</html_title>
+      </summary>
+      <pages>
+        <page>
+          <summary>
+            <started_utc>2015-07-29 10:00:46.105</started_utc>
+            <offset_ms>0</offset_ms>
+            <url_count>43</url_count>
+            <html_title>Welcome to TET</html_title>
+          </summary>
+          <urls>
+            <url>
+              <summary>
+                <url>http://stet2.tetbihar.net/StudentLogin.aspx</url>
+                <url_number>1</url_number>
+                <offset_ms>0</offset_ms>
+                <started_utc>2015-07-29 10:00:46.105</started_utc>
+                <elapsed_ms>1307</elapsed_ms>
+                <http_method>GET</http_method>
+                <redirect>0</redirect>
+                <cachebefore_url_present>0</cachebefore_url_present>
+                <sent_bytes>305</sent_bytes>
+                <received_bytes>46565</received_bytes>
+                <content_size_bytes>16482</content_size_bytes>
+                <completed>1</completed>
+                <dynamic type="none">0</dynamic>
+                <request_cookie_count>0</request_cookie_count>
+                <response_cookie_count>0</response_cookie_count>
+                <content_mime_type>text/html; charset=utf-8</content_mime_type>
+                <http_status_code>200</http_status_code>
+                <http_result>OK</http_result>
+                <error_code>0</error_code>
+                <error_message></error_message>
+                <response_status_line>HTTP/1.1 200 OK</response_status_line>
+                <request_line>GET /StudentLogin.aspx HTTP/1.1</request_line>
+                <server_ip>111.118.191.218</server_ip>
+                <server_port>80</server_port>
+                <dnslookup_url_offset_ms>0</dnslookup_url_offset_ms>
+                <dnslookup_duration_ms>511</dnslookup_duration_ms>
+                <blocked_url_offset_ms>511</blocked_url_offset_ms>
+                <blocked_duration_ms>3</blocked_duration_ms>
+                <connect_url_offset_ms>514</connect_url_offset_ms>
+                <connect_duration_ms>192</connect_duration_ms>
+                <send_url_offset_ms>706</send_url_offset_ms>
+                <send_duration_ms>0</send_duration_ms>
+                <wait_url_offset_ms>706</wait_url_offset_ms>
+                <wait_duration_ms>215</wait_duration_ms>
+                <receive_url_offset_ms>921</receive_url_offset_ms>
+                <receive_duration_ms>386</receive_duration_ms>
+              </summary>
+              <request-headers />
+              <response-headers />
+              <timing>
+                <requestId>1</requestId>
+                <index>0</index>
+                <request_start>1438164046105</request_start>
+                <queue_end>3</queue_end>
+                <dns_end>514</dns_end>
+                <blocked_end>0</blocked_end>
+                <connect_start>514</connect_start>
+                <connect_end>706</connect_end>
+                <send_start>706</send_start>
+                <send_end>706</send_end>
+                <wait_end>921</wait_end>
+                <request_end>1438164047412</request_end>
+              </timing>
+            </url>
+            <url>
+              <summary>
+                <url>http://stet2.tetbihar.net/Style/Main.css</url>
+                <url_number>2</url_number>
+                <offset_ms>963</offset_ms>
+                <started_utc>2015-07-29 10:00:47.068</started_utc>
+                <elapsed_ms>414</elapsed_ms>
+                <http_method>GET</http_method>
+                <redirect>0</redirect>
+                <cachebefore_url_present>0</cachebefore_url_present>
+                <sent_bytes>311</sent_bytes>
+                <received_bytes>13442</received_bytes>
+                <content_size_bytes>4020</content_size_bytes>
+                <completed>1</completed>
+                <dynamic type="none">0</dynamic>
+                <request_cookie_count>0</request_cookie_count>
+                <response_cookie_count>0</response_cookie_count>
+                <content_mime_type>text/css</content_mime_type>
+                <http_status_code>200</http_status_code>
+                <http_result>OK</http_result>
+                <error_code>0</error_code>
+                <error_message></error_message>
+                <response_status_line>HTTP/1.1 200 OK</response_status_line>
+                <request_line>GET /Style/Main.css HTTP/1.1</request_line>
+                <server_ip>111.118.191.218</server_ip>
+                <server_port>80</server_port>
+                <dnslookup_url_offset_ms>0</dnslookup_url_offset_ms>
+                <dnslookup_duration_ms>0</dnslookup_duration_ms>
+                <blocked_url_offset_ms>0</blocked_url_offset_ms>
+                <blocked_duration_ms>1</blocked_duration_ms>
+                <connect_url_offset_ms>1</connect_url_offset_ms>
+                <connect_duration_ms>0</connect_duration_ms>
+                <send_url_offset_ms>1</send_url_offset_ms>
+                <send_duration_ms>0</send_duration_ms>
+                <wait_url_offset_ms>1</wait_url_offset_ms>
+                <wait_duration_ms>218</wait_duration_ms>
+                <receive_url_offset_ms>219</receive_url_offset_ms>
+                <receive_duration_ms>195</receive_duration_ms>
+              </summary>
+              <request-headers />
+              <response-headers />
+              <timing>
+                <requestId>6</requestId>
+                <index>1</index>
+                <request_start>1438164047068</request_start>
+                <queue_end>0</queue_end>
+                <dns_end>0</dns_end>
+                <blocked_end>1</blocked_end>
+                <connect_start>0</connect_start>
+                <connect_end>0</connect_end>
+                <send_start>1</send_start>
+                <send_end>1</send_end>
+                <wait_end>219</wait_end>
+                <request_end>1438164047482</request_end>
+              </timing>
+            </url>
+            <url>
+              <summary>
+                <url>http://stet2.tetbihar.net/style/form.css</url>
+                <url_number>3</url_number>
+                <offset_ms>964</offset_ms>
+                <started_utc>2015-07-29 10:00:47.069</started_utc>
+                <elapsed_ms>616</elapsed_ms>
+                <http_method>GET</http_method>
+                <redirect>0</redirect>
+                <cachebefore_url_present>0</cachebefore_url_present>
+                <sent_bytes>311</sent_bytes>
+                <received_bytes>22322</received_bytes>
+                <content_size_bytes>5190</content_size_bytes>
+                <completed>1</completed>
+                <dynamic type="none">0</dynamic>
+                <request_cookie_count>0</request_cookie_count>
+                <response_cookie_count>0</response_cookie_count>
+                <content_mime_type>text/css</content_mime_type>
+                <http_status_code>200</http_status_code>
+                <http_result>OK</http_result>
+                <error_code>0</error_code>
+                <error_message></error_message>
+                <response_status_line>HTTP/1.1 200 OK</response_status_line>
+                <request_line>GET /style/form.css HTTP/1.1</request_line>
+                <server_ip>111.118.191.218</server_ip>
+                <server_port>80</server_port>
+                <dnslookup_url_offset_ms>0</dnslookup_url_offset_ms>
+                <dnslookup_duration_ms>0</dnslookup_duration_ms>
+                <blocked_url_offset_ms>0</blocked_url_offset_ms>
+                <blocked_duration_ms>0</blocked_duration_ms>
+                <connect_url_offset_ms>0</connect_url_offset_ms>
+                <connect_duration_ms>199</connect_duration_ms>
+                <send_url_offset_ms>199</send_url_offset_ms>
+                <send_duration_ms>0</send_duration_ms>
+                <wait_url_offset_ms>199</wait_url_offset_ms>
+                <wait_duration_ms>220</wait_duration_ms>
+                <receive_url_offset_ms>419</receive_url_offset_ms>
+                <receive_duration_ms>197</receive_duration_ms>
+              </summary>
+              <request-headers />
+              <response-headers />
+              <timing>
+                <requestId>7</requestId>
+                <index>2</index>
+                <request_start>1438164047069</request_start>
+                <queue_end>0</queue_end>
+                <dns_end>0</dns_end>
+                <blocked_end>0</blocked_end>
+                <connect_start>0</connect_start>
+                <connect_end>199</connect_end>
+                <send_start>199</send_start>
+                <send_end>199</send_end>
+                <wait_end>419</wait_end>
+                <request_end>1438164047685</request_end>
+              </timing>
+            </url>
+            <url>
+              <summary>
+                <url>http://stet2.tetbihar.net/style/extra.css</url>
+                <url_number>4</url_number>
+                <offset_ms>964</offset_ms>
+                <started_utc>2015-07-29 10:00:47.069</started_utc>
+                <elapsed_ms>577</elapsed_ms>
+                <http_method>GET</http_method>
+                <redirect>0</redirect>
+                <cachebefore_url_present>0</cachebefore_url_present>
+                <sent_bytes>312</sent_bytes>
+                <received_bytes>14539</received_bytes>
+                <content_size_bytes>4693</content_size_bytes>
+                <completed>1</completed>
+                <dynamic type="none">0</dynamic>
+                <request_cookie_count>0</request_cookie_count>
+                <response_cookie_count>0</response_cookie_count>
+                <content_mime_type>text/css</content_mime_type>
+                <http_status_code>200</http_status_code>
+                <http_result>OK</http_result>
+                <error_code>0</error_code>
+                <error_message></error_message>
+                <response_status_line>HTTP/1.1 200 OK</response_status_line>
+                <request_line>GET /style/extra.css HTTP/1.1</request_line>
+                <server_ip>111.118.191.218</server_ip>
+                <server_port>80</server_port>
+                <dnslookup_url_offset_ms>0</dnslookup_url_offset_ms>
+                <dnslookup_duration_ms>0</dnslookup_duration_ms>
+                <blocked_url_offset_ms>0</blocked_url_offset_ms>
+                <blocked_duration_ms>0</blocked_duration_ms>
+                <connect_url_offset_ms>0</connect_url_offset_ms>
+                <connect_duration_ms>194</connect_duration_ms>
+                <send_url_offset_ms>194</send_url_offset_ms>
+                <send_duration_ms>0</send_duration_ms>
+                <wait_url_offset_ms>194</wait_url_offset_ms>
+                <wait_duration_ms>192</wait_duration_ms>
+                <receive_url_offset_ms>386</receive_url_offset_ms>
+                <receive_duration_ms>191</receive_duration_ms>
+              </summary>
+              <request-headers />
+              <response-headers />
+              <timing>
+                <requestId>8</requestId>
+                <index>3</index>
+                <request_start>1438164047069</request_start>
+                <queue_end>0</queue_end>
+                <dns_end>0</dns_end>
+                <blocked_end>0</blocked_end>
+                <connect_start>0</connect_start>
+                <connect_end>194</connect_end>
+                <send_start>194</send_start>
+                <send_end>194</send_end>
+                <wait_end>386</wait_end>
+                <request_end>1438164047646</request_end>
+              </timing>
+            </url>
+            <url>
+              <summary>
+                <url>http://stet2.tetbihar.net/Style/calendar.css</url>
+                <url_number>5</url_number>
+                <offset_ms>965</offset_ms>
+                <started_utc>2015-07-29 10:00:47.070</started_utc>
+                <elapsed_ms>383</elapsed_ms>
+                <http_method>GET</http_method>
+                <redirect>0</redirect>
+                <cachebefore_url_present>0</cachebefore_url_present>
+                <sent_bytes>315</sent_bytes>
+                <received_bytes>2559</received_bytes>
+                <content_size_bytes>819</content_size_bytes>
+                <completed>1</completed>
+                <dynamic type="none">0</dynamic>
+                <request_cookie_count>0</request_cookie_count>
+                <response_cookie_count>0</response_cookie_count>
+                <content_mime_type>text/css</content_mime_type>
+                <http_status_code>200</http_status_code>
+                <http_result>OK</http_result>
+                <error_code>0</error_code>
+                <error_message></error_message>
+                <response_status_line>HTTP/1.1 200 OK</response_status_line>
+                <request_line>GET /Style/calendar.css HTTP/1.1</request_line>
+                <server_ip>111.118.191.218</server_ip>
+                <server_port>80</server_port>
+                <dnslookup_url_offset_ms>0</dnslookup_url_offset_ms>
+                <dnslookup_duration_ms>0</dnslookup_duration_ms>
+                <blocked_url_offset_ms>0</blocked_url_offset_ms>
+                <blocked_duration_ms>0</blocked_duration_ms>
+                <connect_url_offset_ms>0</connect_url_offset_ms>
+                <connect_duration_ms>193</connect_duration_ms>
+                <send_url_offset_ms>193</send_url_offset_ms>
+                <send_duration_ms>0</send_duration_ms>
+                <wait_url_offset_ms>193</wait_url_offset_ms>
+                <wait_duration_ms>190</wait_duration_ms>
+                <receive_url_offset_ms>383</receive_url_offset_ms>
+                <receive_duration_ms>0</receive_duration_ms>
+              </summary>
+              <request-headers />
+              <response-headers />
+              <timing>
+                <requestId>9</requestId>
+                <index>4</index>
+                <request_start>1438164047070</request_start>
+                <queue_end>0</queue_end>
+                <dns_end>0</dns_end>
+                <blocked_end>0</blocked_end>
+                <connect_start>0</connect_start>
+                <connect_end>193</connect_end>
+                <send_start>193</send_start>
+                <send_end>193</send_end>
+                <wait_end>383</wait_end>
+                <request_end>1438164047453</request_end>
+              </timing>
+            </url>
+            <url>
+              <summary>
+                <url>http://stet2.tetbihar.net/Alerts/jquery.alerts.css</url>
+                <url_number>6</url_number>
+                <offset_ms>967</offset_ms>
+                <started_utc>2015-07-29 10:00:47.072</started_utc>
+                <elapsed_ms>403</elapsed_ms>
+                <http_method>GET</http_method>
+                <redirect>0</redirect>
+                <cachebefore_url_present>0</cachebefore_url_present>
+                <sent_bytes>321</sent_bytes>
+                <received_bytes>1409</received_bytes>
+                <content_size_bytes>605</content_size_bytes>
+                <completed>1</completed>
+                <dynamic type="none">0</dynamic>
+                <request_cookie_count>0</request_cookie_count>
+                <response_cookie_count>0</response_cookie_count>
+                <content_mime_type>text/css</content_mime_type>
+                <http_status_code>200</http_status_code>
+                <http_result>OK</http_result>
+                <error_code>0</error_code>
+                <error_message></error_message>
+                <response_status_line>HTTP/1.1 200 OK</response_status_line>
+                <request_line>GET /Alerts/jquery.alerts.css HTTP/1.1</request_line>
+                <server_ip>111.118.191.218</server_ip>
+                <server_port>80</server_port>
+                <dnslookup_url_offset_ms>0</dnslookup_url_offset_ms>
+                <dnslookup_duration_ms>0</dnslookup_duration_ms>
+                <blocked_url_offset_ms>0</blocked_url_offset_ms>
+                <blocked_duration_ms>0</blocked_duration_ms>
+                <connect_url_offset_ms>0</connect_url_offset_ms>
+                <connect_duration_ms>197</connect_duration_ms>
+                <send_url_offset_ms>197</send_url_offset_ms>
+                <send_duration_ms>0</send_duration_ms>
+                <wait_url_offset_ms>197</wait_url_offset_ms>
+                <wait_duration_ms>206</wait_duration_ms>
+                <receive_url_offset_ms>403</receive_url_offset_ms>
+                <receive_duration_ms>0</receive_duration_ms>
+              </summary>
+              <request-headers />
+              <response-headers />
+              <timing>
+                <requestId>10</requestId>
+                <index>5</index>
+                <request_start>1438164047072</request_start>
+                <queue_end>0</queue_end>
+                <dns_end>0</dns_end>
+                <blocked_end>0</blocked_end>
+                <connect_start>0</connect_start>
+                <connect_end>197</connect_end>
+                <send_start>197</send_start>
+                <send_end>197</send_end>
+                <wait_end>403</wait_end>
+                <request_end>1438164047475</request_end>
+              </timing>
+            </url>
+            <url>
+              <summary>
+                <url>http://stet2.tetbihar.net/js/jquery-1.5.1.min.js</url>
+                <url_number>7</url_number>
+                <offset_ms>967</offset_ms>
+                <started_utc>2015-07-29 10:00:47.072</started_utc>
+                <elapsed_ms>743</elapsed_ms>
+                <http_method>GET</http_method>
+                <redirect>0</redirect>
+                <cachebefore_url_present>0</cachebefore_url_present>
+                <sent_bytes>304</sent_bytes>
+                <received_bytes>101491</received_bytes>
+                <content_size_bytes>41335</content_size_bytes>
+                <completed>1</completed>
+                <dynamic type="none">0</dynamic>
+                <request_cookie_count>0</request_cookie_count>
+                <response_cookie_count>0</response_cookie_count>
+                <content_mime_type>application/x-javascript</content_mime_type>
+                <http_status_code>200</http_status_code>
+                <http_result>OK</http_result>
+                <error_code>0</error_code>
+                <error_message></error_message>
+                <response_status_line>HTTP/1.1 200 OK</response_status_line>
+                <request_line>GET /js/jquery-1.5.1.min.js HTTP/1.1</request_line>
+                <server_ip>111.118.191.218</server_ip>
+                <server_port>80</server_port>
+                <dnslookup_url_offset_ms>0</dnslookup_url_offset_ms>
+                <dnslookup_duration_ms>0</dnslookup_duration_ms>
+                <blocked_url_offset_ms>0</blocked_url_offset_ms>
+                <blocked_duration_ms>341</blocked_duration_ms>
+                <connect_url_offset_ms>341</connect_url_offset_ms>
+                <connect_duration_ms>0</connect_duration_ms>
+                <send_url_offset_ms>341</send_url_offset_ms>
+                <send_duration_ms>0</send_duration_ms>
+                <wait_url_offset_ms>341</wait_url_offset_ms>
+                <wait_duration_ms>209</wait_duration_ms>
+                <receive_url_offset_ms>550</receive_url_offset_ms>
+                <receive_duration_ms>193</receive_duration_ms>
+              </summary>
+              <request-headers />
+              <response-headers />
+              <timing>
+                <requestId>11</requestId>
+                <index>6</index>
+                <request_start>1438164047072</request_start>
+                <queue_end>0</queue_end>
+                <dns_end>0</dns_end>
+                <blocked_end>341</blocked_end>
+                <connect_start>0</connect_start>
+                <connect_end>0</connect_end>
+                <send_start>341</send_start>
+                <send_end>341</send_end>
+                <wait_end>550</wait_end>
+                <request_end>1438164047815</request_end>
+              </timing>
+            </url>
+            <url>
+              <summary>
+                <url>http://stet2.tetbihar.net/Alerts/jquery.alerts.js</url>
+                <url_number>8</url_number>
+                <offset_ms>967</offset_ms>
+                <started_utc>2015-07-29 10:00:47.072</started_utc>
+                <elapsed_ms>582</elapsed_ms>
+                <http_method>GET</http_method>
+                <redirect>0</redirect>
+                <cachebefore_url_present>0</cachebefore_url_present>
+                <sent_bytes>305</sent_bytes>
+                <received_bytes>7287</received_bytes>
+                <content_size_bytes>2203</content_size_bytes>
+                <completed>1</completed>
+                <dynamic type="none">0</dynamic>
+                <request_cookie_count>0</request_cookie_count>
+                <response_cookie_count>0</response_cookie_count>
+                <content_mime_type>application/x-javascript</content_mime_type>
+                <http_status_code>200</http_status_code>
+                <http_result>OK</http_result>
+                <error_code>0</error_code>
+                <error_message></error_message>
+                <response_status_line>HTTP/1.1 200 OK</response_status_line>
+                <request_line>GET /Alerts/jquery.alerts.js HTTP/1.1</request_line>
+                <server_ip>111.118.191.218</server_ip>
+                <server_port>80</server_port>
+                <dnslookup_url_offset_ms>0</dnslookup_url_offset_ms>
+                <dnslookup_duration_ms>0</dnslookup_duration_ms>
+                <blocked_url_offset_ms>0</blocked_url_offset_ms>
+                <blocked_duration_ms>381</blocked_duration_ms>
+                <connect_url_offset_ms>381</connect_url_offset_ms>
+                <connect_duration_ms>0</connect_duration_ms>
+                <send_url_offset_ms>381</send_url_offset_ms>
+                <send_duration_ms>0</send_duration_ms>
+                <wait_url_offset_ms>381</wait_url_offset_ms>
+                <wait_duration_ms>201</wait_duration_ms>
+                <receive_url_offset_ms>582</receive_url_offset_ms>
+                <receive_duration_ms>0</receive_duration_ms>
+              </summary>
+              <request-headers />
+              <response-headers />
+              <timing>
+                <requestId>12</requestId>
+                <index>7</index>
+                <request_start>1438164047072</request_start>
+                <queue_end>0</queue_end>
+                <dns_end>0</dns_end>
+                <blocked_end>381</blocked_end>
+                <connect_start>0</connect_start>
+                <connect_end>0</connect_end>
+                <send_start>381</send_start>
+                <send_end>381</send_end>
+                <wait_end>582</wait_end>
+                <request_end>1438164047654</request_end>
+              </timing>
+            </url>
+            <url>
+              <summary>
+                <url>http://stet2.tetbihar.net/js/calendar.js</url>
+                <url_number>9</url_number>
+                <offset_ms>967</offset_ms>
+                <started_utc>2015-07-29 10:00:47.072</started_utc>
+                <elapsed_ms>1007</elapsed_ms>
+                <http_method>GET</http_method>
+                <redirect>0</redirect>
+                <cachebefore_url_present>0</cachebefore_url_present>
+                <sent_bytes>296</sent_bytes>
+                <received_bytes>55851</received_bytes>
+                <content_size_bytes>14384</content_size_bytes>
+                <completed>1</completed>
+                <dynamic type="none">0</dynamic>
+                <request_cookie_count>0</request_cookie_count>
+                <response_cookie_count>0</response_cookie_count>
+                <content_mime_type>application/x-javascript</content_mime_type>
+                <http_status_code>200</http_status_code>
+                <http_result>OK</http_result>
+                <error_code>0</error_code>
+                <error_message></error_message>
+                <response_status_line>HTTP/1.1 200 OK</response_status_line>
+                <request_line>GET /js/calendar.js HTTP/1.1</request_line>
+                <server_ip>111.118.191.218</server_ip>
+                <server_port>80</server_port>
+                <dnslookup_url_offset_ms>0</dnslookup_url_offset_ms>
+                <dnslookup_duration_ms>0</dnslookup_duration_ms>
+                <blocked_url_offset_ms>0</blocked_url_offset_ms>
+                <blocked_duration_ms>403</blocked_duration_ms>
+                <connect_url_offset_ms>403</connect_url_offset_ms>
+                <connect_duration_ms>0</connect_duration_ms>
+                <send_url_offset_ms>403</send_url_offset_ms>
+                <send_duration_ms>0</send_duration_ms>
+                <wait_url_offset_ms>403</wait_url_offset_ms>
+                <wait_duration_ms>208</wait_duration_ms>
+                <receive_url_offset_ms>611</receive_url_offset_ms>
+                <receive_duration_ms>396</receive_duration_ms>
+              </summary>
+              <request-headers />
+              <response-headers />
+              <timing>
+                <requestId>13</requestId>
+                <index>8</index>
+                <request_start>1438164047072</request_start>
+                <queue_end>0</queue_end>
+                <dns_end>0</dns_end>
+                <blocked_end>403</blocked_end>
+                <connect_start>0</connect_start>
+                <connect_end>0</connect_end>
+                <send_start>403</send_start>
+                <send_end>403</send_end>
+                <wait_end>611</wait_end>
+                <request_end>1438164048079</request_end>
+              </timing>
+            </url>
+            <url>
+              <summary>
+                <url>http://stet2.tetbihar.net/js/md5.js</url>
+                <url_number>10</url_number>
+                <offset_ms>968</offset_ms>
+                <started_utc>2015-07-29 10:00:47.073</started_utc>
+                <elapsed_ms>626</elapsed_ms>
+                <http_method>GET</http_method>
+                <redirect>0</redirect>
+                <cachebefore_url_present>0</cachebefore_url_present>
+                <sent_bytes>291</sent_bytes>
+                <received_bytes>12607</received_bytes>
+                <content_size_bytes>4673</content_size_bytes>
+                <completed>1</completed>
+                <dynamic type="none">0</dynamic>
+                <request_cookie_count>0</request_cookie_count>
+                <response_cookie_count>0</response_cookie_count>
+                <content_mime_type>application/x-javascript</content_mime_type>
+                <http_status_code>200</http_status_code>
+                <http_result>OK</http_result>
+                <error_code>0</error_code>
+                <error_message></error_message>
+                <response_status_line>HTTP/1.1 200 OK</response_status_line>
+                <request_line>GET /js/md5.js HTTP/1.1</request_line>
+                <server_ip>111.118.191.218</server_ip>
+                <server_port>80</server_port>
+                <dnslookup_url_offset_ms>0</dnslookup_url_offset_ms>
+                <dnslookup_duration_ms>0</dnslookup_duration_ms>
+                <blocked_url_offset_ms>0</blocked_url_offset_ms>
+                <blocked_duration_ms>409</blocked_duration_ms>
+                <connect_url_offset_ms>409</connect_url_offset_ms>
+                <connect_duration_ms>0</connect_duration_ms>
+                <send_url_offset_ms>409</send_url_offset_ms>
+                <send_duration_ms>0</send_duration_ms>
+                <wait_url_offset_ms>409</wait_url_offset_ms>
+                <wait_duration_ms>217</wait_duration_ms>
+                <receive_url_offset_ms>626</receive_url_offset_ms>
+                <receive_duration_ms>0</receive_duration_ms>
+              </summary>
+              <request-headers />
+              <response-headers />
+              <timing>
+                <requestId>14</requestId>
+                <index>9</index>
+                <request_start>1438164047073</request_start>
+                <queue_end>0</queue_end>
+                <dns_end>0</dns_end>
+                <blocked_end>409</blocked_end>
+                <connect_start>0</connect_start>
+                <connect_end>0</connect_end>
+                <send_start>409</send_start>
+                <send_end>409</send_end>
+                <wait_end>626</wait_end>
+                <request_end>1438164047699</request_end>
+              </timing>
+            </url>
+            <url>
+              <summary>
+                <url>http://stet2.tetbihar.net/WebResource.axd?d=0FS9q31G1_X4YR7yIIsJ3VJlqQCsv5mlQ65lu1LjTZtSUg6bXSX_RubGxMFe38QoxJMmoawx54YFNzI1lTI_Swj3K2P3dWBueZ6MTkyZ-36zcEtXgM5RyiGujN5Oo_5dJ9Rfq2gVMYkf3J1HfDEbpyw7M19myyJhYwk1hzUzXBGjVDwu0&amp;amp;t=635734780998042303</url>
+                <url_number>11</url_number>
+                <offset_ms>1131</offset_ms>
+                <started_utc>2015-07-29 10:00:47.236</started_utc>
+                <elapsed_ms>601</elapsed_ms>
+                <http_method>GET</http_method>
+                <redirect>0</redirect>
+                <cachebefore_url_present>0</cachebefore_url_present>
+                <sent_bytes>513</sent_bytes>
+                <received_bytes>2337</received_bytes>
+                <content_size_bytes>612</content_size_bytes>
+                <completed>1</completed>
+                <dynamic type="none">0</dynamic>
+                <request_cookie_count>0</request_cookie_count>
+                <response_cookie_count>0</response_cookie_count>
+                <content_mime_type>text/css</content_mime_type>
+                <http_status_code>200</http_status_code>
+                <http_result>OK</http_result>
+                <error_code>0</error_code>
+                <error_message></error_message>
+                <response_status_line>HTTP/1.1 200 OK</response_status_line>
+                <request_line>GET /WebResource.axd?d=0FS9q31G1_X4YR7yIIsJ3VJlqQCsv5mlQ65lu1LjTZtSUg6bXSX_RubGxMFe38QoxJMmoawx54YFNzI1lTI_Swj3K2P3dWBueZ6MTkyZ-36zcEtXgM5RyiGujN5Oo_5dJ9Rfq2gVMYkf3J1HfDEbpyw7M19myyJhYwk1hzUzXBGjVDwu0&amp;amp;t=635734780998042303 HTTP/1.1</request_line>
+                <server_ip>111.118.191.218</server_ip>
+                <server_port>80</server_port>
+                <dnslookup_url_offset_ms>0</dnslookup_url_offset_ms>
+                <dnslookup_duration_ms>0</dnslookup_duration_ms>
+                <blocked_url_offset_ms>0</blocked_url_offset_ms>
+                <blocked_duration_ms>410</blocked_duration_ms>
+                <connect_url_offset_ms>410</connect_url_offset_ms>
+                <connect_duration_ms>0</connect_duration_ms>
+                <send_url_offset_ms>410</send_url_offset_ms>
+                <send_duration_ms>0</send_duration_ms>
+                <wait_url_offset_ms>410</wait_url_offset_ms>
+                <wait_duration_ms>191</wait_duration_ms>
+                <receive_url_offset_ms>601</receive_url_offset_ms>
+                <receive_duration_ms>0</receive_duration_ms>
+              </summary>
+              <request-headers />
+              <response-headers />
+              <timing>
+                <requestId>25</requestId>
+                <index>10</index>
+                <request_start>1438164047236</request_start>
+                <queue_end>0</queue_end>
+                <dns_end>0</dns_end>
+                <blocked_end>410</blocked_end>
+                <connect_start>0</connect_start>
+                <connect_end>0</connect_end>
+                <send_start>410</send_start>
+                <send_end>410</send_end>
+                <wait_end>601</wait_end>
+                <request_end>1438164047837</request_end>
+              </timing>
+            </url>
+            <url>
+              <summary>
+                <url>http://stet2.tetbihar.net/WebResource.axd?d=TQmU67J2vViNJzKw6WgDQn8QdufIJA_RUnbEAXZBvpk2Md3PW4QQU7L2CrtMBQXYp2UWGEhM5gzguwdJEkCuXPURl4g1&amp;amp;t=634604944860686371</url>
+                <url_number>12</url_number>
+                <offset_ms>1131</offset_ms>
+                <started_utc>2015-07-29 10:00:47.236</started_utc>
+                <elapsed_ms>1062</elapsed_ms>
+                <http_method>GET</http_method>
+                <redirect>0</redirect>
+                <cachebefore_url_present>0</cachebefore_url_present>
+                <sent_bytes>413</sent_bytes>
+                <received_bytes>21118</received_bytes>
+                <content_size_bytes>5224</content_size_bytes>
+                <completed>1</completed>
+                <dynamic type="none">0</dynamic>
+                <request_cookie_count>0</request_cookie_count>
+                <response_cookie_count>0</response_cookie_count>
+                <content_mime_type>application/x-javascript</content_mime_type>
+                <http_status_code>200</http_status_code>
+                <http_result>OK</http_result>
+                <error_code>0</error_code>
+                <error_message></error_message>
+                <response_status_line>HTTP/1.1 200 OK</response_status_line>
+                <request_line>GET /WebResource.axd?d=TQmU67J2vViNJzKw6WgDQn8QdufIJA_RUnbEAXZBvpk2Md3PW4QQU7L2CrtMBQXYp2UWGEhM5gzguwdJEkCuXPURl4g1&amp;amp;t=634604944860686371 HTTP/1.1</request_line>
+                <server_ip>111.118.191.218</server_ip>
+                <server_port>80</server_port>
+                <dnslookup_url_offset_ms>0</dnslookup_url_offset_ms>
+                <dnslookup_duration_ms>0</dnslookup_duration_ms>
+                <blocked_url_offset_ms>0</blocked_url_offset_ms>
+                <blocked_duration_ms>843</blocked_duration_ms>
+                <connect_url_offset_ms>843</connect_url_offset_ms>
+                <connect_duration_ms>0</connect_duration_ms>
+                <send_url_offset_ms>843</send_url_offset_ms>
+                <send_duration_ms>0</send_duration_ms>
+                <wait_url_offset_ms>843</wait_url_offset_ms>
+                <wait_duration_ms>219</wait_duration_ms>
+                <receive_url_offset_ms>1062</receive_url_offset_ms>
+                <receive_duration_ms>0</receive_duration_ms>
+              </summary>
+              <request-headers />
+              <response-headers />
+              <timing>
+                <requestId>26</requestId>
+                <index>11</index>
+                <request_start>1438164047236</request_start>
+                <queue_end>0</queue_end>
+                <dns_end>0</dns_end>
+                <blocked_end>843</blocked_end>
+                <connect_start>0</connect_start>
+                <connect_end>0</connect_end>
+                <send_start>843</send_start>
+                <send_end>843</send_end>
+                <wait_end>1062</wait_end>
+                <request_end>1438164048298</request_end>
+              </timing>
+            </url>
+            <url>
+              <summary>
+                <url>http://stet2.tetbihar.net/ScriptResource.axd?d=K-bZ_cYro-TWH0gbbmdTlkin59eWVsDQYopNlGtfNYd9aZQqi22u0d_A5dwpqMXbaJR99E08UDAgSF7tPCaP0mpZH35-uv4YYRWnSX0mxLsZPGu-58i2Nrmb8UHNokeftpIW9wTPOvZOJJq4cLYfu3iV8EQ1&amp;amp;t=7bf23558</url>
+                <url_number>13</url_number>
+                <offset_ms>1131</offset_ms>
+                <started_utc>2015-07-29 10:00:47.236</started_utc>
+                <elapsed_ms>1068</elapsed_ms>
+                <http_method>GET</http_method>
+                <redirect>0</redirect>
+                <cachebefore_url_present>0</cachebefore_url_present>
+                <sent_bytes>470</sent_bytes>
+                <received_bytes>21919</received_bytes>
+                <content_size_bytes>4828</content_size_bytes>
+                <completed>1</completed>
+                <dynamic type="none">0</dynamic>
+                <request_cookie_count>0</request_cookie_count>
+                <response_cookie_count>0</response_cookie_count>
+                <content_mime_type>application/x-javascript</content_mime_type>
+                <http_status_code>200</http_status_code>
+                <http_result>OK</http_result>
+                <error_code>0</error_code>
+                <error_message></error_message>
+                <response_status_line>HTTP/1.1 200 OK</response_status_line>
+                <request_line>GET /ScriptResource.axd?d=K-bZ_cYro-TWH0gbbmdTlkin59eWVsDQYopNlGtfNYd9aZQqi22u0d_A5dwpqMXbaJR99E08UDAgSF7tPCaP0mpZH35-uv4YYRWnSX0mxLsZPGu-58i2Nrmb8UHNokeftpIW9wTPOvZOJJq4cLYfu3iV8EQ1&amp;amp;t=7bf23558 HTTP/1.1</request_line>
+                <server_ip>111.118.191.218</server_ip>
+                <server_port>80</server_port>
+                <dnslookup_url_offset_ms>0</dnslookup_url_offset_ms>
+                <dnslookup_duration_ms>0</dnslookup_duration_ms>
+                <blocked_url_offset_ms>0</blocked_url_offset_ms>
+                <blocked_duration_ms>843</blocked_duration_ms>
+                <connect_url_offset_ms>843</connect_url_offset_ms>
+                <connect_duration_ms>0</connect_duration_ms>
+                <send_url_offset_ms>843</send_url_offset_ms>
+                <send_duration_ms>0</send_duration_ms>
+                <wait_url_offset_ms>843</wait_url_offset_ms>
+                <wait_duration_ms>225</wait_duration_ms>
+                <receive_url_offset_ms>1068</receive_url_offset_ms>
+                <receive_duration_ms>0</receive_duration_ms>
+              </summary>
+              <request-headers />
+              <response-headers />
+              <timing>
+                <requestId>27</requestId>
+                <index>12</index>
+                <request_start>1438164047236</request_start>
+                <queue_end>0</queue_end>
+                <dns_end>0</dns_end>
+                <blocked_end>843</blocked_end>
+                <connect_start>0</connect_start>
+                <connect_end>0</connect_end>
+                <send_start>843</send_start>
+                <send_end>843</send_end>
+                <wait_end>1068</wait_end>
+                <request_end>1438164048304</request_end>
+              </timing>
+            </url>
+            <url>
+              <summary>
+                <url>http://stet2.tetbihar.net/ScriptResource.axd?d=wj6TwcFr8dj90TCKT3HEYzrWd6vx3PqbScn1w2z8OSiq23GsaHk4v4ZRuvS1T_vDDwhMHDg__G1m-cHF-Vwx2zJOmuulexAadUqOS1PVAuahvRmO_iZve6rdKN1KycfKJMo8izct5Ye7ZlCnxBgLKhKGhQ4AZDdCA1HbTNXej73pvl5kM8rfRfxB0OIZgjxVfnympA2&amp;amp;t=ffffffff8dc250fc</url>
+                <url_number>14</url_number>
+                <offset_ms>1132</offset_ms>
+                <started_utc>2015-07-29 10:00:47.237</started_utc>
+                <elapsed_ms>1248</elapsed_ms>
+                <http_method>GET</http_method>
+                <redirect>0</redirect>
+                <cachebefore_url_present>0</cachebefore_url_present>
+                <sent_bytes>521</sent_bytes>
+                <received_bytes>78754</received_bytes>
+                <content_size_bytes>14050</content_size_bytes>
+                <completed>1</completed>
+                <dynamic type="none">0</dynamic>
+                <request_cookie_count>0</request_cookie_count>
+                <response_cookie_count>0</response_cookie_count>
+                <content_mime_type>application/x-javascript</content_mime_type>
+                <http_status_code>200</http_status_code>
+                <http_result>OK</http_result>
+                <error_code>0</error_code>
+                <error_message></error_message>
+                <response_status_line>HTTP/1.1 200 OK</response_status_line>
+                <request_line>GET /ScriptResource.axd?d=wj6TwcFr8dj90TCKT3HEYzrWd6vx3PqbScn1w2z8OSiq23GsaHk4v4ZRuvS1T_vDDwhMHDg__G1m-cHF-Vwx2zJOmuulexAadUqOS1PVAuahvRmO_iZve6rdKN1KycfKJMo8izct5Ye7ZlCnxBgLKhKGhQ4AZDdCA1HbTNXej73pvl5kM8rfRfxB0OIZgjxVfnympA2&amp;amp;t=ffffffff8dc250fc HTTP/1.1</request_line>
+                <server_ip>111.118.191.218</server_ip>
+                <server_port>80</server_port>
+                <dnslookup_url_offset_ms>0</dnslookup_url_offset_ms>
+                <dnslookup_duration_ms>0</dnslookup_duration_ms>
+                <blocked_url_offset_ms>0</blocked_url_offset_ms>
+                <blocked_duration_ms>842</blocked_duration_ms>
+                <connect_url_offset_ms>842</connect_url_offset_ms>
+                <connect_duration_ms>0</connect_duration_ms>
+                <send_url_offset_ms>842</send_url_offset_ms>
+                <send_duration_ms>0</send_duration_ms>
+                <wait_url_offset_ms>842</wait_url_offset_ms>
+                <wait_duration_ms>208</wait_duration_ms>
+                <receive_url_offset_ms>1050</receive_url_offset_ms>
+                <receive_duration_ms>198</receive_duration_ms>
+              </summary>
+              <request-headers />
+              <response-headers />
+              <timing>
+                <requestId>29</requestId>
+                <index>13</index>
+                <request_start>1438164047237</request_start>
+                <queue_end>0</queue_end>
+                <dns_end>0</dns_end>
+                <blocked_end>842</blocked_end>
+                <connect_start>0</connect_start>
+                <connect_end>0</connect_end>
+                <send_start>842</send_start>
+                <send_end>842</send_end>
+                <wait_end>1050</wait_end>
+                <request_end>1438164048485</request_end>
+              </timing>
+            </url>
+            <url>
+              <summary>
+                <url>http://stet2.tetbihar.net/ScriptResource.axd?d=yUfEdk1-b_CVaSpGqkQroI1xjaUfu8kyVzsJBBQvZyAJlUG7GvDZvUjs_MXZEHAzGbl0CMzS9OZ02flJxdd1-uP2aca5Mc_6HJj-3CRcK4mpQPRNxzGmxzEDDaWQG-rfVjLIgQEYtSGpphH1Xm7eYI5GZPddfgh-aTvX5WrH_RlN2MuT0&amp;amp;t=ffffffff8dc250fc</url>
+                <url_number>15</url_number>
+                <offset_ms>1132</offset_ms>
+                <started_utc>2015-07-29 10:00:47.237</started_utc>
+                <elapsed_ms>1464</elapsed_ms>
+                <http_method>GET</http_method>
+                <redirect>0</redirect>
+                <cachebefore_url_present>0</cachebefore_url_present>
+                <sent_bytes>499</sent_bytes>
+                <received_bytes>311463</received_bytes>
+                <content_size_bytes>53580</content_size_bytes>
+                <completed>1</completed>
+                <dynamic type="none">0</dynamic>
+                <request_cookie_count>0</request_cookie_count>
+                <response_cookie_count>0</response_cookie_count>
+                <content_mime_type>application/x-javascript</content_mime_type>
+                <http_status_code>200</http_status_code>
+                <http_result>OK</http_result>
+                <error_code>0</error_code>
+                <error_message></error_message>
+                <response_status_line>HTTP/1.1 200 OK</response_status_line>
+                <request_line>GET /ScriptResource.axd?d=yUfEdk1-b_CVaSpGqkQroI1xjaUfu8kyVzsJBBQvZyAJlUG7GvDZvUjs_MXZEHAzGbl0CMzS9OZ02flJxdd1-uP2aca5Mc_6HJj-3CRcK4mpQPRNxzGmxzEDDaWQG-rfVjLIgQEYtSGpphH1Xm7eYI5GZPddfgh-aTvX5WrH_RlN2MuT0&amp;amp;t=ffffffff8dc250fc HTTP/1.1</request_line>
+                <server_ip>111.118.191.218</server_ip>
+                <server_port>80</server_port>
+                <dnslookup_url_offset_ms>0</dnslookup_url_offset_ms>
+                <dnslookup_duration_ms>0</dnslookup_duration_ms>
+                <blocked_url_offset_ms>0</blocked_url_offset_ms>
+                <blocked_duration_ms>842</blocked_duration_ms>
+                <connect_url_offset_ms>842</connect_url_offset_ms>
+                <connect_duration_ms>0</connect_duration_ms>
+                <send_url_offset_ms>842</send_url_offset_ms>
+                <send_duration_ms>0</send_duration_ms>
+                <wait_url_offset_ms>842</wait_url_offset_ms>
+                <wait_duration_ms>239</wait_duration_ms>
+                <receive_url_offset_ms>1081</receive_url_offset_ms>
+                <receive_duration_ms>383</receive_duration_ms>
+              </summary>
+              <request-headers />
+              <response-headers />
+              <timing>
+                <requestId>28</requestId>
+                <index>14</index>
+                <request_start>1438164047237</request_start>
+                <queue_end>0</queue_end>
+                <dns_end>0</dns_end>
+                <blocked_end>842</blocked_end>
+                <connect_start>0</connect_start>
+                <connect_end>0</connect_end>
+                <send_start>842</send_start>
+                <send_end>842</send_end>
+                <wait_end>1081</wait_end>
+                <request_end>1438164048701</request_end>
+              </timing>
+            </url>
+            <url>
+              <summary>
+                <url>http://stet2.tetbihar.net/ScriptResource.axd?d=KdkETEuNcUxmOLdRnX9LJbPl89SDGoccBFC26AV_6I3Dg9OM99qioNwGMtpV-8xwxaNZIaSfm4PKD4xmo2SJ8TnrRAAbjtiozPlYO3rGj-_r7S44svC2x6xYkT26abb33pr7nMbZXfYSxPUBiOgPOvj9WrM1&amp;amp;t=ffffffff848c5cde</url>
+                <url_number>16</url_number>
+                <offset_ms>1132</offset_ms>
+                <started_utc>2015-07-29 10:00:47.237</started_utc>
+                <elapsed_ms>1037</elapsed_ms>
+                <http_method>GET</http_method>
+                <redirect>0</redirect>
+                <cachebefore_url_present>0</cachebefore_url_present>
+                <sent_bytes>478</sent_bytes>
+                <received_bytes>28503</received_bytes>
+                <content_size_bytes>6281</content_size_bytes>
+                <completed>1</completed>
+                <dynamic type="none">0</dynamic>
+                <request_cookie_count>0</request_cookie_count>
+                <response_cookie_count>0</response_cookie_count>
+                <content_mime_type>text/javascript</content_mime_type>
+                <http_status_code>200</http_status_code>
+                <http_result>OK</http_result>
+                <error_code>0</error_code>
+                <error_message></error_message>
+                <response_status_line>HTTP/1.1 200 OK</response_status_line>
+                <request_line>GET /ScriptResource.axd?d=KdkETEuNcUxmOLdRnX9LJbPl89SDGoccBFC26AV_6I3Dg9OM99qioNwGMtpV-8xwxaNZIaSfm4PKD4xmo2SJ8TnrRAAbjtiozPlYO3rGj-_r7S44svC2x6xYkT26abb33pr7nMbZXfYSxPUBiOgPOvj9WrM1&amp;amp;t=ffffffff848c5cde HTTP/1.1</request_line>
+                <server_ip>111.118.191.218</server_ip>
+                <server_port>80</server_port>
+                <dnslookup_url_offset_ms>0</dnslookup_url_offset_ms>
+                <dnslookup_duration_ms>0</dnslookup_duration_ms>
+                <blocked_url_offset_ms>0</blocked_url_offset_ms>
+                <blocked_duration_ms>842</blocked_duration_ms>
+                <connect_url_offset_ms>842</connect_url_offset_ms>
+                <connect_duration_ms>0</connect_duration_ms>
+                <send_url_offset_ms>842</send_url_offset_ms>
+                <send_duration_ms>0</send_duration_ms>
+                <wait_url_offset_ms>842</wait_url_offset_ms>
+                <wait_duration_ms>195</wait_duration_ms>
+                <receive_url_offset_ms>1037</receive_url_offset_ms>
+                <receive_duration_ms>0</receive_duration_ms>
+              </summary>
+              <request-headers />
+              <response-headers />
+              <timing>
+                <requestId>30</requestId>
+                <index>15</index>
+                <request_start>1438164047237</request_start>
+                <queue_end>0</queue_end>
+                <dns_end>0</dns_end>
+                <blocked_end>842</blocked_end>
+                <connect_start>0</connect_start>
+                <connect_end>0</connect_end>
+                <send_start>842</send_start>
+                <send_end>842</send_end>
+                <wait_end>1037</wait_end>
+                <request_end>1438164048274</request_end>
+              </timing>
+            </url>
+            <url>
+              <summary>
+                <url>http://stet2.tetbihar.net/ScriptResource.axd?d=MCP8sAbs0QvMDIm-_xxwda77QNzdrx6JuMl7oN-TQg6adcwbjrZ1i4bYSGloqa_y1Q54I1c9HR2YDsfZzurSvKcTySkrx1znu4gnVjuDuu0GK04fb0zgOt9pIFjBRSxJ7tdBmHEs5osaCTFvugH4RJAhlLOpQpr0HeTBJfiT1D4A4RmE0&amp;amp;t=ffffffff848c5cde</url>
+                <url_number>17</url_number>
+                <offset_ms>1132</offset_ms>
+                <started_utc>2015-07-29 10:00:47.237</started_utc>
+                <elapsed_ms>1071</elapsed_ms>
+                <http_method>GET</http_method>
+                <redirect>0</redirect>
+                <cachebefore_url_present>0</cachebefore_url_present>
+                <sent_bytes>499</sent_bytes>
+                <received_bytes>17476</received_bytes>
+                <content_size_bytes>4458</content_size_bytes>
+                <completed>1</completed>
+                <dynamic type="none">0</dynamic>
+                <request_cookie_count>0</request_cookie_count>
+                <response_cookie_count>0</response_cookie_count>
+                <content_mime_type>text/javascript</content_mime_type>
+                <http_status_code>200</http_status_code>
+                <http_result>OK</http_result>
+                <error_code>0</error_code>
+                <error_message></error_message>
+                <response_status_line>HTTP/1.1 200 OK</response_status_line>
+                <request_line>GET /ScriptResource.axd?d=MCP8sAbs0QvMDIm-_xxwda77QNzdrx6JuMl7oN-TQg6adcwbjrZ1i4bYSGloqa_y1Q54I1c9HR2YDsfZzurSvKcTySkrx1znu4gnVjuDuu0GK04fb0zgOt9pIFjBRSxJ7tdBmHEs5osaCTFvugH4RJAhlLOpQpr0HeTBJfiT1D4A4RmE0&amp;amp;t=ffffffff848c5cde HTTP/1.1</request_line>
+                <server_ip>111.118.191.218</server_ip>
+                <server_port>80</server_port>
+                <dnslookup_url_offset_ms>0</dnslookup_url_offset_ms>
+                <dnslookup_duration_ms>0</dnslookup_duration_ms>
+                <blocked_url_offset_ms>0</blocked_url_offset_ms>
+                <blocked_duration_ms>842</blocked_duration_ms>
+                <connect_url_offset_ms>842</connect_url_offset_ms>
+                <connect_duration_ms>0</connect_duration_ms>
+                <send_url_offset_ms>842</send_url_offset_ms>
+                <send_duration_ms>0</send_duration_ms>
+                <wait_url_offset_ms>842</wait_url_offset_ms>
+                <wait_duration_ms>229</wait_duration_ms>
+                <receive_url_offset_ms>1071</receive_url_offset_ms>
+                <receive_duration_ms>0</receive_duration_ms>
+              </summary>
+              <request-headers />
+              <response-headers />
+              <timing>
+                <requestId>31</requestId>
+                <index>16</index>
+                <request_start>1438164047237</request_start>
+                <queue_end>0</queue_end>
+                <dns_end>0</dns_end>
+                <blocked_end>842</blocked_end>
+                <connect_start>0</connect_start>
+                <connect_end>0</connect_end>
+                <send_start>842</send_start>
+                <send_end>842</send_end>
+                <wait_end>1071</wait_end>
+                <request_end>1438164048308</request_end>
+              </timing>
+            </url>
+            <url>
+              <summary>
+                <url>http://stet2.tetbihar.net/ScriptResource.axd?d=FEQPd3RBxtLRuWsXAm6CGcxo7CLQvmA95G2Wo5fNOQKR0SuWJEgJAOgSfIpA54k_sorR8VUtAtAPJ3QaZS3TnMhI_yPnDGE77VQEjGz3c-gJy_rEa-mG8H7od9lwWft6vB6-bth0mHT3Uwwj96_j_Ie5kxLy4RIjYCOSZaoogpJy-2BE076PhIPNajGT0k_664fheQ2&amp;amp;t=ffffffff848c5cde</url>
+                <url_number>18</url_number>
+                <offset_ms>1132</offset_ms>
+                <started_utc>2015-07-29 10:00:47.237</started_utc>
+                <elapsed_ms>1228</elapsed_ms>
+                <http_method>GET</http_method>
+                <redirect>0</redirect>
+                <cachebefore_url_present>0</cachebefore_url_present>
+                <sent_bytes>521</sent_bytes>
+                <received_bytes>8226</received_bytes>
+                <content_size_bytes>1988</content_size_bytes>
+                <completed>1</completed>
+                <dynamic type="none">0</dynamic>
+                <request_cookie_count>0</request_cookie_count>
+                <response_cookie_count>0</response_cookie_count>
+                <content_mime_type>text/javascript</content_mime_type>
+                <http_status_code>200</http_status_code>
+                <http_result>OK</http_result>
+                <error_code>0</error_code>
+                <error_message></error_message>
+                <response_status_line>HTTP/1.1 200 OK</response_status_line>
+                <request_line>GET /ScriptResource.axd?d=FEQPd3RBxtLRuWsXAm6CGcxo7CLQvmA95G2Wo5fNOQKR0SuWJEgJAOgSfIpA54k_sorR8VUtAtAPJ3QaZS3TnMhI_yPnDGE77VQEjGz3c-gJy_rEa-mG8H7od9lwWft6vB6-bth0mHT3Uwwj96_j_Ie5kxLy4RIjYCOSZaoogpJy-2BE076PhIPNajGT0k_664fheQ2&amp;amp;t=ffffffff848c5cde HTTP/1.1</request_line>
+                <server_ip>111.118.191.218</server_ip>
+                <server_port>80</server_port>
+                <dnslookup_url_offset_ms>0</dnslookup_url_offset_ms>
+                <dnslookup_duration_ms>0</dnslookup_duration_ms>
+                <blocked_url_offset_ms>0</blocked_url_offset_ms>
+                <blocked_duration_ms>1037</blocked_duration_ms>
+                <connect_url_offset_ms>1037</connect_url_offset_ms>
+                <connect_duration_ms>0</connect_duration_ms>
+                <send_url_offset_ms>1037</send_url_offset_ms>
+                <send_duration_ms>0</send_duration_ms>
+                <wait_url_offset_ms>1037</wait_url_offset_ms>
+                <wait_duration_ms>191</wait_duration_ms>
+                <receive_url_offset_ms>1228</receive_url_offset_ms>
+                <receive_duration_ms>0</receive_duration_ms>
+              </summary>
+              <request-headers />
+              <response-headers />
+              <timing>
+                <requestId>32</requestId>
+                <index>17</index>
+                <request_start>1438164047237</request_start>
+                <queue_end>0</queue_end>
+                <dns_end>0</dns_end>
+                <blocked_end>1037</blocked_end>
+                <connect_start>0</connect_start>
+                <connect_end>0</connect_end>
+                <send_start>1037</send_start>
+                <send_end>1037</send_end>
+                <wait_end>1228</wait_end>
+                <request_end>1438164048465</request_end>
+              </timing>
+            </url>
+            <url>
+              <summary>
+                <url>http://stet2.tetbihar.net/ScriptResource.axd?d=xWv2oIEhZwAETure8JG08XqPXmv3E1O47r0ae2f40_sX9kNunU_cuAmNrhEIhElg9hHcXPdxbXhWZZBr65NGBWOV_dTl2WIAw0N4bIUdrt-nuGS2A6StijZodvr7VBo2D2-KFgvR8vNLhJxAwMmjFNsgrhU1&amp;amp;t=ffffffff848c5cde</url>
+                <url_number>19</url_number>
+                <offset_ms>1132</offset_ms>
+                <started_utc>2015-07-29 10:00:47.237</started_utc>
+                <elapsed_ms>1256</elapsed_ms>
+                <http_method>GET</http_method>
+                <redirect>0</redirect>
+                <cachebefore_url_present>0</cachebefore_url_present>
+                <sent_bytes>478</sent_bytes>
+                <received_bytes>2121</received_bytes>
+                <content_size_bytes>753</content_size_bytes>
+                <completed>1</completed>
+                <dynamic type="none">0</dynamic>
+                <request_cookie_count>0</request_cookie_count>
+                <response_cookie_count>0</response_cookie_count>
+                <content_mime_type>text/javascript</content_mime_type>
+                <http_status_code>200</http_status_code>
+                <http_result>OK</http_result>
+                <error_code>0</error_code>
+                <error_message></error_message>
+                <response_status_line>HTTP/1.1 200 OK</response_status_line>
+                <request_line>GET /ScriptResource.axd?d=xWv2oIEhZwAETure8JG08XqPXmv3E1O47r0ae2f40_sX9kNunU_cuAmNrhEIhElg9hHcXPdxbXhWZZBr65NGBWOV_dTl2WIAw0N4bIUdrt-nuGS2A6StijZodvr7VBo2D2-KFgvR8vNLhJxAwMmjFNsgrhU1&amp;amp;t=ffffffff848c5cde HTTP/1.1</request_line>
+                <server_ip>111.118.191.218</server_ip>
+                <server_port>80</server_port>
+                <dnslookup_url_offset_ms>0</dnslookup_url_offset_ms>
+                <dnslookup_duration_ms>0</dnslookup_duration_ms>
+                <blocked_url_offset_ms>0</blocked_url_offset_ms>
+                <blocked_duration_ms>1061</blocked_duration_ms>
+                <connect_url_offset_ms>1061</connect_url_offset_ms>
+                <connect_duration_ms>0</connect_duration_ms>
+                <send_url_offset_ms>1061</send_url_offset_ms>
+                <send_duration_ms>0</send_duration_ms>
+                <wait_url_offset_ms>1061</wait_url_offset_ms>
+                <wait_duration_ms>195</wait_duration_ms>
+                <receive_url_offset_ms>1256</receive_url_offset_ms>
+                <receive_duration_ms>0</receive_duration_ms>
+              </summary>
+              <request-headers />
+              <response-headers />
+              <timing>
+                <requestId>33</requestId>
+                <index>18</index>
+                <request_start>1438164047237</request_start>
+                <queue_end>0</queue_end>
+                <dns_end>0</dns_end>
+                <blocked_end>1061</blocked_end>
+                <connect_start>0</connect_start>
+                <connect_end>0</connect_end>
+                <send_start>1061</send_start>
+                <send_end>1061</send_end>
+                <wait_end>1256</wait_end>
+                <request_end>1438164048493</request_end>
+              </timing>
+            </url>
+            <url>
+              <summary>
+                <url>http://stet2.tetbihar.net/ScriptResource.axd?d=0WKNqc5YEIYxNM69L5XWBaUYg0hLOKEhRcwga7-Kj4t2aaS9ns0I1SklE_QmgXPYRgXcfW3AQkIOlLnNsn5wnhy3MlGNSO49cAzNRlVfo9DgdKAeMUV7S7QERZC1414xLSnaYlQLLBCoifGDlqoOBv76gTs1&amp;amp;t=ffffffff848c5cde</url>
+                <url_number>20</url_number>
+                <offset_ms>1133</offset_ms>
+                <started_utc>2015-07-29 10:00:47.238</started_utc>
+                <elapsed_ms>1267</elapsed_ms>
+                <http_method>GET</http_method>
+                <redirect>0</redirect>
+                <cachebefore_url_present>0</cachebefore_url_present>
+                <sent_bytes>478</sent_bytes>
+                <received_bytes>41939</received_bytes>
+                <content_size_bytes>7830</content_size_bytes>
+                <completed>1</completed>
+                <dynamic type="none">0</dynamic>
+                <request_cookie_count>0</request_cookie_count>
+                <response_cookie_count>0</response_cookie_count>
+                <content_mime_type>text/javascript</content_mime_type>
+                <http_status_code>200</http_status_code>
+                <http_result>OK</http_result>
+                <error_code>0</error_code>
+                <error_message></error_message>
+                <response_status_line>HTTP/1.1 200 OK</response_status_line>
+                <request_line>GET /ScriptResource.axd?d=0WKNqc5YEIYxNM69L5XWBaUYg0hLOKEhRcwga7-Kj4t2aaS9ns0I1SklE_QmgXPYRgXcfW3AQkIOlLnNsn5wnhy3MlGNSO49cAzNRlVfo9DgdKAeMUV7S7QERZC1414xLSnaYlQLLBCoifGDlqoOBv76gTs1&amp;amp;t=ffffffff848c5cde HTTP/1.1</request_line>
+                <server_ip>111.118.191.218</server_ip>
+                <server_port>80</server_port>
+                <dnslookup_url_offset_ms>0</dnslookup_url_offset_ms>
+                <dnslookup_duration_ms>0</dnslookup_duration_ms>
+                <blocked_url_offset_ms>0</blocked_url_offset_ms>
+                <blocked_duration_ms>1066</blocked_duration_ms>
+                <connect_url_offset_ms>1066</connect_url_offset_ms>
+                <connect_duration_ms>0</connect_duration_ms>
+                <send_url_offset_ms>1066</send_url_offset_ms>
+                <send_duration_ms>0</send_duration_ms>
+                <wait_url_offset_ms>1066</wait_url_offset_ms>
+                <wait_duration_ms>201</wait_duration_ms>
+                <receive_url_offset_ms>1267</receive_url_offset_ms>
+                <receive_duration_ms>0</receive_duration_ms>
+              </summary>
+              <request-headers />
+              <response-headers />
+              <timing>
+                <requestId>34</requestId>
+                <index>19</index>
+                <request_start>1438164047238</request_start>
+                <queue_end>0</queue_end>
+                <dns_end>0</dns_end>
+                <blocked_end>1066</blocked_end>
+                <connect_start>0</connect_start>
+                <connect_end>0</connect_end>
+                <send_start>1066</send_start>
+                <send_end>1066</send_end>
+                <wait_end>1267</wait_end>
+                <request_end>1438164048505</request_end>
+              </timing>
+            </url>
+            <url>
+              <summary>
+                <url>http://stet2.tetbihar.net/ScriptResource.axd?d=V5py1trgZy1vyQyr6USkkLmAAF23lpql6De9Ikf7f_5Nju7Dsi1vERR7UVQLL0Gq6MD0DrcEFmgLPvu08G3mWAKniF8hVM-KwMyd_7adCKwFYiboysAYBL74KWUCAr53eog4XvZayBoS_tcRSJKrojYX_Kgn8Z7q4MQXI3oXhTJaz7rS0&amp;amp;t=ffffffff848c5cde</url>
+                <url_number>21</url_number>
+                <offset_ms>1133</offset_ms>
+                <started_utc>2015-07-29 10:00:47.238</started_utc>
+                <elapsed_ms>1269</elapsed_ms>
+                <http_method>GET</http_method>
+                <redirect>0</redirect>
+                <cachebefore_url_present>0</cachebefore_url_present>
+                <sent_bytes>499</sent_bytes>
+                <received_bytes>6772</received_bytes>
+                <content_size_bytes>1234</content_size_bytes>
+                <completed>1</completed>
+                <dynamic type="none">0</dynamic>
+                <request_cookie_count>0</request_cookie_count>
+                <response_cookie_count>0</response_cookie_count>
+                <content_mime_type>text/javascript</content_mime_type>
+                <http_status_code>200</http_status_code>
+                <http_result>OK</http_result>
+                <error_code>0</error_code>
+                <error_message></error_message>
+                <response_status_line>HTTP/1.1 200 OK</response_status_line>
+                <request_line>GET /ScriptResource.axd?d=V5py1trgZy1vyQyr6USkkLmAAF23lpql6De9Ikf7f_5Nju7Dsi1vERR7UVQLL0Gq6MD0DrcEFmgLPvu08G3mWAKniF8hVM-KwMyd_7adCKwFYiboysAYBL74KWUCAr53eog4XvZayBoS_tcRSJKrojYX_Kgn8Z7q4MQXI3oXhTJaz7rS0&amp;amp;t=ffffffff848c5cde HTTP/1.1</request_line>
+                <server_ip>111.118.191.218</server_ip>
+                <server_port>80</server_port>
+                <dnslookup_url_offset_ms>0</dnslookup_url_offset_ms>
+                <dnslookup_duration_ms>0</dnslookup_duration_ms>
+                <blocked_url_offset_ms>0</blocked_url_offset_ms>
+                <blocked_duration_ms>1070</blocked_duration_ms>
+                <connect_url_offset_ms>1070</connect_url_offset_ms>
+                <connect_duration_ms>0</connect_duration_ms>
+                <send_url_offset_ms>1070</send_url_offset_ms>
+                <send_duration_ms>0</send_duration_ms>
+                <wait_url_offset_ms>1070</wait_url_offset_ms>
+                <wait_duration_ms>199</wait_duration_ms>
+                <receive_url_offset_ms>1269</receive_url_offset_ms>
+                <receive_duration_ms>0</receive_duration_ms>
+              </summary>
+              <request-headers />
+              <response-headers />
+              <timing>
+                <requestId>35</requestId>
+                <index>20</index>
+                <request_start>1438164047238</request_start>
+                <queue_end>0</queue_end>
+                <dns_end>0</dns_end>
+                <blocked_end>1070</blocked_end>
+                <connect_start>0</connect_start>
+                <connect_end>0</connect_end>
+                <send_start>1070</send_start>
+                <send_end>1070</send_end>
+                <wait_end>1269</wait_end>
+                <request_end>1438164048507</request_end>
+              </timing>
+            </url>
+            <url>
+              <summary>
+                <url>http://stet2.tetbihar.net/ScriptResource.axd?d=OftoI_-L6uA2hONyYzEK4nYxvKZxcussrPE-JDimTy7oW699IBoVw8bKQHja3mJGvAAWpJzbIHe2yFSKHYdwBDFNgW0DZ5U8Og4EFYRgGBY8pHDbwQql_O17zoZx5WmU3eTEdTvEUG8zCn9wiJe6Bs4TqGIdKzbKl6vj_o_uFcmdfkuep1lmt92Y5a3fBMUF3G0-sw2&amp;amp;t=ffffffff848c5cde</url>
+                <url_number>22</url_number>
+                <offset_ms>1133</offset_ms>
+                <started_utc>2015-07-29 10:00:47.238</started_utc>
+                <elapsed_ms>1444</elapsed_ms>
+                <http_method>GET</http_method>
+                <redirect>0</redirect>
+                <cachebefore_url_present>0</cachebefore_url_present>
+                <sent_bytes>521</sent_bytes>
+                <received_bytes>10442</received_bytes>
+                <content_size_bytes>2254</content_size_bytes>
+                <completed>1</completed>
+                <dynamic type="none">0</dynamic>
+                <request_cookie_count>0</request_cookie_count>
+                <response_cookie_count>0</response_cookie_count>
+                <content_mime_type>text/javascript</content_mime_type>
+                <http_status_code>200</http_status_code>
+                <http_result>OK</http_result>
+                <error_code>0</error_code>
+                <error_message></error_message>
+                <response_status_line>HTTP/1.1 200 OK</response_status_line>
+                <request_line>GET /ScriptResource.axd?d=OftoI_-L6uA2hONyYzEK4nYxvKZxcussrPE-JDimTy7oW699IBoVw8bKQHja3mJGvAAWpJzbIHe2yFSKHYdwBDFNgW0DZ5U8Og4EFYRgGBY8pHDbwQql_O17zoZx5WmU3eTEdTvEUG8zCn9wiJe6Bs4TqGIdKzbKl6vj_o_uFcmdfkuep1lmt92Y5a3fBMUF3G0-sw2&amp;amp;t=ffffffff848c5cde HTTP/1.1</request_line>
+                <server_ip>111.118.191.218</server_ip>
+                <server_port>80</server_port>
+                <dnslookup_url_offset_ms>0</dnslookup_url_offset_ms>
+                <dnslookup_duration_ms>0</dnslookup_duration_ms>
+                <blocked_url_offset_ms>0</blocked_url_offset_ms>
+                <blocked_duration_ms>1247</blocked_duration_ms>
+                <connect_url_offset_ms>1247</connect_url_offset_ms>
+                <connect_duration_ms>0</connect_duration_ms>
+                <send_url_offset_ms>1247</send_url_offset_ms>
+                <send_duration_ms>0</send_duration_ms>
+                <wait_url_offset_ms>1247</wait_url_offset_ms>
+                <wait_duration_ms>197</wait_duration_ms>
+                <receive_url_offset_ms>1444</receive_url_offset_ms>
+                <receive_duration_ms>0</receive_duration_ms>
+              </summary>
+              <request-headers />
+              <response-headers />
+              <timing>
+                <requestId>37</requestId>
+                <index>21</index>
+                <request_start>1438164047238</request_start>
+                <queue_end>0</queue_end>
+                <dns_end>0</dns_end>
+                <blocked_end>1247</blocked_end>
+                <connect_start>0</connect_start>
+                <connect_end>0</connect_end>
+                <send_start>1247</send_start>
+                <send_end>1247</send_end>
+                <wait_end>1444</wait_end>
+                <request_end>1438164048682</request_end>
+              </timing>
+            </url>
+            <url>
+              <summary>
+                <url>http://stet2.tetbihar.net/ScriptResource.axd?d=vpNyFtIKOyzBIR_TOzs9lkov-SolPffBCrYDZEj7viHfBHtqvVmS0EbIS7X7v06pCLVQ_TK4173Fu-zok0U2OBQxTrcXSoIJRAhsnyju0iTDiaadez_0ClazKaRKSs2anVTjV20lMzG3qcHSG9dWPZWgwi2AMNDWQyidFjJoKfFQm6HZ0&amp;amp;t=ffffffff848c5cde</url>
+                <url_number>23</url_number>
+                <offset_ms>1133</offset_ms>
+                <started_utc>2015-07-29 10:00:47.238</started_utc>
+                <elapsed_ms>1419</elapsed_ms>
+                <http_method>GET</http_method>
+                <redirect>0</redirect>
+                <cachebefore_url_present>0</cachebefore_url_present>
+                <sent_bytes>499</sent_bytes>
+                <received_bytes>11638</received_bytes>
+                <content_size_bytes>2703</content_size_bytes>
+                <completed>1</completed>
+                <dynamic type="none">0</dynamic>
+                <request_cookie_count>0</request_cookie_count>
+                <response_cookie_count>0</response_cookie_count>
+                <content_mime_type>text/javascript</content_mime_type>
+                <http_status_code>200</http_status_code>
+                <http_result>OK</http_result>
+                <error_code>0</error_code>
+                <error_message></error_message>
+                <response_status_line>HTTP/1.1 200 OK</response_status_line>
+                <request_line>GET /ScriptResource.axd?d=vpNyFtIKOyzBIR_TOzs9lkov-SolPffBCrYDZEj7viHfBHtqvVmS0EbIS7X7v06pCLVQ_TK4173Fu-zok0U2OBQxTrcXSoIJRAhsnyju0iTDiaadez_0ClazKaRKSs2anVTjV20lMzG3qcHSG9dWPZWgwi2AMNDWQyidFjJoKfFQm6HZ0&amp;amp;t=ffffffff848c5cde HTTP/1.1</request_line>
+                <server_ip>111.118.191.218</server_ip>
+                <server_port>80</server_port>
+                <dnslookup_url_offset_ms>0</dnslookup_url_offset_ms>
+                <dnslookup_duration_ms>0</dnslookup_duration_ms>
+                <blocked_url_offset_ms>0</blocked_url_offset_ms>
+                <blocked_duration_ms>1227</blocked_duration_ms>
+                <connect_url_offset_ms>1227</connect_url_offset_ms>
+                <connect_duration_ms>0</connect_duration_ms>
+                <send_url_offset_ms>1227</send_url_offset_ms>
+                <send_duration_ms>0</send_duration_ms>
+                <wait_url_offset_ms>1227</wait_url_offset_ms>
+                <wait_duration_ms>192</wait_duration_ms>
+                <receive_url_offset_ms>1419</receive_url_offset_ms>
+                <receive_duration_ms>0</receive_duration_ms>
+              </summary>
+              <request-headers />
+              <response-headers />
+              <timing>
+                <requestId>36</requestId>
+                <index>22</index>
+                <request_start>1438164047238</request_start>
+                <queue_end>0</queue_end>
+                <dns_end>0</dns_end>
+                <blocked_end>1227</blocked_end>
+                <connect_start>0</connect_start>
+                <connect_end>0</connect_end>
+                <send_start>1227</send_start>
+                <send_end>1227</send_end>
+                <wait_end>1419</wait_end>
+                <request_end>1438164048657</request_end>
+              </timing>
+            </url>
+            <url>
+              <summary>
+                <url>http://stet2.tetbihar.net/ScriptResource.axd?d=P3Ds9wxe6I-EVuk86ltxyFarp0ydfYxxwU3BfFDf0kkfYLJUnZ9wok-UKy1q340y4bpp9qzyEq9XPLpeldGK1AT942Ypi39blt4LsA_EX0J6PTQRp7tjbKjiR9e3dU5-gj-v3XJ_z8-zYHRBouxwq-BBcFILl7OLwYeeVeDhOmMEf5W10&amp;amp;t=ffffffff848c5cde</url>
+                <url_number>24</url_number>
+                <offset_ms>1135</offset_ms>
+                <started_utc>2015-07-29 10:00:47.240</started_utc>
+                <elapsed_ms>1447</elapsed_ms>
+                <http_method>GET</http_method>
+                <redirect>0</redirect>
+                <cachebefore_url_present>0</cachebefore_url_present>
+                <sent_bytes>499</sent_bytes>
+                <received_bytes>7860</received_bytes>
+                <content_size_bytes>1671</content_size_bytes>
+                <completed>1</completed>
+                <dynamic type="none">0</dynamic>
+                <request_cookie_count>0</request_cookie_count>
+                <response_cookie_count>0</response_cookie_count>
+                <content_mime_type>text/javascript</content_mime_type>
+                <http_status_code>200</http_status_code>
+                <http_result>OK</http_result>
+                <error_code>0</error_code>
+                <error_message></error_message>
+                <response_status_line>HTTP/1.1 200 OK</response_status_line>
+                <request_line>GET /ScriptResource.axd?d=P3Ds9wxe6I-EVuk86ltxyFarp0ydfYxxwU3BfFDf0kkfYLJUnZ9wok-UKy1q340y4bpp9qzyEq9XPLpeldGK1AT942Ypi39blt4LsA_EX0J6PTQRp7tjbKjiR9e3dU5-gj-v3XJ_z8-zYHRBouxwq-BBcFILl7OLwYeeVeDhOmMEf5W10&amp;amp;t=ffffffff848c5cde HTTP/1.1</request_line>
+                <server_ip>111.118.191.218</server_ip>
+                <server_port>80</server_port>
+                <dnslookup_url_offset_ms>0</dnslookup_url_offset_ms>
+                <dnslookup_duration_ms>0</dnslookup_duration_ms>
+                <blocked_url_offset_ms>0</blocked_url_offset_ms>
+                <blocked_duration_ms>1253</blocked_duration_ms>
+                <connect_url_offset_ms>1253</connect_url_offset_ms>
+                <connect_duration_ms>0</connect_duration_ms>
+                <send_url_offset_ms>1253</send_url_offset_ms>
+                <send_duration_ms>0</send_duration_ms>
+                <wait_url_offset_ms>1253</wait_url_offset_ms>
+                <wait_duration_ms>194</wait_duration_ms>
+                <receive_url_offset_ms>1447</receive_url_offset_ms>
+                <receive_duration_ms>0</receive_duration_ms>
+              </summary>
+              <request-headers />
+              <response-headers />
+              <timing>
+                <requestId>38</requestId>
+                <index>23</index>
+                <request_start>1438164047240</request_start>
+                <queue_end>0</queue_end>
+                <dns_end>0</dns_end>
+                <blocked_end>1253</blocked_end>
+                <connect_start>0</connect_start>
+                <connect_end>0</connect_end>
+                <send_start>1253</send_start>
+                <send_end>1253</send_end>
+                <wait_end>1447</wait_end>
+                <request_end>1438164048687</request_end>
+              </timing>
+            </url>
+            <url>
+              <summary>
+                <url>http://stet2.tetbihar.net/ScriptResource.axd?d=rBzabl5HJSJOSBe5pgXRSq_Fz-AUEKhqK5425OYME-nyY_mPkp6pBkuIQz1IVDpj9SyTSWAqAlJirKlrunK9p2az-SJ92g5hvgHYMSQEoYtit01cP6bTvIs3Kq-Onb2W8Dp6GOIs_PyzOECuGEAz1FuO73bVSED11qE__8kmZjmCB-rwDd-4F0FLmp9PjqT9BX6hjw2&amp;amp;t=ffffffff848c5cde</url>
+                <url_number>25</url_number>
+                <offset_ms>1135</offset_ms>
+                <started_utc>2015-07-29 10:00:47.240</started_utc>
+                <elapsed_ms>1464</elapsed_ms>
+                <http_method>GET</http_method>
+                <redirect>0</redirect>
+                <cachebefore_url_present>0</cachebefore_url_present>
+                <sent_bytes>521</sent_bytes>
+                <received_bytes>7127</received_bytes>
+                <content_size_bytes>1889</content_size_bytes>
+                <completed>1</completed>
+                <dynamic type="none">0</dynamic>
+                <request_cookie_count>0</request_cookie_count>
+                <response_cookie_count>0</response_cookie_count>
+                <content_mime_type>text/javascript</content_mime_type>
+                <http_status_code>200</http_status_code>
+                <http_result>OK</http_result>
+                <error_code>0</error_code>
+                <error_message></error_message>
+                <response_status_line>HTTP/1.1 200 OK</response_status_line>
+                <request_line>GET /ScriptResource.axd?d=rBzabl5HJSJOSBe5pgXRSq_Fz-AUEKhqK5425OYME-nyY_mPkp6pBkuIQz1IVDpj9SyTSWAqAlJirKlrunK9p2az-SJ92g5hvgHYMSQEoYtit01cP6bTvIs3Kq-Onb2W8Dp6GOIs_PyzOECuGEAz1FuO73bVSED11qE__8kmZjmCB-rwDd-4F0FLmp9PjqT9BX6hjw2&amp;amp;t=ffffffff848c5cde HTTP/1.1</request_line>
+                <server_ip>111.118.191.218</server_ip>
+                <server_port>80</server_port>
+                <dnslookup_url_offset_ms>0</dnslookup_url_offset_ms>
+                <dnslookup_duration_ms>0</dnslookup_duration_ms>
+                <blocked_url_offset_ms>0</blocked_url_offset_ms>
+                <blocked_duration_ms>1265</blocked_duration_ms>
+                <connect_url_offset_ms>1265</connect_url_offset_ms>
+                <connect_duration_ms>0</connect_duration_ms>
+                <send_url_offset_ms>1265</send_url_offset_ms>
+                <send_duration_ms>0</send_duration_ms>
+                <wait_url_offset_ms>1265</wait_url_offset_ms>
+                <wait_duration_ms>199</wait_duration_ms>
+                <receive_url_offset_ms>1464</receive_url_offset_ms>
+                <receive_duration_ms>0</receive_duration_ms>
+              </summary>
+              <request-headers />
+              <response-headers />
+              <timing>
+                <requestId>39</requestId>
+                <index>24</index>
+                <request_start>1438164047240</request_start>
+                <queue_end>0</queue_end>
+                <dns_end>0</dns_end>
+                <blocked_end>1265</blocked_end>
+                <connect_start>0</connect_start>
+                <connect_end>0</connect_end>
+                <send_start>1265</send_start>
+                <send_end>1265</send_end>
+                <wait_end>1464</wait_end>
+                <request_end>1438164048704</request_end>
+              </timing>
+            </url>
+            <url>
+              <summary>
+                <url>http://stet2.tetbihar.net/ScriptResource.axd?d=7aS_YKQpi92ZbLkEr5U8QuIIDZLMCitbkmilwGv1Z1qEbMaZWzNDRvhHuTdZ5VIKkLRZ0IWfyZsaMphqsc6KgB4uWVOLIzD_NNgYrXsLBbxriPq4MQbmW-xBmgt-40Kba2D26ZxYxztWhtbBYdnfZ8o7ajF9L8zWbJLoRzpsExZYpltS0&amp;amp;t=ffffffff848c5cde</url>
+                <url_number>26</url_number>
+                <offset_ms>1135</offset_ms>
+                <started_utc>2015-07-29 10:00:47.240</started_utc>
+                <elapsed_ms>1466</elapsed_ms>
+                <http_method>GET</http_method>
+                <redirect>0</redirect>
+                <cachebefore_url_present>0</cachebefore_url_present>
+                <sent_bytes>499</sent_bytes>
+                <received_bytes>7086</received_bytes>
+                <content_size_bytes>1847</content_size_bytes>
+                <completed>1</completed>
+                <dynamic type="none">0</dynamic>
+                <request_cookie_count>0</request_cookie_count>
+                <response_cookie_count>0</response_cookie_count>
+                <content_mime_type>text/javascript</content_mime_type>
+                <http_status_code>200</http_status_code>
+                <http_result>OK</http_result>
+                <error_code>0</error_code>
+                <error_message></error_message>
+                <response_status_line>HTTP/1.1 200 OK</response_status_line>
+                <request_line>GET /ScriptResource.axd?d=7aS_YKQpi92ZbLkEr5U8QuIIDZLMCitbkmilwGv1Z1qEbMaZWzNDRvhHuTdZ5VIKkLRZ0IWfyZsaMphqsc6KgB4uWVOLIzD_NNgYrXsLBbxriPq4MQbmW-xBmgt-40Kba2D26ZxYxztWhtbBYdnfZ8o7ajF9L8zWbJLoRzpsExZYpltS0&amp;amp;t=ffffffff848c5cde HTTP/1.1</request_line>
+                <server_ip>111.118.191.218</server_ip>
+                <server_port>80</server_port>
+                <dnslookup_url_offset_ms>0</dnslookup_url_offset_ms>
+                <dnslookup_duration_ms>0</dnslookup_duration_ms>
+                <blocked_url_offset_ms>0</blocked_url_offset_ms>
+                <blocked_duration_ms>1267</blocked_duration_ms>
+                <connect_url_offset_ms>1267</connect_url_offset_ms>
+                <connect_duration_ms>0</connect_duration_ms>
+                <send_url_offset_ms>1267</send_url_offset_ms>
+                <send_duration_ms>0</send_duration_ms>
+                <wait_url_offset_ms>1267</wait_url_offset_ms>
+                <wait_duration_ms>199</wait_duration_ms>
+                <receive_url_offset_ms>1466</receive_url_offset_ms>
+                <receive_duration_ms>0</receive_duration_ms>
+              </summary>
+              <request-headers />
+              <response-headers />
+              <timing>
+                <requestId>40</requestId>
+                <index>25</index>
+                <request_start>1438164047240</request_start>
+                <queue_end>0</queue_end>
+                <dns_end>0</dns_end>
+                <blocked_end>1267</blocked_end>
+                <connect_start>0</connect_start>
+                <connect_end>0</connect_end>
+                <send_start>1267</send_start>
+                <send_end>1267</send_end>
+                <wait_end>1466</wait_end>
+                <request_end>1438164048706</request_end>
+              </timing>
+            </url>
+            <url>
+              <summary>
+                <url>http://stet2.tetbihar.net/ScriptResource.axd?d=ue5sARv63rl3DDU9RnnH-9Na4hurcMJRvAZ9902M2HrhmlLQH9EdlcveGtU4o4GIEhG6BN-7s69eILx-PLaFRUrQZV0OTz8SFjiRWHG9L3CROx6_DUCBCqv3IUE33jsj-z2h0tCPH4MQrQQNx1bvR1AtTFBhKSNmAXYcsWh6XpVFL57Qj6_trhY4tKuuKumUjsUoEA2&amp;amp;t=ffffffff848c5cde</url>
+                <url_number>27</url_number>
+                <offset_ms>1318</offset_ms>
+                <started_utc>2015-07-29 10:00:47.423</started_utc>
+                <elapsed_ms>1426</elapsed_ms>
+                <http_method>GET</http_method>
+                <redirect>0</redirect>
+                <cachebefore_url_present>0</cachebefore_url_present>
+                <sent_bytes>521</sent_bytes>
+                <received_bytes>6505</received_bytes>
+                <content_size_bytes>1601</content_size_bytes>
+                <completed>1</completed>
+                <dynamic type="none">0</dynamic>
+                <request_cookie_count>0</request_cookie_count>
+                <response_cookie_count>0</response_cookie_count>
+                <content_mime_type>text/javascript</content_mime_type>
+                <http_status_code>200</http_status_code>
+                <http_result>OK</http_result>
+                <error_code>0</error_code>
+                <error_message></error_message>
+                <response_status_line>HTTP/1.1 200 OK</response_status_line>
+                <request_line>GET /ScriptResource.axd?d=ue5sARv63rl3DDU9RnnH-9Na4hurcMJRvAZ9902M2HrhmlLQH9EdlcveGtU4o4GIEhG6BN-7s69eILx-PLaFRUrQZV0OTz8SFjiRWHG9L3CROx6_DUCBCqv3IUE33jsj-z2h0tCPH4MQrQQNx1bvR1AtTFBhKSNmAXYcsWh6XpVFL57Qj6_trhY4tKuuKumUjsUoEA2&amp;amp;t=ffffffff848c5cde HTTP/1.1</request_line>
+                <server_ip>111.118.191.218</server_ip>
+                <server_port>80</server_port>
+                <dnslookup_url_offset_ms>0</dnslookup_url_offset_ms>
+                <dnslookup_duration_ms>0</dnslookup_duration_ms>
+                <blocked_url_offset_ms>0</blocked_url_offset_ms>
+                <blocked_duration_ms>1234</blocked_duration_ms>
+                <connect_url_offset_ms>1234</connect_url_offset_ms>
+                <connect_duration_ms>0</connect_duration_ms>
+                <send_url_offset_ms>1234</send_url_offset_ms>
+                <send_duration_ms>0</send_duration_ms>
+                <wait_url_offset_ms>1234</wait_url_offset_ms>
+                <wait_duration_ms>192</wait_duration_ms>
+                <receive_url_offset_ms>1426</receive_url_offset_ms>
+                <receive_duration_ms>0</receive_duration_ms>
+              </summary>
+              <request-headers />
+              <response-headers />
+              <timing>
+                <requestId>61</requestId>
+                <index>26</index>
+                <request_start>1438164047423</request_start>
+                <queue_end>0</queue_end>
+                <dns_end>0</dns_end>
+                <blocked_end>1234</blocked_end>
+                <connect_start>0</connect_start>
+                <connect_end>0</connect_end>
+                <send_start>1234</send_start>
+                <send_end>1234</send_end>
+                <wait_end>1426</wait_end>
+                <request_end>1438164048849</request_end>
+              </timing>
+            </url>
+            <url>
+              <summary>
+                <url>http://stet2.tetbihar.net/ScriptResource.axd?d=gFLyDbSyFuGcI4OkTqWHi8-BwrDgSRENL2f0PspurlYIEVw_NS9hEDSrgwTyp4YRk6jtEx8HPkVQ8W6hrL9E1PLmDM9vE7p7HGChWGRvqrKaxMSQyhkQgdawk83JcywONoQ2f_mtgRtc79rhxiLuejZZdzQ1kasHNUGMVSyiEmnyzDUG0&amp;amp;t=ffffffff848c5cde</url>
+                <url_number>28</url_number>
+                <offset_ms>1318</offset_ms>
+                <started_utc>2015-07-29 10:00:47.423</started_utc>
+                <elapsed_ms>1458</elapsed_ms>
+                <http_method>GET</http_method>
+                <redirect>0</redirect>
+                <cachebefore_url_present>0</cachebefore_url_present>
+                <sent_bytes>499</sent_bytes>
+                <received_bytes>23425</received_bytes>
+                <content_size_bytes>4697</content_size_bytes>
+                <completed>1</completed>
+                <dynamic type="none">0</dynamic>
+                <request_cookie_count>0</request_cookie_count>
+                <response_cookie_count>0</response_cookie_count>
+                <content_mime_type>text/javascript</content_mime_type>
+                <http_status_code>200</http_status_code>
+                <http_result>OK</http_result>
+                <error_code>0</error_code>
+                <error_message></error_message>
+                <response_status_line>HTTP/1.1 200 OK</response_status_line>
+                <request_line>GET /ScriptResource.axd?d=gFLyDbSyFuGcI4OkTqWHi8-BwrDgSRENL2f0PspurlYIEVw_NS9hEDSrgwTyp4YRk6jtEx8HPkVQ8W6hrL9E1PLmDM9vE7p7HGChWGRvqrKaxMSQyhkQgdawk83JcywONoQ2f_mtgRtc79rhxiLuejZZdzQ1kasHNUGMVSyiEmnyzDUG0&amp;amp;t=ffffffff848c5cde HTTP/1.1</request_line>
+                <server_ip>111.118.191.218</server_ip>
+                <server_port>80</server_port>
+                <dnslookup_url_offset_ms>0</dnslookup_url_offset_ms>
+                <dnslookup_duration_ms>0</dnslookup_duration_ms>
+                <blocked_url_offset_ms>0</blocked_url_offset_ms>
+                <blocked_duration_ms>1259</blocked_duration_ms>
+                <connect_url_offset_ms>1259</connect_url_offset_ms>
+                <connect_duration_ms>0</connect_duration_ms>
+                <send_url_offset_ms>1259</send_url_offset_ms>
+                <send_duration_ms>0</send_duration_ms>
+                <wait_url_offset_ms>1259</wait_url_offset_ms>
+                <wait_duration_ms>199</wait_duration_ms>
+                <receive_url_offset_ms>1458</receive_url_offset_ms>
+                <receive_duration_ms>0</receive_duration_ms>
+              </summary>
+              <request-headers />
+              <response-headers />
+              <timing>
+                <requestId>62</requestId>
+                <index>27</index>
+                <request_start>1438164047423</request_start>
+                <queue_end>0</queue_end>
+                <dns_end>0</dns_end>
+                <blocked_end>1259</blocked_end>
+                <connect_start>0</connect_start>
+                <connect_end>0</connect_end>
+                <send_start>1259</send_start>
+                <send_end>1259</send_end>
+                <wait_end>1458</wait_end>
+                <request_end>1438164048881</request_end>
+              </timing>
+            </url>
+            <url>
+              <summary>
+                <url>http://stet2.tetbihar.net/ScriptResource.axd?d=uh4t1AWtDV8dtYdSFRLi4aDWw_bGNFa31rXe7olxKdbd5rMOJQkFNwiKN8z78dLMoI4U7-PrGiEHVKwIPddym-h54FTvqeETZSGbGxTlqpURQVU9-ndcB1dwDqwWJC6mD6FDriK2-7A78DDQPMLlZFyJWYZWsbCwxfHIjvI4bWKw0Ydt0&amp;amp;t=ffffffff848c5cde</url>
+                <url_number>29</url_number>
+                <offset_ms>1318</offset_ms>
+                <started_utc>2015-07-29 10:00:47.423</started_utc>
+                <elapsed_ms>1458</elapsed_ms>
+                <http_method>GET</http_method>
+                <redirect>0</redirect>
+                <cachebefore_url_present>0</cachebefore_url_present>
+                <sent_bytes>499</sent_bytes>
+                <received_bytes>4206</received_bytes>
+                <content_size_bytes>1258</content_size_bytes>
+                <completed>1</completed>
+                <dynamic type="none">0</dynamic>
+                <request_cookie_count>0</request_cookie_count>
+                <response_cookie_count>0</response_cookie_count>
+                <content_mime_type>text/javascript</content_mime_type>
+                <http_status_code>200</http_status_code>
+                <http_result>OK</http_result>
+                <error_code>0</error_code>
+                <error_message></error_message>
+                <response_status_line>HTTP/1.1 200 OK</response_status_line>
+                <request_line>GET /ScriptResource.axd?d=uh4t1AWtDV8dtYdSFRLi4aDWw_bGNFa31rXe7olxKdbd5rMOJQkFNwiKN8z78dLMoI4U7-PrGiEHVKwIPddym-h54FTvqeETZSGbGxTlqpURQVU9-ndcB1dwDqwWJC6mD6FDriK2-7A78DDQPMLlZFyJWYZWsbCwxfHIjvI4bWKw0Ydt0&amp;amp;t=ffffffff848c5cde HTTP/1.1</request_line>
+                <server_ip>111.118.191.218</server_ip>
+                <server_port>80</server_port>
+                <dnslookup_url_offset_ms>0</dnslookup_url_offset_ms>
+                <dnslookup_duration_ms>0</dnslookup_duration_ms>
+                <blocked_url_offset_ms>0</blocked_url_offset_ms>
+                <blocked_duration_ms>1264</blocked_duration_ms>
+                <connect_url_offset_ms>1264</connect_url_offset_ms>
+                <connect_duration_ms>0</connect_duration_ms>
+                <send_url_offset_ms>1264</send_url_offset_ms>
+                <send_duration_ms>0</send_duration_ms>
+                <wait_url_offset_ms>1264</wait_url_offset_ms>
+                <wait_duration_ms>194</wait_duration_ms>
+                <receive_url_offset_ms>1458</receive_url_offset_ms>
+                <receive_duration_ms>0</receive_duration_ms>
+              </summary>
+              <request-headers />
+              <response-headers />
+              <timing>
+                <requestId>63</requestId>
+                <index>28</index>
+                <request_start>1438164047423</request_start>
+                <queue_end>0</queue_end>
+                <dns_end>0</dns_end>
+                <blocked_end>1264</blocked_end>
+                <connect_start>0</connect_start>
+                <connect_end>0</connect_end>
+                <send_start>1264</send_start>
+                <send_end>1264</send_end>
+                <wait_end>1458</wait_end>
+                <request_end>1438164048881</request_end>
+              </timing>
+            </url>
+            <url>
+              <summary>
+                <url>http://stet2.tetbihar.net/ScriptResource.axd?d=K7VpvHamiEfCpcKSMsP5KjEDpzjkm1Si4OBufCSw6KnDM_0CdB9tdkm7CyiboDlC1nZ4lMsnIhzLcNUN8Qf4O0IrjpyOYoCxOa7C_J6PdtuVexOMhFNVx5grFots4dLFyXJ7aWLjXXSdk6Zqfa9il805TnrytCOpbwf_nOTTcIoJ46UX0&amp;amp;t=ffffffff848c5cde</url>
+                <url_number>30</url_number>
+                <offset_ms>1318</offset_ms>
+                <started_utc>2015-07-29 10:00:47.423</started_utc>
+                <elapsed_ms>1471</elapsed_ms>
+                <http_method>GET</http_method>
+                <redirect>0</redirect>
+                <cachebefore_url_present>0</cachebefore_url_present>
+                <sent_bytes>499</sent_bytes>
+                <received_bytes>18538</received_bytes>
+                <content_size_bytes>3785</content_size_bytes>
+                <completed>1</completed>
+                <dynamic type="none">0</dynamic>
+                <request_cookie_count>0</request_cookie_count>
+                <response_cookie_count>0</response_cookie_count>
+                <content_mime_type>text/javascript</content_mime_type>
+                <http_status_code>200</http_status_code>
+                <http_result>OK</http_result>
+                <error_code>0</error_code>
+                <error_message></error_message>
+                <response_status_line>HTTP/1.1 200 OK</response_status_line>
+                <request_line>GET /ScriptResource.axd?d=K7VpvHamiEfCpcKSMsP5KjEDpzjkm1Si4OBufCSw6KnDM_0CdB9tdkm7CyiboDlC1nZ4lMsnIhzLcNUN8Qf4O0IrjpyOYoCxOa7C_J6PdtuVexOMhFNVx5grFots4dLFyXJ7aWLjXXSdk6Zqfa9il805TnrytCOpbwf_nOTTcIoJ46UX0&amp;amp;t=ffffffff848c5cde HTTP/1.1</request_line>
+                <server_ip>111.118.191.218</server_ip>
+                <server_port>80</server_port>
+                <dnslookup_url_offset_ms>0</dnslookup_url_offset_ms>
+                <dnslookup_duration_ms>0</dnslookup_duration_ms>
+                <blocked_url_offset_ms>0</blocked_url_offset_ms>
+                <blocked_duration_ms>1278</blocked_duration_ms>
+                <connect_url_offset_ms>1278</connect_url_offset_ms>
+                <connect_duration_ms>0</connect_duration_ms>
+                <send_url_offset_ms>1278</send_url_offset_ms>
+                <send_duration_ms>0</send_duration_ms>
+                <wait_url_offset_ms>1278</wait_url_offset_ms>
+                <wait_duration_ms>193</wait_duration_ms>
+                <receive_url_offset_ms>1471</receive_url_offset_ms>
+                <receive_duration_ms>0</receive_duration_ms>
+              </summary>
+              <request-headers />
+              <response-headers />
+              <timing>
+                <requestId>64</requestId>
+                <index>29</index>
+                <request_start>1438164047423</request_start>
+                <queue_end>0</queue_end>
+                <dns_end>0</dns_end>
+                <blocked_end>1278</blocked_end>
+                <connect_start>0</connect_start>
+                <connect_end>0</connect_end>
+                <send_start>1278</send_start>
+                <send_end>1278</send_end>
+                <wait_end>1471</wait_end>
+                <request_end>1438164048894</request_end>
+              </timing>
+            </url>
+            <url>
+              <summary>
+                <url>http://stet2.tetbihar.net/WebResource.axd?d=HRgtJcMskBfGedBFUiuvaMqeZw9dKi467enWvxFhYOMlvUtgEQeGltO9vSPGP_eToWyDyS67YitL1BcclW5coXTaRyE1&amp;amp;t=634604944860686371</url>
+                <url_number>31</url_number>
+                <offset_ms>1318</offset_ms>
+                <started_utc>2015-07-29 10:00:47.423</started_utc>
+                <elapsed_ms>1478</elapsed_ms>
+                <http_method>GET</http_method>
+                <redirect>0</redirect>
+                <cachebefore_url_present>0</cachebefore_url_present>
+                <sent_bytes>413</sent_bytes>
+                <received_bytes>3328</received_bytes>
+                <content_size_bytes>978</content_size_bytes>
+                <completed>1</completed>
+                <dynamic type="none">0</dynamic>
+                <request_cookie_count>0</request_cookie_count>
+                <response_cookie_count>0</response_cookie_count>
+                <content_mime_type>application/x-javascript</content_mime_type>
+                <http_status_code>200</http_status_code>
+                <http_result>OK</http_result>
+                <error_code>0</error_code>
+                <error_message></error_message>
+                <response_status_line>HTTP/1.1 200 OK</response_status_line>
+                <request_line>GET /WebResource.axd?d=HRgtJcMskBfGedBFUiuvaMqeZw9dKi467enWvxFhYOMlvUtgEQeGltO9vSPGP_eToWyDyS67YitL1BcclW5coXTaRyE1&amp;amp;t=634604944860686371 HTTP/1.1</request_line>
+                <server_ip>111.118.191.218</server_ip>
+                <server_port>80</server_port>
+                <dnslookup_url_offset_ms>0</dnslookup_url_offset_ms>
+                <dnslookup_duration_ms>0</dnslookup_duration_ms>
+                <blocked_url_offset_ms>0</blocked_url_offset_ms>
+                <blocked_duration_ms>1281</blocked_duration_ms>
+                <connect_url_offset_ms>1281</connect_url_offset_ms>
+                <connect_duration_ms>0</connect_duration_ms>
+                <send_url_offset_ms>1281</send_url_offset_ms>
+                <send_duration_ms>0</send_duration_ms>
+                <wait_url_offset_ms>1281</wait_url_offset_ms>
+                <wait_duration_ms>197</wait_duration_ms>
+                <receive_url_offset_ms>1478</receive_url_offset_ms>
+                <receive_duration_ms>0</receive_duration_ms>
+              </summary>
+              <request-headers />
+              <response-headers />
+              <timing>
+                <requestId>65</requestId>
+                <index>30</index>
+                <request_start>1438164047423</request_start>
+                <queue_end>0</queue_end>
+                <dns_end>0</dns_end>
+                <blocked_end>1281</blocked_end>
+                <connect_start>0</connect_start>
+                <connect_end>0</connect_end>
+                <send_start>1281</send_start>
+                <send_end>1281</send_end>
+                <wait_end>1478</wait_end>
+                <request_end>1438164048901</request_end>
+              </timing>
+            </url>
+            <url>
+              <summary>
+                <url>http://stet2.tetbihar.net/Images/Logo.png</url>
+                <url_number>32</url_number>
+                <offset_ms>1319</offset_ms>
+                <started_utc>2015-07-29 10:00:47.424</started_utc>
+                <elapsed_ms>2082</elapsed_ms>
+                <http_method>GET</http_method>
+                <redirect>0</redirect>
+                <cachebefore_url_present>0</cachebefore_url_present>
+                <sent_bytes>327</sent_bytes>
+                <received_bytes>150591</received_bytes>
+                <content_size_bytes>150342</content_size_bytes>
+                <completed>1</completed>
+                <dynamic type="none">0</dynamic>
+                <request_cookie_count>0</request_cookie_count>
+                <response_cookie_count>0</response_cookie_count>
+                <content_mime_type>image/png</content_mime_type>
+                <http_status_code>200</http_status_code>
+                <http_result>OK</http_result>
+                <error_code>0</error_code>
+                <error_message></error_message>
+                <response_status_line>HTTP/1.1 200 OK</response_status_line>
+                <request_line>GET /Images/Logo.png HTTP/1.1</request_line>
+                <server_ip>111.118.191.218</server_ip>
+                <server_port>80</server_port>
+                <dnslookup_url_offset_ms>0</dnslookup_url_offset_ms>
+                <dnslookup_duration_ms>0</dnslookup_duration_ms>
+                <blocked_url_offset_ms>0</blocked_url_offset_ms>
+                <blocked_duration_ms>1282</blocked_duration_ms>
+                <connect_url_offset_ms>1282</connect_url_offset_ms>
+                <connect_duration_ms>0</connect_duration_ms>
+                <send_url_offset_ms>1282</send_url_offset_ms>
+                <send_duration_ms>0</send_duration_ms>
+                <wait_url_offset_ms>1282</wait_url_offset_ms>
+                <wait_duration_ms>203</wait_duration_ms>
+                <receive_url_offset_ms>1485</receive_url_offset_ms>
+                <receive_duration_ms>597</receive_duration_ms>
+              </summary>
+              <request-headers />
+              <response-headers />
+              <timing>
+                <requestId>66</requestId>
+                <index>31</index>
+                <request_start>1438164047424</request_start>
+                <queue_end>0</queue_end>
+                <dns_end>0</dns_end>
+                <blocked_end>1282</blocked_end>
+                <connect_start>0</connect_start>
+                <connect_end>0</connect_end>
+                <send_start>1282</send_start>
+                <send_end>1282</send_end>
+                <wait_end>1485</wait_end>
+                <request_end>1438164049506</request_end>
+              </timing>
+            </url>
+            <url>
+              <summary>
+                <url>http://stet2.tetbihar.net/Images/but_proceed.gif</url>
+                <url_number>33</url_number>
+                <offset_ms>1324</offset_ms>
+                <started_utc>2015-07-29 10:00:47.429</started_utc>
+                <elapsed_ms>1617</elapsed_ms>
+                <http_method>GET</http_method>
+                <redirect>0</redirect>
+                <cachebefore_url_present>0</cachebefore_url_present>
+                <sent_bytes>334</sent_bytes>
+                <received_bytes>1967</received_bytes>
+                <content_size_bytes>1719</content_size_bytes>
+                <completed>1</completed>
+                <dynamic type="none">0</dynamic>
+                <request_cookie_count>0</request_cookie_count>
+                <response_cookie_count>0</response_cookie_count>
+                <content_mime_type>image/gif</content_mime_type>
+                <http_status_code>200</http_status_code>
+                <http_result>OK</http_result>
+                <error_code>0</error_code>
+                <error_message></error_message>
+                <response_status_line>HTTP/1.1 200 OK</response_status_line>
+                <request_line>GET /Images/but_proceed.gif HTTP/1.1</request_line>
+                <server_ip>111.118.191.218</server_ip>
+                <server_port>80</server_port>
+                <dnslookup_url_offset_ms>0</dnslookup_url_offset_ms>
+                <dnslookup_duration_ms>0</dnslookup_duration_ms>
+                <blocked_url_offset_ms>0</blocked_url_offset_ms>
+                <blocked_duration_ms>1420</blocked_duration_ms>
+                <connect_url_offset_ms>1420</connect_url_offset_ms>
+                <connect_duration_ms>0</connect_duration_ms>
+                <send_url_offset_ms>1420</send_url_offset_ms>
+                <send_duration_ms>0</send_duration_ms>
+                <wait_url_offset_ms>1420</wait_url_offset_ms>
+                <wait_duration_ms>197</wait_duration_ms>
+                <receive_url_offset_ms>1617</receive_url_offset_ms>
+                <receive_duration_ms>0</receive_duration_ms>
+              </summary>
+              <request-headers />
+              <response-headers />
+              <timing>
+                <requestId>70</requestId>
+                <index>32</index>
+                <request_start>1438164047429</request_start>
+                <queue_end>0</queue_end>
+                <dns_end>0</dns_end>
+                <blocked_end>1420</blocked_end>
+                <connect_start>0</connect_start>
+                <connect_end>0</connect_end>
+                <send_start>1420</send_start>
+                <send_end>1420</send_end>
+                <wait_end>1617</wait_end>
+                <request_end>1438164049046</request_end>
+              </timing>
+            </url>
+            <url>
+              <summary>
+                <url>http://stet2.tetbihar.net/images/but_reset.gif</url>
+                <url_number>34</url_number>
+                <offset_ms>1324</offset_ms>
+                <started_utc>2015-07-29 10:00:47.429</started_utc>
+                <elapsed_ms>1648</elapsed_ms>
+                <http_method>GET</http_method>
+                <redirect>0</redirect>
+                <cachebefore_url_present>0</cachebefore_url_present>
+                <sent_bytes>332</sent_bytes>
+                <received_bytes>1859</received_bytes>
+                <content_size_bytes>1611</content_size_bytes>
+                <completed>1</completed>
+                <dynamic type="none">0</dynamic>
+                <request_cookie_count>0</request_cookie_count>
+                <response_cookie_count>0</response_cookie_count>
+                <content_mime_type>image/gif</content_mime_type>
+                <http_status_code>200</http_status_code>
+                <http_result>OK</http_result>
+                <error_code>0</error_code>
+                <error_message></error_message>
+                <response_status_line>HTTP/1.1 200 OK</response_status_line>
+                <request_line>GET /images/but_reset.gif HTTP/1.1</request_line>
+                <server_ip>111.118.191.218</server_ip>
+                <server_port>80</server_port>
+                <dnslookup_url_offset_ms>0</dnslookup_url_offset_ms>
+                <dnslookup_duration_ms>0</dnslookup_duration_ms>
+                <blocked_url_offset_ms>0</blocked_url_offset_ms>
+                <blocked_duration_ms>1452</blocked_duration_ms>
+                <connect_url_offset_ms>1452</connect_url_offset_ms>
+                <connect_duration_ms>0</connect_duration_ms>
+                <send_url_offset_ms>1452</send_url_offset_ms>
+                <send_duration_ms>0</send_duration_ms>
+                <wait_url_offset_ms>1452</wait_url_offset_ms>
+                <wait_duration_ms>196</wait_duration_ms>
+                <receive_url_offset_ms>1648</receive_url_offset_ms>
+                <receive_duration_ms>0</receive_duration_ms>
+              </summary>
+              <request-headers />
+              <response-headers />
+              <timing>
+                <requestId>71</requestId>
+                <index>33</index>
+                <request_start>1438164047429</request_start>
+                <queue_end>0</queue_end>
+                <dns_end>0</dns_end>
+                <blocked_end>1452</blocked_end>
+                <connect_start>0</connect_start>
+                <connect_end>0</connect_end>
+                <send_start>1452</send_start>
+                <send_end>1452</send_end>
+                <wait_end>1648</wait_end>
+                <request_end>1438164049077</request_end>
+              </timing>
+            </url>
+            <url>
+              <summary>
+                <url>http://stet2.tetbihar.net/Style/Form.css</url>
+                <url_number>35</url_number>
+                <offset_ms>1383</offset_ms>
+                <started_utc>2015-07-29 10:00:47.488</started_utc>
+                <elapsed_ms>357</elapsed_ms>
+                <http_method>GET</http_method>
+                <redirect>0</redirect>
+                <cachebefore_url_present>0</cachebefore_url_present>
+                <sent_bytes>308</sent_bytes>
+                <received_bytes>22321</received_bytes>
+                <content_size_bytes>3739</content_size_bytes>
+                <completed>1</completed>
+                <dynamic type="none">0</dynamic>
+                <request_cookie_count>0</request_cookie_count>
+                <response_cookie_count>0</response_cookie_count>
+                <content_mime_type>text/css</content_mime_type>
+                <http_status_code>200</http_status_code>
+                <http_result>OK</http_result>
+                <error_code>0</error_code>
+                <error_message></error_message>
+                <response_status_line>HTTP/1.1 200 OK</response_status_line>
+                <request_line>GET /Style/Form.css HTTP/1.1</request_line>
+                <server_ip>111.118.191.218</server_ip>
+                <server_port>80</server_port>
+                <dnslookup_url_offset_ms>0</dnslookup_url_offset_ms>
+                <dnslookup_duration_ms>0</dnslookup_duration_ms>
+                <blocked_url_offset_ms>0</blocked_url_offset_ms>
+                <blocked_duration_ms>166</blocked_duration_ms>
+                <connect_url_offset_ms>166</connect_url_offset_ms>
+                <connect_duration_ms>0</connect_duration_ms>
+                <send_url_offset_ms>166</send_url_offset_ms>
+                <send_duration_ms>0</send_duration_ms>
+                <wait_url_offset_ms>166</wait_url_offset_ms>
+                <wait_duration_ms>191</wait_duration_ms>
+                <receive_url_offset_ms>357</receive_url_offset_ms>
+                <receive_duration_ms>0</receive_duration_ms>
+              </summary>
+              <request-headers />
+              <response-headers />
+              <timing>
+                <requestId>91</requestId>
+                <index>34</index>
+                <request_start>1438164047488</request_start>
+                <queue_end>0</queue_end>
+                <dns_end>0</dns_end>
+                <blocked_end>166</blocked_end>
+                <connect_start>0</connect_start>
+                <connect_end>0</connect_end>
+                <send_start>166</send_start>
+                <send_end>166</send_end>
+                <wait_end>357</wait_end>
+                <request_end>1438164047845</request_end>
+              </timing>
+            </url>
+            <url>
+              <summary>
+                <url>http://stet2.tetbihar.net/Style/Extra.css</url>
+                <url_number>36</url_number>
+                <offset_ms>1384</offset_ms>
+                <started_utc>2015-07-29 10:00:47.489</started_utc>
+                <elapsed_ms>394</elapsed_ms>
+                <http_method>GET</http_method>
+                <redirect>0</redirect>
+                <cachebefore_url_present>0</cachebefore_url_present>
+                <sent_bytes>309</sent_bytes>
+                <received_bytes>14540</received_bytes>
+                <content_size_bytes>3714</content_size_bytes>
+                <completed>1</completed>
+                <dynamic type="none">0</dynamic>
+                <request_cookie_count>0</request_cookie_count>
+                <response_cookie_count>0</response_cookie_count>
+                <content_mime_type>text/css</content_mime_type>
+                <http_status_code>200</http_status_code>
+                <http_result>OK</http_result>
+                <error_code>0</error_code>
+                <error_message></error_message>
+                <response_status_line>HTTP/1.1 200 OK</response_status_line>
+                <request_line>GET /Style/Extra.css HTTP/1.1</request_line>
+                <server_ip>111.118.191.218</server_ip>
+                <server_port>80</server_port>
+                <dnslookup_url_offset_ms>0</dnslookup_url_offset_ms>
+                <dnslookup_duration_ms>0</dnslookup_duration_ms>
+                <blocked_url_offset_ms>0</blocked_url_offset_ms>
+                <blocked_duration_ms>196</blocked_duration_ms>
+                <connect_url_offset_ms>196</connect_url_offset_ms>
+                <connect_duration_ms>0</connect_duration_ms>
+                <send_url_offset_ms>196</send_url_offset_ms>
+                <send_duration_ms>0</send_duration_ms>
+                <wait_url_offset_ms>196</wait_url_offset_ms>
+                <wait_duration_ms>198</wait_duration_ms>
+                <receive_url_offset_ms>394</receive_url_offset_ms>
+                <receive_duration_ms>0</receive_duration_ms>
+              </summary>
+              <request-headers />
+              <response-headers />
+              <timing>
+                <requestId>92</requestId>
+                <index>35</index>
+                <request_start>1438164047489</request_start>
+                <queue_end>0</queue_end>
+                <dns_end>0</dns_end>
+                <blocked_end>196</blocked_end>
+                <connect_start>0</connect_start>
+                <connect_end>0</connect_end>
+                <send_start>196</send_start>
+                <send_end>196</send_end>
+                <wait_end>394</wait_end>
+                <request_end>1438164047883</request_end>
+              </timing>
+            </url>
+            <url>
+              <summary>
+                <url>http://stet2.tetbihar.net/Images/Bg_back_new.png</url>
+                <url_number>37</url_number>
+                <offset_ms>1999</offset_ms>
+                <started_utc>2015-07-29 10:00:48.104</started_utc>
+                <elapsed_ms>970</elapsed_ms>
+                <http_method>GET</http_method>
+                <redirect>0</redirect>
+                <cachebefore_url_present>0</cachebefore_url_present>
+                <sent_bytes>331</sent_bytes>
+                <received_bytes>2503</received_bytes>
+                <content_size_bytes>2255</content_size_bytes>
+                <completed>1</completed>
+                <dynamic type="none">0</dynamic>
+                <request_cookie_count>0</request_cookie_count>
+                <response_cookie_count>0</response_cookie_count>
+                <content_mime_type>image/png</content_mime_type>
+                <http_status_code>200</http_status_code>
+                <http_result>OK</http_result>
+                <error_code>0</error_code>
+                <error_message></error_message>
+                <response_status_line>HTTP/1.1 200 OK</response_status_line>
+                <request_line>GET /Images/Bg_back_new.png HTTP/1.1</request_line>
+                <server_ip>111.118.191.218</server_ip>
+                <server_port>80</server_port>
+                <dnslookup_url_offset_ms>0</dnslookup_url_offset_ms>
+                <dnslookup_duration_ms>0</dnslookup_duration_ms>
+                <blocked_url_offset_ms>0</blocked_url_offset_ms>
+                <blocked_duration_ms>777</blocked_duration_ms>
+                <connect_url_offset_ms>777</connect_url_offset_ms>
+                <connect_duration_ms>0</connect_duration_ms>
+                <send_url_offset_ms>777</send_url_offset_ms>
+                <send_duration_ms>0</send_duration_ms>
+                <wait_url_offset_ms>777</wait_url_offset_ms>
+                <wait_duration_ms>193</wait_duration_ms>
+                <receive_url_offset_ms>970</receive_url_offset_ms>
+                <receive_duration_ms>0</receive_duration_ms>
+              </summary>
+              <request-headers />
+              <response-headers />
+              <timing>
+                <requestId>134</requestId>
+                <index>36</index>
+                <request_start>1438164048104</request_start>
+                <queue_end>0</queue_end>
+                <dns_end>0</dns_end>
+                <blocked_end>777</blocked_end>
+                <connect_start>0</connect_start>
+                <connect_end>0</connect_end>
+                <send_start>777</send_start>
+                <send_end>777</send_end>
+                <wait_end>970</wait_end>
+                <request_end>1438164049074</request_end>
+              </timing>
+            </url>
+            <url>
+              <summary>
+                <url>http://stet2.tetbihar.net/images/but_logProceed2.gif</url>
+                <url_number>38</url_number>
+                <offset_ms>2954</offset_ms>
+                <started_utc>2015-07-29 10:00:49.059</started_utc>
+                <elapsed_ms>195</elapsed_ms>
+                <http_method>GET</http_method>
+                <redirect>0</redirect>
+                <cachebefore_url_present>0</cachebefore_url_present>
+                <sent_bytes>338</sent_bytes>
+                <received_bytes>7387</received_bytes>
+                <content_size_bytes>7139</content_size_bytes>
+                <completed>1</completed>
+                <dynamic type="none">0</dynamic>
+                <request_cookie_count>0</request_cookie_count>
+                <response_cookie_count>0</response_cookie_count>
+                <content_mime_type>image/gif</content_mime_type>
+                <http_status_code>200</http_status_code>
+                <http_result>OK</http_result>
+                <error_code>0</error_code>
+                <error_message></error_message>
+                <response_status_line>HTTP/1.1 200 OK</response_status_line>
+                <request_line>GET /images/but_logProceed2.gif HTTP/1.1</request_line>
+                <server_ip>111.118.191.218</server_ip>
+                <server_port>80</server_port>
+                <dnslookup_url_offset_ms>0</dnslookup_url_offset_ms>
+                <dnslookup_duration_ms>0</dnslookup_duration_ms>
+                <blocked_url_offset_ms>0</blocked_url_offset_ms>
+                <blocked_duration_ms>0</blocked_duration_ms>
+                <connect_url_offset_ms>0</connect_url_offset_ms>
+                <connect_duration_ms>0</connect_duration_ms>
+                <send_url_offset_ms>0</send_url_offset_ms>
+                <send_duration_ms>0</send_duration_ms>
+                <wait_url_offset_ms>0</wait_url_offset_ms>
+                <wait_duration_ms>195</wait_duration_ms>
+                <receive_url_offset_ms>195</receive_url_offset_ms>
+                <receive_duration_ms>0</receive_duration_ms>
+              </summary>
+              <request-headers />
+              <response-headers />
+              <timing>
+                <requestId>225</requestId>
+                <index>37</index>
+                <request_start>1438164049059</request_start>
+                <queue_end>0</queue_end>
+                <dns_end>0</dns_end>
+                <blocked_end>0</blocked_end>
+                <connect_start>0</connect_start>
+                <connect_end>0</connect_end>
+                <send_start>0</send_start>
+                <send_end>0</send_end>
+                <wait_end>195</wait_end>
+                <request_end>1438164049254</request_end>
+              </timing>
+            </url>
+            <url>
+              <summary>
+                <url>http://stet2.tetbihar.net/images/but_login.gif</url>
+                <url_number>39</url_number>
+                <offset_ms>2954</offset_ms>
+                <started_utc>2015-07-29 10:00:49.059</started_utc>
+                <elapsed_ms>202</elapsed_ms>
+                <http_method>GET</http_method>
+                <redirect>0</redirect>
+                <cachebefore_url_present>0</cachebefore_url_present>
+                <sent_bytes>332</sent_bytes>
+                <received_bytes>1859</received_bytes>
+                <content_size_bytes>1611</content_size_bytes>
+                <completed>1</completed>
+                <dynamic type="none">0</dynamic>
+                <request_cookie_count>0</request_cookie_count>
+                <response_cookie_count>0</response_cookie_count>
+                <content_mime_type>image/gif</content_mime_type>
+                <http_status_code>200</http_status_code>
+                <http_result>OK</http_result>
+                <error_code>0</error_code>
+                <error_message></error_message>
+                <response_status_line>HTTP/1.1 200 OK</response_status_line>
+                <request_line>GET /images/but_login.gif HTTP/1.1</request_line>
+                <server_ip>111.118.191.218</server_ip>
+                <server_port>80</server_port>
+                <dnslookup_url_offset_ms>0</dnslookup_url_offset_ms>
+                <dnslookup_duration_ms>0</dnslookup_duration_ms>
+                <blocked_url_offset_ms>0</blocked_url_offset_ms>
+                <blocked_duration_ms>0</blocked_duration_ms>
+                <connect_url_offset_ms>0</connect_url_offset_ms>
+                <connect_duration_ms>0</connect_duration_ms>
+                <send_url_offset_ms>0</send_url_offset_ms>
+                <send_duration_ms>0</send_duration_ms>
+                <wait_url_offset_ms>0</wait_url_offset_ms>
+                <wait_duration_ms>202</wait_duration_ms>
+                <receive_url_offset_ms>202</receive_url_offset_ms>
+                <receive_duration_ms>0</receive_duration_ms>
+              </summary>
+              <request-headers />
+              <response-headers />
+              <timing>
+                <requestId>226</requestId>
+                <index>38</index>
+                <request_start>1438164049059</request_start>
+                <queue_end>0</queue_end>
+                <dns_end>0</dns_end>
+                <blocked_end>0</blocked_end>
+                <connect_start>0</connect_start>
+                <connect_end>0</connect_end>
+                <send_start>0</send_start>
+                <send_end>0</send_end>
+                <wait_end>202</wait_end>
+                <request_end>1438164049261</request_end>
+              </timing>
+            </url>
+            <url>
+              <summary>
+                <url>http://stet2.tetbihar.net/Images/but_close.gif</url>
+                <url_number>40</url_number>
+                <offset_ms>2955</offset_ms>
+                <started_utc>2015-07-29 10:00:49.060</started_utc>
+                <elapsed_ms>194</elapsed_ms>
+                <http_method>GET</http_method>
+                <redirect>0</redirect>
+                <cachebefore_url_present>0</cachebefore_url_present>
+                <sent_bytes>332</sent_bytes>
+                <received_bytes>1957</received_bytes>
+                <content_size_bytes>1709</content_size_bytes>
+                <completed>1</completed>
+                <dynamic type="none">0</dynamic>
+                <request_cookie_count>0</request_cookie_count>
+                <response_cookie_count>0</response_cookie_count>
+                <content_mime_type>image/gif</content_mime_type>
+                <http_status_code>200</http_status_code>
+                <http_result>OK</http_result>
+                <error_code>0</error_code>
+                <error_message></error_message>
+                <response_status_line>HTTP/1.1 200 OK</response_status_line>
+                <request_line>GET /Images/but_close.gif HTTP/1.1</request_line>
+                <server_ip>111.118.191.218</server_ip>
+                <server_port>80</server_port>
+                <dnslookup_url_offset_ms>0</dnslookup_url_offset_ms>
+                <dnslookup_duration_ms>0</dnslookup_duration_ms>
+                <blocked_url_offset_ms>0</blocked_url_offset_ms>
+                <blocked_duration_ms>0</blocked_duration_ms>
+                <connect_url_offset_ms>0</connect_url_offset_ms>
+                <connect_duration_ms>0</connect_duration_ms>
+                <send_url_offset_ms>0</send_url_offset_ms>
+                <send_duration_ms>0</send_duration_ms>
+                <wait_url_offset_ms>0</wait_url_offset_ms>
+                <wait_duration_ms>194</wait_duration_ms>
+                <receive_url_offset_ms>194</receive_url_offset_ms>
+                <receive_duration_ms>0</receive_duration_ms>
+              </summary>
+              <request-headers />
+              <response-headers />
+              <timing>
+                <requestId>227</requestId>
+                <index>39</index>
+                <request_start>1438164049060</request_start>
+                <queue_end>0</queue_end>
+                <dns_end>0</dns_end>
+                <blocked_end>0</blocked_end>
+                <connect_start>0</connect_start>
+                <connect_end>0</connect_end>
+                <send_start>0</send_start>
+                <send_end>0</send_end>
+                <wait_end>194</wait_end>
+                <request_end>1438164049254</request_end>
+              </timing>
+            </url>
+            <url>
+              <summary>
+                <url>http://stet2.tetbihar.net/images/shadowSep.png</url>
+                <url_number>41</url_number>
+                <offset_ms>2955</offset_ms>
+                <started_utc>2015-07-29 10:00:49.060</started_utc>
+                <elapsed_ms>207</elapsed_ms>
+                <http_method>GET</http_method>
+                <redirect>0</redirect>
+                <cachebefore_url_present>0</cachebefore_url_present>
+                <sent_bytes>330</sent_bytes>
+                <received_bytes>361</received_bytes>
+                <content_size_bytes>114</content_size_bytes>
+                <completed>1</completed>
+                <dynamic type="none">0</dynamic>
+                <request_cookie_count>0</request_cookie_count>
+                <response_cookie_count>0</response_cookie_count>
+                <content_mime_type>image/png</content_mime_type>
+                <http_status_code>200</http_status_code>
+                <http_result>OK</http_result>
+                <error_code>0</error_code>
+                <error_message></error_message>
+                <response_status_line>HTTP/1.1 200 OK</response_status_line>
+                <request_line>GET /images/shadowSep.png HTTP/1.1</request_line>
+                <server_ip>111.118.191.218</server_ip>
+                <server_port>80</server_port>
+                <dnslookup_url_offset_ms>0</dnslookup_url_offset_ms>
+                <dnslookup_duration_ms>0</dnslookup_duration_ms>
+                <blocked_url_offset_ms>0</blocked_url_offset_ms>
+                <blocked_duration_ms>14</blocked_duration_ms>
+                <connect_url_offset_ms>14</connect_url_offset_ms>
+                <connect_duration_ms>0</connect_duration_ms>
+                <send_url_offset_ms>14</send_url_offset_ms>
+                <send_duration_ms>0</send_duration_ms>
+                <wait_url_offset_ms>14</wait_url_offset_ms>
+                <wait_duration_ms>193</wait_duration_ms>
+                <receive_url_offset_ms>207</receive_url_offset_ms>
+                <receive_duration_ms>0</receive_duration_ms>
+              </summary>
+              <request-headers />
+              <response-headers />
+              <timing>
+                <requestId>228</requestId>
+                <index>40</index>
+                <request_start>1438164049060</request_start>
+                <queue_end>0</queue_end>
+                <dns_end>0</dns_end>
+                <blocked_end>14</blocked_end>
+                <connect_start>0</connect_start>
+                <connect_end>0</connect_end>
+                <send_start>14</send_start>
+                <send_end>14</send_end>
+                <wait_end>207</wait_end>
+                <request_end>1438164049267</request_end>
+              </timing>
+            </url>
+            <url>
+              <summary>
+                <url>http://stet2.tetbihar.net/Images/icons.png</url>
+                <url_number>42</url_number>
+                <offset_ms>2962</offset_ms>
+                <started_utc>2015-07-29 10:00:49.067</started_utc>
+                <elapsed_ms>206</elapsed_ms>
+                <http_method>GET</http_method>
+                <redirect>0</redirect>
+                <cachebefore_url_present>0</cachebefore_url_present>
+                <sent_bytes>325</sent_bytes>
+                <received_bytes>2411</received_bytes>
+                <content_size_bytes>2163</content_size_bytes>
+                <completed>1</completed>
+                <dynamic type="none">0</dynamic>
+                <request_cookie_count>0</request_cookie_count>
+                <response_cookie_count>0</response_cookie_count>
+                <content_mime_type>image/png</content_mime_type>
+                <http_status_code>200</http_status_code>
+                <http_result>OK</http_result>
+                <error_code>0</error_code>
+                <error_message></error_message>
+                <response_status_line>HTTP/1.1 200 OK</response_status_line>
+                <request_line>GET /Images/icons.png HTTP/1.1</request_line>
+                <server_ip>111.118.191.218</server_ip>
+                <server_port>80</server_port>
+                <dnslookup_url_offset_ms>0</dnslookup_url_offset_ms>
+                <dnslookup_duration_ms>0</dnslookup_duration_ms>
+                <blocked_url_offset_ms>0</blocked_url_offset_ms>
+                <blocked_duration_ms>10</blocked_duration_ms>
+                <connect_url_offset_ms>10</connect_url_offset_ms>
+                <connect_duration_ms>0</connect_duration_ms>
+                <send_url_offset_ms>10</send_url_offset_ms>
+                <send_duration_ms>1</send_duration_ms>
+                <wait_url_offset_ms>11</wait_url_offset_ms>
+                <wait_duration_ms>195</wait_duration_ms>
+                <receive_url_offset_ms>206</receive_url_offset_ms>
+                <receive_duration_ms>0</receive_duration_ms>
+              </summary>
+              <request-headers />
+              <response-headers />
+              <timing>
+                <requestId>232</requestId>
+                <index>41</index>
+                <request_start>1438164049067</request_start>
+                <queue_end>0</queue_end>
+                <dns_end>0</dns_end>
+                <blocked_end>10</blocked_end>
+                <connect_start>0</connect_start>
+                <connect_end>0</connect_end>
+                <send_start>10</send_start>
+                <send_end>11</send_end>
+                <wait_end>206</wait_end>
+                <request_end>1438164049273</request_end>
+              </timing>
+            </url>
+            <url>
+              <summary>
+                <url>http://stet2.tetbihar.net/Images/notBulletBlue.png</url>
+                <url_number>43</url_number>
+                <offset_ms>2963</offset_ms>
+                <started_utc>2015-07-29 10:00:49.068</started_utc>
+                <elapsed_ms>377</elapsed_ms>
+                <http_method>GET</http_method>
+                <redirect>0</redirect>
+                <cachebefore_url_present>0</cachebefore_url_present>
+                <sent_bytes>333</sent_bytes>
+                <received_bytes>394</received_bytes>
+                <content_size_bytes>148</content_size_bytes>
+                <completed>1</completed>
+                <dynamic type="none">0</dynamic>
+                <request_cookie_count>0</request_cookie_count>
+                <response_cookie_count>0</response_cookie_count>
+                <content_mime_type>image/png</content_mime_type>
+                <http_status_code>200</http_status_code>
+                <http_result>OK</http_result>
+                <error_code>0</error_code>
+                <error_message></error_message>
+                <response_status_line>HTTP/1.1 200 OK</response_status_line>
+                <request_line>GET /Images/notBulletBlue.png HTTP/1.1</request_line>
+                <server_ip>111.118.191.218</server_ip>
+                <server_port>80</server_port>
+                <dnslookup_url_offset_ms>0</dnslookup_url_offset_ms>
+                <dnslookup_duration_ms>0</dnslookup_duration_ms>
+                <blocked_url_offset_ms>0</blocked_url_offset_ms>
+                <blocked_duration_ms>186</blocked_duration_ms>
+                <connect_url_offset_ms>186</connect_url_offset_ms>
+                <connect_duration_ms>0</connect_duration_ms>
+                <send_url_offset_ms>186</send_url_offset_ms>
+                <send_duration_ms>0</send_duration_ms>
+                <wait_url_offset_ms>186</wait_url_offset_ms>
+                <wait_duration_ms>191</wait_duration_ms>
+                <receive_url_offset_ms>377</receive_url_offset_ms>
+                <receive_duration_ms>0</receive_duration_ms>
+              </summary>
+              <request-headers />
+              <response-headers />
+              <timing>
+                <requestId>233</requestId>
+                <index>42</index>
+                <request_start>1438164049068</request_start>
+                <queue_end>0</queue_end>
+                <dns_end>0</dns_end>
+                <blocked_end>186</blocked_end>
+                <connect_start>0</connect_start>
+                <connect_end>0</connect_end>
+                <send_start>186</send_start>
+                <send_end>186</send_end>
+                <wait_end>377</wait_end>
+                <request_end>1438164049445</request_end>
+              </timing>
+            </url>
+          </urls>
+        </page>
+      </pages>
+    </step>
+  </steps>
+</result>
