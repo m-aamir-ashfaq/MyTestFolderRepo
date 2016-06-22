@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<loadTestTemplate>
+  <proxySnifferVersion>V5.4-J</proxySnifferVersion>
+  <loadTestProgramPath>/Users/amirashfaq/Source/Apica.ProxySniffer/PrxCore/MyTests/ZippIssue/API_Prima_dynamic_url.zip</loadTestProgramPath>
+  <startFromExecAgentName>Local Exec Agent</startFromExecAgentName>
+  <startFromClusterName></startFromClusterName>
+  <concurrentUsers>1</concurrentUsers>
+  <testDuration>60</testDuration>
+  <loopsPerUser>0</loopsPerUser>
+  <startupDelayPerUser>200</startupDelayPerUser>
+  <downlinkBandwidth>0</downlinkBandwidth>
+  <uplinkBandwidth>0</uplinkBandwidth>
+  <requestTimeout>60</requestTimeout>
+  <maxErrorSnapshots>-20</maxErrorSnapshots>
+  <statisticSamplingInterval>15</statisticSamplingInterval>
+  <percentilePageSamplingPercent>100</percentilePageSamplingPercent>
+  <percentileUrlSamplingPercent>20</percentileUrlSamplingPercent>
+  <percentileUrlSamplingPercentAddOption>0</percentileUrlSamplingPercentAddOption>
+  <debugOptions></debugOptions>
+  <additionalOptions></additionalOptions>
+  <sslOptions>all</sslOptions>
+  <pmaTemplateFileName></pmaTemplateFileName>
+  <testRunAnnotation></testRunAnnotation>
+  <userInputFields>
+    <userInputField>
+      <name>Host</name>
+      <value>164.40.179.226</value>
+    </userInputField>
+  </userInputFields>
+</loadTestTemplate>

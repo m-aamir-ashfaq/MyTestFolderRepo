@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<loadTestTemplate>
+  <proxySnifferVersion>V5.4-F</proxySnifferVersion>
+  <loadTestProgramPath>/Users/amirashfaq/Source/mac/Apica.ProxySniffer/MyTests/Plugins/INLINE_SCRIPT_03.class</loadTestProgramPath>
+  <startFromExecAgentName>Local Exec Agent</startFromExecAgentName>
+  <startFromClusterName></startFromClusterName>
+  <concurrentUsers>1</concurrentUsers>
+  <testDuration>30</testDuration>
+  <loopsPerUser>0</loopsPerUser>
+  <startupDelayPerUser>200</startupDelayPerUser>
+  <downlinkBandwidth>0</downlinkBandwidth>
+  <uplinkBandwidth>0</uplinkBandwidth>
+  <requestTimeout>60</requestTimeout>
+  <maxErrorSnapshots>-20</maxErrorSnapshots>
+  <statisticSamplingInterval>15</statisticSamplingInterval>
+  <percentilePageSamplingPercent>100</percentilePageSamplingPercent>
+  <percentileUrlSamplingPercent>20</percentileUrlSamplingPercent>
+  <percentileUrlSamplingPercentAddOption>0</percentileUrlSamplingPercentAddOption>
+  <debugOptions>-dhc</debugOptions>
+  <additionalOptions></additionalOptions>
+  <sslOptions>all</sslOptions>
+  <pmaTemplateFileName></pmaTemplateFileName>
+  <testRunAnnotation></testRunAnnotation>
+  <userInputFields>
+    <userInputField>
+      <name>vInputField</name>
+      <value>Hallo du</value>
+    </userInputField>
+  </userInputFields>
+</loadTestTemplate>
