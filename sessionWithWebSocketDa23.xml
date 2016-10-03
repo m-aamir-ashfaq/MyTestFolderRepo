@@ -5,7 +5,7 @@
   <startFromExecAgentName>Local Exec Agent</startFromExecAgentName>
   <startFromClusterName></startFromClusterName>
   <concurrentUsers>1</concurrentUsers>
-  <testDuration>30</testDuration>
+  <testDuration>60</testDuration>
   <loopsPerUser>0</loopsPerUser>
   <startupDelayPerUser>200</startupDelayPerUser>
   <downlinkBandwidth>0</downlinkBandwidth>
@@ -16,7 +16,7 @@
   <percentilePageSamplingPercent>100</percentilePageSamplingPercent>
   <percentileUrlSamplingPercent>20</percentileUrlSamplingPercent>
   <percentileUrlSamplingPercentAddOption>0</percentileUrlSamplingPercentAddOption>
-  <debugOptions></debugOptions>
+  <debugOptions>-dhc</debugOptions>
   <additionalOptions></additionalOptions>
   <sslOptions>all</sslOptions>
   <pmaTemplateFileName></pmaTemplateFileName>

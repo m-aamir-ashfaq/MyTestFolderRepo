@@ -1,0 +1,268 @@
++----------------------------------------------------------------+
+| Welcome to the ZebraTester Load Test Program.                  |
+| Additional help available with program argument "-help"        |
+| Procedure Copyright by Ingenieurbuero David Fischer AG,        |
+| a company of the Apica group. All rights reserved.             |
++----------------------------------------------------------------+
+
+Result File : demo8_DE5_11Aug16_133346_1u.prxres
+
+# concurrent users = 1
+# max. parallel threads per user = [serial execution order for all URLs]
+# planned test duration = 60 seconds
+# http request timeout = 60 seconds
+# startup delay = 200 milliseconds
+# statistic sampling interval = 15 seconds
+# additional sampling rate per web page call = 100 %
+# additional sampling rate per url call = 20 %
+# extended sampling per url call = disabled (recommended)
+# max loops per user = unlimited
+# http protocol version = v1.1
+# ssl protocol version = all
+# ssl session cache timeout = 300 seconds
+# result file = demo8_DE5_11Aug16_133346_1u.prxres
+# debug loops
+# debug http protocol headers
+# compiled product version = V5.4-N
+# executed product version = V5.4-N
+>>> ----- ---------------------------------------------------- ----- <<<
+>>>       REMOTE CONTROLLED TEST STARTED - ON LOCAL PORT 40002       <<<
+>>> ----- ---------------------------------------------------- ----- <<<
+
+# --- thread T000000 created --- 11 Aug 2016 13:33:46.824 ---
+T000000 --- loop started --- 11 Aug 2016 13:33:46.824 ---
+T000000
+T000000
+T000000 # Page #1: Start Page
+T000000 # -------------------
+T000000
+T000000 [1] GET https://de18.zopim.com:443/s/W/ws/XlvXV6XfoYtSyN2h/c/1470913066549 ...
+T000000-URL >>> req header: GET /s/W/ws/XlvXV6XfoYtSyN2h/c/1470913066549 HTTP/1.1
+T000000-URL >>> req header: Host: de18.zopim.com
+T000000-URL >>> req header: User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10.11; rv:47.0) Gecko/20100101 Firefox/47.0
+T000000-URL >>> req header: Accept: text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8
+T000000-URL >>> req header: Accept-Language: en-GB,en;q=0.5
+T000000-URL >>> req header: Accept-Encoding: gzip, deflate, br
+T000000-URL >>> req header: Sec-WebSocket-Version: 13
+T000000-URL >>> req header: Origin: http://www.websocket.org
+T000000-URL >>> req header: Sec-WebSocket-Extensions: permessage-deflate
+T000000-URL >>> req header: Sec-WebSocket-Key: dxhTO0lgN/UExYze5QP7NQ==
+T000000-URL >>> req header: Connection: Keep-Alive, Upgrade
+T000000-URL >>> req header: Pragma: no-cache
+T000000-URL >>> req header: Cache-Control: no-cache
+T000000-URL >>> req header: Upgrade: websocket
+T000000-URL <<< rcv header: HTTP/1.1 101 Switching Protocols
+T000000-URL <<< rcv header: Upgrade: websocket
+T000000-URL <<< rcv header: Connection: Upgrade
+T000000-URL <<< rcv header: Sec-WebSocket-Accept: Pv+zkSvl4kUKfa750KnGnoxjYWo=
+T000000-URL <<< rcv header: Sec-WebSocket-Extensions: permessage-deflate
+T000000-URL >>>  ### websocket:  connection successful
+T000000-URL >>>  ### websocket:  Connection duration will be 0seconds
+T000000-URL >>>  ### websocket:  ________     waiting time: 0sec at start._______ 
+Thread-4 >>>  ### decompressed payload : 1470915228560
+2162011
+1
+0
+n
+30000
+Thread-4 <<<  ### websocket:--- vvv - frame start ------------------------ vvv ---
+Thread-4 <<<  ### websocket:fin = true
+Thread-4 <<<  ### websocket:rsv1 = true
+Thread-4 <<<  ### websocket:rsv2 = false
+Thread-4 <<<  ### websocket:rsv3 = false
+Thread-4 <<<  ### websocket:opcode = Text Frame
+Thread-4 <<<  ### websocket:masked = false
+Thread-4 <<<  ### websocket:maskingKey = null
+Thread-4 <<<  ### websocket:payloadLength = 39
+Thread-4 <<<  ### websocket:payload = 1470915228560
+2162011
+1
+0
+n
+30000
+Thread-4 <<<  ### websocket:--- ^^^ - frame end -------------------------- ^^^ ---
+T000000-URL >>>  ### websocket:  ______________________________________________________________________________vvvvv
+T000000-URL >>>  ### websocket:  transmitted message Opcode  : Text Frame
+T000000-URL >>>  ### websocket:  transmitted message Payload : 1470913067090
+541
+1
+0
+n
+134070009013067045
+0
+1
+0
+d
+{"__type":"register","accountKey":"3vCaGRDlZbbiX5tJXSlIABEcEDu5cGAg","cookie_law":false,"dt":"desktop","mID":"c4flcS4pJyF2SF","ref":"","rev":"53cc929d557a33bdf8053a1355ac83822cb44903","source":"widget_v2","theme":"zendesk","title":"websocket.org Echo Test - Powered by Kaazing","ua":"Mozilla/5.0 (Macintosh; Intel Mac OS X 10.11; rv:47.0) Gecko/20100101 Firefox/47.0","url":"http://www.websocket.org/echo.html"}
+T000000-URL >>>  ### websocket:  Compressed Payload : T��n�0��y
++�V����A�Z�P/�q6���(1�P�ݻ��J���fv=�D���x�@
+��U���}J��B"�<��[9B��5�L�{��ڝ*�������ef#�r�����TO''����s{[��0-�m��[sh���qXL�Ea�Z��Y��!��@|+�XH��0�R��Y^��q)��A��L�!��иS��ح�w���/�б+T��1��\�5N��G�ޑ�.�Ɠ��Z�!'م�(u5U��Ia��]��*�%w+�M�]S�Ȣ�`	�&�h�؈��T�#zO��.N(�x�\�}ŝ�M�-�.�?�qܶm�/Y�,*�
+T000000-URL >>>  ### websocket:  ______________________________________________________________________________^^^^^
+Thread-4 >>>  ### decompressed payload : 1470915228610
+2162011
+2
+0
+d
+{"path":"connection","update":{"status$string":"connected","server$string":"de18.zopim.com","server_retired$bool":false,"server_ready$bool":false}}
+Thread-4 <<<  ### websocket:--- vvv - frame start ------------------------ vvv ---
+Thread-4 <<<  ### websocket:fin = true
+Thread-4 <<<  ### websocket:rsv1 = true
+Thread-4 <<<  ### websocket:rsv2 = false
+Thread-4 <<<  ### websocket:rsv3 = false
+Thread-4 <<<  ### websocket:opcode = Text Frame
+Thread-4 <<<  ### websocket:masked = false
+Thread-4 <<<  ### websocket:maskingKey = null
+Thread-4 <<<  ### websocket:payloadLength = 126
+Thread-4 <<<  ### websocket:payload = 1470915228610
+2162011
+2
+0
+d
+{"path":"connection","update":{"status$string":"connected","server$string":"de18.zopim.com","server_retired$bool":false,"server_ready$bool":false}}
+Thread-4 <<<  ### websocket:--- ^^^ - frame end -------------------------- ^^^ ---
+T000000-URL >>>  ### websocket: receiverThread.join(totalSessionTimeMillis);329
+T000000-URL >>>  ### websocket: transmission is done.
+T000000    101 (Switching Protocols), [No Content Type], --- bytes, 835 ms
+T000000 [2] GET http://echo.websocket.org:80/?encoding=text ...
+Thread-4 <<<  ### websocket:--- vvv - frame start ------------------------ vvv ---
+Thread-4 <<<  ### websocket:fin = true
+Thread-4 <<<  ### websocket:rsv1 = false
+Thread-4 <<<  ### websocket:rsv2 = false
+Thread-4 <<<  ### websocket:rsv3 = false
+Thread-4 <<<  ### websocket:opcode = Connection Close
+Thread-4 <<<  ### websocket:masked = false
+Thread-4 <<<  ### websocket:maskingKey = null
+Thread-4 <<<  ### websocket:payloadLength = 2
+Thread-4 <<<  ### websocket:payload = �
+Thread-4 <<<  ### websocket:--- ^^^ - frame end -------------------------- ^^^ ---
+T000000-URL >>> req header: GET /?encoding=text HTTP/1.1
+T000000-URL >>> req header: Host: echo.websocket.org
+T000000-URL >>> req header: User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10.11; rv:47.0) Gecko/20100101 Firefox/47.0
+T000000-URL >>> req header: Accept: text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8
+T000000-URL >>> req header: Accept-Language: en-GB,en;q=0.5
+T000000-URL >>> req header: Accept-Encoding: gzip, deflate
+T000000-URL >>> req header: Sec-WebSocket-Version: 13
+T000000-URL >>> req header: Origin: http://www.websocket.org
+T000000-URL >>> req header: Sec-WebSocket-Extensions: permessage-deflate
+T000000-URL >>> req header: Sec-WebSocket-Key: T+uqjlnnc4KP1q988JBN3w==
+T000000-URL >>> req header: Connection: Keep-Alive, Upgrade
+T000000-URL >>> req header: Pragma: no-cache
+T000000-URL >>> req header: Cache-Control: no-cache
+T000000-URL >>> req header: Upgrade: websocket
+T000000-URL <<< rcv header: HTTP/1.1 101 Web Socket Protocol Handshake
+T000000-URL <<< rcv header: Access-Control-Allow-Credentials: true
+T000000-URL <<< rcv header: Access-Control-Allow-Headers: content-type
+T000000-URL <<< rcv header: Access-Control-Allow-Headers: authorization
+T000000-URL <<< rcv header: Access-Control-Allow-Headers: x-websocket-extensions
+T000000-URL <<< rcv header: Access-Control-Allow-Headers: x-websocket-version
+T000000-URL <<< rcv header: Access-Control-Allow-Headers: x-websocket-protocol
+T000000-URL <<< rcv header: Access-Control-Allow-Origin: http://www.websocket.org
+T000000-URL <<< rcv header: Connection: Upgrade
+T000000-URL <<< rcv header: Date: Thu, 11 Aug 2016 11:36:55 GMT
+T000000-URL <<< rcv header: Sec-WebSocket-Accept: jh7gFGz8nPZY6JSoh0zCkWHyaas=
+T000000-URL <<< rcv header: Server: Kaazing Gateway
+T000000-URL <<< rcv header: Upgrade: websocket
+T000000-URL >>>  ### websocket:  connection successful
+T000000-URL >>>  ### websocket:  Connection duration will be 60seconds
+T000000-URL >>>  ### websocket:  ________     waiting time: 0sec at start._______ 
+T000000-URL >>>  ### websocket:  ______________________________________________________________________________vvvvv
+T000000-URL >>>  ### websocket:  transmitted message Opcode  : Text Frame
+T000000-URL >>>  ### websocket:  transmitted message Payload : Rock it with HTML5 WebSocket
+T000000-URL >>>  ### websocket:  ______________________________________________________________________________^^^^^
+Thread-6 <<<  ### websocket:--- vvv - frame start ------------------------ vvv ---
+Thread-6 <<<  ### websocket:fin = true
+Thread-6 <<<  ### websocket:rsv1 = false
+Thread-6 <<<  ### websocket:rsv2 = false
+Thread-6 <<<  ### websocket:rsv3 = false
+Thread-6 <<<  ### websocket:opcode = Text Frame
+Thread-6 <<<  ### websocket:masked = false
+Thread-6 <<<  ### websocket:maskingKey = null
+Thread-6 <<<  ### websocket:payloadLength = 28
+Thread-6 <<<  ### websocket:payload = Rock it with HTML5 WebSocket
+Thread-6 <<<  ### websocket:--- ^^^ - frame end -------------------------- ^^^ ---
+Thread-6 <<<  ### websocket:--- vvv - frame start ------------------------ vvv ---
+Thread-6 <<<  ### websocket:fin = true
+Thread-6 <<<  ### websocket:rsv1 = false
+Thread-6 <<<  ### websocket:rsv2 = false
+Thread-6 <<<  ### websocket:rsv3 = false
+Thread-6 <<<  ### websocket:opcode = Ping
+Thread-6 <<<  ### websocket:masked = false
+Thread-6 <<<  ### websocket:maskingKey = null
+Thread-6 <<<  ### websocket:payloadLength = 0
+Thread-6 <<<  ### websocket:payload = 
+Thread-6 <<<  ### websocket:--- ^^^ - frame end -------------------------- ^^^ ---
+Thread-6 >>>  ### websocket:  ______________________________________________________________________________vvvvv
+Thread-6 >>>  ### websocket: PONG reply message sent
+Thread-6 >>>  ### websocket:  ______________________________________________________________________________^^^^^
+T000000-URL >>>  ### websocket: receiverThread.join(totalSessionTimeMillis);59267
+T000000-URL >>>  ### websocket: transmission is done.
+T000000    101 (Switching Protocols), [No Content Type], --- bytes, 60328 ms
+T000000 Page 1 Time = 62861 ms
+T000000
+T000000 --- loop passed ---  11 Aug 2016 13:34:49.692 ---
+# 
+# 
+# = =========================
+# = === Final Test Result ===
+# = =========================
+# 
+# 
+# TEST: demo8_DE5
+# ---------------
+# 
+# *** Warning: Debug loops enabled ***
+# *** Warning: Debug HTTP protocol headers enabled ***
+# 
+# 
+# --- test parameter ---
+# concurrent users: 1
+# planned test duration: 60 seconds
+# planned loops per user: unlimited
+# http request timeout: 60 seconds
+# startup delay: 200 milliseconds
+# http protocol version: V1.1
+# statistic sampling interval: 15 seconds
+# additional sampling rate per web page call: 100 %
+# additional sampling rate per url call: 20 %
+# extended sampling level per url call: disabled (recommended)
+# result file: demo8_DE5_11Aug16_133346_1u.prxres
+# 
+# --- test date ---
+# test start:    11 Aug 2016 13:33:46
+# test end:      11 Aug 2016 13:34:49
+# test duration: 1:03 min
+# 
+# --- test sequence ---
+# [0] Page #1: Start Page
+# [1] - GET https://de18.zopim.com:443/s/W/ws/XlvXV6XfoYtSyN2h/c/1470913066549
+# [2] - GET http://echo.websocket.org:80/?encoding=text
+# 
+# --- result details ---
+# [0] Page #1: Start Page (0 ms delay)
+# [1]   passed= 1, failed= 0, average time= 1'183 ms, min= 835 ms, max= 835 ms, size= 1'267 bytes
+# [2]   passed= 1, failed= 0, average time= 120'345 ms, min= 60'328 ms, max= 60'328 ms, size= 1'146 bytes
+# 
+# --- summary ---
+# url calls:
+#  - total passed= 2
+#  - total failed= 0
+#  - failure rate= 0.0 %
+#  - network connect time= 111 ms
+#  - SSL handshake time= 274 ms
+#  - recycled network connections= 0.00 %
+# session results per single user - per loop (averages):
+#  - session time= 121'528 ms (1 page with total 0 ms delay)
+#  - sum of url response time per session= 121'528 ms (2 urls)
+#  - transmitted data= 2'413 bytes
+#  - session throughput= 0.02 kbytes/sec
+# loadtest summary:
+#  - total 0.03 web transactions per second
+#  - total 0.04 kbytes/sec network throughput over http
+#  - session failure rate= 0.0 %
+# 
+
+>>> ----- ------------------------------------------------------- ----- <<<
+>>>       REMOTE CONTROLLED TEST DONE - GOODBYE AND GOOD LUCK!          <<<
+>>> ----- ------------------------------------------------------- ----- <<<
+
+Result File: demo8_DE5_11Aug16_133346_1u.prxres

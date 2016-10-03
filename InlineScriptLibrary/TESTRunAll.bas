@@ -791,3 +791,106 @@ label "end"
 
 //dim random (1 to B) as double
 print "=================================="
+
+
+
+
+print xmlGetData(xmlStr,"document.employee.2.projects.project.1.price")
+print xmlXPath(xmlStr,"document/employee[2]/projects/project[1]/price")
+
+//print xmlGetData(xmlStr, "document.employee.2.name.firstname") 
+expression = "/document/employee[2]/name/firstname"
+print expression
+print xmlXPath(xmlStr,expression)
+
+
+
+xmlStr = "<?xml version=\"1.0\"?><Employees><Employee emplid=\"1111\" type=\"admin\"><firstname>amir</firstname><lastname>ashfaq</lastname><age>30</age><email>johnwatson@sh.com</email></Employee><Employee emplid=\"2222\" type=\"admin\"><firstname>moona</firstname><lastname>tahira</lastname><age>32</age><email>sherlock@sh.com</email></Employee><Employee emplid=\"3333\" type=\"user\"><firstname>ifra</firstname><lastname>eshaal</lastname><age>52</age><email>jim@sh.com</email></Employee><Employee emplid=\"4444\" type=\"user\"><firstname>bilal</firstname> <lastname>usman</lastname><age>41</age><email>mycroft@sh.com</email> </Employee></Employees>"
+
+print "???????????????????????????????????????????????????????????????????"
+expression = "/Employees/Employee[@emplid='3333']/email"
+print expression
+print xmlXPath(xmlStr,expression)
+
+print "???????????????????????????????????????????????????????????????????"
+expression = "count(/Employees/Employee)"
+print expression
+print xmlXPath(xmlStr,expression)
+
+print "???????????????????????????????????????????????????????????????????"
+expression = "//Employees/Employee/firstname | //Employees/Employee/lastname "
+print expression
+print xmlXPath(xmlStr,expression)
+
+print "???????????????????????????????????????????????????????????????????"
+expression = "/Employees/Employee[@type='admin']/firstname"
+print expression
+print xmlXPath(xmlStr,expression)
+
+print "???????????????????????????????????????????????????????????????????"
+expression = "/Employees/Employee[last()-1]/firstname"
+print expression
+print xmlXPath(xmlStr,expression)
+
+print "???????????????????????????????????????????????????????????????????"
+expression = "/Employees/Employee[age>40]"
+print expression
+print xmlXPath(xmlStr,expression)
+
+print "???????????????????????????????????????????????????????????????????"
+expression = "/Employees/Employee[2]"
+print expression
+print xmlXPath(xmlStr,expression)
+
+print "???????????????????????????????????????????????????????????????????"
+expression = "/Employees/Employee[2]/lastname"
+print expression
+print xmlXPath(xmlStr,expression)
+
+print "???????????????????????????????????????????????????????????????????"
+
+jsonStr =     "{\"glossary\": {\"title\": \"example glossary\",\"GlossDiv\": {\"title\": \"S\",\"GlossList\": {\"GlossEntry\": {\"ID\": \"SGML\",\"SortAs\": \"SGML\",\"GlossTerm\": \"Standard Generalized Markup Language\",\"Acronym\": \"SGML\",\"Abbrev\": \"ISO 8879:1986\",\"GlossDef\": {\"para\": \"A meta-markup language, used to create markup languages such as DocBook.\",\"GlossSeeAlso\": [\"GML\", \"XML\"]},\"GlossSee\": \"markup\"}}}}}"
+
+expression = "glossary/GlossDiv/GlossList/GlossEntry/GlossDef/GlossSeeAlso[1]"
+print expression
+print jsonGetData(jsonStr,"glossary.GlossDiv.GlossList.GlossEntry.GlossDef.GlossSeeAlso.1")
+print jsonXPath(jsonStr,expression)
+
+print "???????????????????????????????????????????????????????????????????"
+expression = "glossary/GlossDiv/GlossList/GlossEntry/GlossTerm"
+print expression
+print jsonGetData(jsonStr,"glossary.GlossDiv.GlossList.GlossEntry.GlossTerm")
+print jsonXPath(jsonStr,expression)
+
+print "____________________________________________________"
+print ""
+print "After bugfix mentioned by Ervin (when json data starts with array...)"
+jsonStr ="[{\"id\":103489,\"title\":\"Question 113000233\",\"body\":\"A nurse is performing a Braden scale on a client. What does the nurse understand could contribute to a client developing a pressure ulcer? Select all that apply.\",\"explanation\":\"\",\"optionsHeader\":\"\",\"style\":\"ALL\",\"correctOptions\":[],\"optionTexts\":[\"<td class='optionText' value='1'><p>Client has a fever</p></td>\",\"<td class='optionText' value='2'><p>Repositioning every 2 hours</p></td>\",\"<td class='optionText' value='3'><p>Shearing force</p></td>\",\"<td class='optionText' value='4'><p>Two services rubbing together</p></td>\",\"<td class='optionText' value='5'><p>Excessive moisture</p></td>\"],\"hint\":\"A nurse is performing a Braden scale on a client. What does the nurse understand could contribute to a client developing a pressure ulcer? Select all that apply.\",\"timeSpentSecs\":0},{\"id\":103490,\"title\":\"Question 113000234\",\"body\":\"A nurse is admitting a client with a pressure ulcer to their sacrum. The wound appears open with a pink wound bed, no exudate or slough present. What pressure ulcer stage would the nurse document?\",\"explanation\":\"\",\"optionsHeader\":\"\",\"style\":\"MCQ\",\"correctOptions\":[],\"optionTexts\":[\"<td class='optionText' value='1'><p>Stage I</p></td>\",\"<td class='optionText' value='2'><p>Stage II</p></td>\",\"<td class='optionText' value='3'><p>Stage III</p></td>\",\"<td class='optionText' value='4'><p>Stage IV</p></td>\"],\"hint\":\"A nurse is admitting a client with a pressure ulcer to their sacrum. The wound appears open with a pink wound bed, no exudate or slough present. What pressure ulcer stage would the nurse document?\",\"timeSpentSecs\":0},{\"id\":103491,\"title\":\"Question 113000235\",\"body\":\"A nurse is preparing discharge instructions for a client that experienced an ankle sprain. What statement by the client would indicate the need for further teaching?\",\"explanation\":\"\",\"optionsHeader\":\"\",\"style\":\"MCQ\",\"correctOptions\":[],\"optionTexts\":[\"<td class='optionText' value='1'><p>Using a heating pad right away will help with pain</p></td>\",\"<td class='optionText' value='2'><p>I can use an ace wrap to compress the area</p></td>\",\"<td class='optionText' value='3'><p>I need to elevate my ankle above the level of my heartd. I should rest my injury initially</p></td>\",\"<td class='optionText' value='4'><p>I should rest my injury initially</p></td>\"],\"hint\":\"A nurse is preparing discharge instructions for a client that experienced an ankle sprain. What statement by the client would indicate the need for further teaching?\",\"timeSpentSecs\":0}]"
+print jsonStr
+
+print "2.id > "+jsonGetData(jsonStr,"2.id")
+print "[2]/id > "+ jsonXPath(jsonStr,"[2]/id")
+
+
+// fixed bug when all quotes were removed on concatination...
+jsonStr = "{\"data\":" + jsonStr +"}"
+print jsonStr
+
+print "data.2.id > "+ jsonGetData(jsonStr,"data.2.id")
+print "data[2]/id  > " +jsonXPath(jsonStr,"data[2]/id")
+
+print "____________________________________________________"
+print ""
+
+xmlArray = "<note><to>Tove</to><from>Jani</from><heading>Reminder</heading><body>Don't forget me this weekend!</body></note><note><to>Tove2</to><from>Jani2</from><heading>Reminder2</heading><body>Don't forget me this weekend!2</body></note><note><to>Tove3</to><from>Jani3</from><heading>Reminder3</heading><body>Don't forget me this weekend!3</body></note>"
+print xmlArray
+print "xmlGetData 2.from >" +xmlGetData(xmlArray,"2.from")
+
+print "xmlXPath [2]/from >" +xmlXPath(xmlArray,"[2]/from")
+print "xmlXPath note[2]/from >" +xmlXPath(xmlArray,"note[2]/from")
+
+
+ xmlArray2 = "<data><note><to>Tove</to><from>Jani</from><heading>Reminder</heading><body>Don't forget me this weekend!</body></note><note><to>Tove2</to><from>Jani2</from><heading>Reminder2</heading><body>Don't forget me this weekend!2</body></note><note><to>Tove3</to><from>Jani3</from><heading>Reminder3</heading><body>Don't forget me this weekend!3</body></note></data>"
+print xmlArray2
+ print "xmlXPath data/note[2]/from >" +xmlXPath(xmlArray2,"data/note[2]/from")
+

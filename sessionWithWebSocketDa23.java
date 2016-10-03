@@ -5,7 +5,7 @@
 // -----------------------------------------
 //
 // Source: sessionWithWebSocketDa23.java
-// Date  : 20 Jun 2016 10:36:45 ECT
+// Date  : 28 Jun 2016 12:05:57 ECT
 // Author: Apica ZebraTester V5.4-K / automatically generated
 //
 // Procedure Copyright by Ingenieurbuero David Fischer AG  |  A Company of the Apica Group
@@ -173,8 +173,12 @@ public class sessionWithWebSocketDa23 extends HttpLoadTest implements Runnable, 
 	private TextLineTokenExtractor textLineTokenExtractor = null; // re-used, scratch, used to extract vars from http response
 	private ContentTokenExtractor contentTokenExtractor = null;   // re-used, scratch, used to extract vars from http response
 	
+	private static String standAloneVar = "kkj";                                 // var declaration from web admin var handler: scope = global
+
 	private volatile UserTransactionRuntimeHandler transactionHandler = new UserTransactionRuntimeHandler();		// re-used, support to manage user-defined transactions
 
+	private String ss = null;                            // var declaration from web admin var handler: scope = per loop
+	
 
 	/**
 	 * constructor: called from load test plug-ins (scope = global).
@@ -268,6 +272,9 @@ public class sessionWithWebSocketDa23 extends HttpLoadTest implements Runnable, 
 		htmlContentParser = null;
 		xmlContentParser = null;
 		protobufContentParser = null;
+		ss = null;
+		log();
+		log("<<< ss = " + ss);
 		
 		// initialize context for plug-ins which are executed per loop
 		LoadtestPluginContext loopPluginContext = new LoadtestPluginContext(prxVersion, prxCharEncoding, this, threadNumber, socketPool, cookieHandler);
@@ -403,6 +410,7 @@ public class sessionWithWebSocketDa23 extends HttpLoadTest implements Runnable, 
 		webSocketData.addWebSocketFrame(new WebSocketFrame( true  , false , (byte) 1 , 1464269183623L,1464269183624L , "\"L\u00e4ngden p\u00e5 den \\\"Payload data\\\", i byte: om 0-125, \u00e4r att thepayload l\u00e4ngd. Om 126 f\u00f6ljande 2 byte tolkas som ett 16-bitars heltal utan tecken \u00e4r lastl\u00e4ngden. Om 127, f\u00f6ljande 8 bytes tolkas som ett 64-bitars heltal utan tecken (den mest signifikanta biten m\u00e5ste vara 0) \u00e4r nyttolast l\u00e4ngd. Multibyte l\u00e4ngd m\u00e4ngder uttrycks i n\u00e4tverksbyteordningen . Observera att i alla fall m\u00e5ste den minimala antalet byte anv\u00e4ndas f\u00f6r att koda l\u00e4ngden, till exempel, kan l\u00e4ngden av en 124-byte l\u00e5ng str\u00e4ng inte kodas som sekvensen 126, 0, \u00e4r 124. Nyttolasten l\u00e4ngd l\u00e4ngden av den \\\"Extension data\\\" + l\u00e4ngden av applikations~~POS=TRUNC \\\". l\u00e4ngden av de\\\" Extension data \\\"kan vara noll, i vilket fall nyttolastens l\u00e4ngd \u00e4r l\u00e4ngden av applikations~~POS=TRUNC \\\"\"" ));
 		webSocketData.addWebSocketFrame(new WebSocketFrame( true  , true  , (byte) 8 , 1464269192388L,1464269192389L , "" ));
 		webSocketData.addWebSocketFrame(new WebSocketFrame( true  , false , (byte) 8 , 1464269192519L,1464269192520L , "" ));
+
 		testURL.setWebSocketContext(new HttpTestWebsocketContext(webSocketData));
 
 		performanceData.setInfoText(threadStep, testURL, -1);		// hint: param #3 is the maximum acceptable response time in milliseconds (-1 = not configured)
@@ -424,6 +432,27 @@ public class sessionWithWebSocketDa23 extends HttpLoadTest implements Runnable, 
 		}
 		if (debugContent && urlCallPassed)
 			log(testURL);
+
+		// extract variable(s) from response
+		htmlContentParser = new HtmlContentParser(testURL, this);
+		try
+		{
+			// extract var 'ss'
+			ss = 
+			log("<<< ss = " + ss);
+		}
+		catch (Exception e) { ss = null; log(e); }
+		if (ss == null)
+		{
+			// failure - dump wrong response content and abort current outer loop - after that start next loop
+			String errorText = "*** error: unable to extract var 'ss' from websocket frame pattern";
+			log(errorText);
+			terminateFailedUser(testURL);		// set the user to be terminated at end of loop ? - only performed if the URL call has marked before to support that !
+			threadStep = performanceData.setFailed(threadStep, HttpTestURL.STATUS_TYPE_USER_SPECIFIC_TEST_FAILED, errorText, testURL, this);
+		
+			endOfExecuteLoop(false, testURL, threadStep, loopPluginContext);
+			return false;
+		}
 
 		// update performance data if url call passed
 		if (urlCallPassed)
@@ -1305,6 +1334,13 @@ public class sessionWithWebSocketDa23 extends HttpLoadTest implements Runnable, 
 			System.out.println("# OS-independent DNS access enabled. " + dnsCache.getConfigInfoText());
 			if (dnsPerLoop)
 				System.out.println("# DNS option -dnsperloop enabled");
+		}
+		
+		// log the initial value of all global vars
+		if (debugLoops || debugFailedLoops)
+		{
+			System.out.println("global var <<< standAloneVar = " + standAloneVar);
+			System.out.println();
 		}
 		
 		// calculate sampling offset and virtual user startup offset for cluster jobs (time shift per cluster member)
