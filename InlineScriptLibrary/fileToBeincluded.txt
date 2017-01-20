@@ -1,0 +1,19 @@
+
+FUNCTION printloop()
+A = 2
+
+IF (A == 1) THEN
+ print "CASE 1"
+ELSE
+  print "next try"			//next try
+  IF (A == 2) THEN
+    print "CASE 2"			//CASE 2
+  ELSE
+    print "other case than 2"
+  ENDIF
+  print "not case 1"        //not case 1
+endif
+RETURN
+
+
+changed

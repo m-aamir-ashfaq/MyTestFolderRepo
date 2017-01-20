@@ -1,0 +1,451 @@
++----------------------------------------------------------------+
+| Welcome to the ZebraTester Load Test Program.                  |
+| Additional help available with program argument "-help"        |
+| Procedure Copyright by Ingenieurbuero David Fischer AG,        |
+| a company of the Apica group. All rights reserved.             |
++----------------------------------------------------------------+
+
+Result File : test1_16Jan17_135321_1u.prxres
+
+# concurrent users = 1
+# max. parallel threads per user = [serial execution order for all URLs]
+# planned test duration = 60 seconds
+# http request timeout = 60 seconds
+# startup delay = 200 milliseconds
+# statistic sampling interval = 15 seconds
+# additional sampling rate per web page call = 100 %
+# additional sampling rate per url call = 20 %
+# extended sampling per url call = disabled (recommended)
+# max loops per user = 1 loops
+# http protocol version = v1.1
+# ssl protocol version = all
+# ssl session cache timeout = 300 seconds
+# result file = test1_16Jan17_135321_1u.prxres
+# debug loops
+# debug http protocol headers
+# compiled product version = V5.5-B
+# executed product version = V5.5-B
+>>> ----- ---------------------------------------------------- ----- <<<
+>>>       REMOTE CONTROLLED TEST STARTED - ON LOCAL PORT 40006       <<<
+>>> ----- ---------------------------------------------------- ----- <<<
+
+global var <<< payload = This is a collaborative process, so dig in and try to help out! There's tons of details missing, just waiting for you to add them! So send us a pull request, please!
+global var <<< shuttle3 = shuttle3
+
+# --- thread T000000 created --- 16 Jan 2017 13:53:21.359 ---
+T000000 --- loop started --- 16 Jan 2017 13:53:21.359 ---
+T000000
+T000000 <<< cId = kkj
+T000000
+T000000
+T000000 # Page #1: Start Page
+T000000 # -------------------
+T000000
+T000000 [1] GET http://shuttle3:8000/mqtt ...
+T000000 Executing inline script "generateClientID"
+T000000 <<< cId = clientId-d6f9b2a2ab
+T000000 generateClientID: 
+T000000-URL >>> req header: GET /mqtt HTTP/1.1
+T000000-URL >>> req header: Host: shuttle3:8000
+T000000-URL >>> req header: User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10.12; rv:50.0) Gecko/20100101 Firefox/50.0
+T000000-URL >>> req header: Accept: text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8
+T000000-URL >>> req header: Accept-Language: en-GB,en;q=0.5
+T000000-URL >>> req header: Accept-Encoding: gzip, deflate
+T000000-URL >>> req header: Sec-WebSocket-Version: 13
+T000000-URL >>> req header: Origin: http://www.hivemq.com
+T000000-URL >>> req header: Sec-WebSocket-Protocol: mqttv3.1
+T000000-URL >>> req header: Sec-WebSocket-Extensions: permessage-deflate
+T000000-URL >>> req header: Sec-WebSocket-Key: ZDPr/oP64M5PtA1gFJpkZQ==
+T000000-URL >>> req header: Connection: Keep-Alive, Upgrade
+T000000-URL >>> req header: Pragma: no-cache
+T000000-URL >>> req header: Cache-Control: no-cache
+T000000-URL >>> req header: Upgrade: websocket
+T000000-URL <<< rcv header: HTTP/1.1 101 Switching Protocols
+T000000-URL <<< rcv header: upgrade: websocket
+T000000-URL <<< rcv header: connection: upgrade
+T000000-URL <<< rcv header: sec-websocket-accept: 5KweeMpevFPzaIq6zW+fpnzxyDE=
+T000000-URL <<< rcv header: sec-websocket-protocol: mqttv3.1
+T000000-URL >>>  ### websocket:  connection successful
+T000000-URL >>>  ### websocket:  session duration will be 23seconds
+T000000-URL                         ____________________________________
+T000000-URL >>>  ### websocket:    |  waiting time: 0sec at start.      |
+T000000-URL >>>  ### websocket:    |____________________________________|
+T000000-URL 
+T000000-URL 
+T000000-URL >>> ----------------------------------WebSocket Frame Transmitted---------------------------- vvv ---
+T000000-URL >>>  ### websocket:  transmitted message Opcode  : Binary Frame
+T000000-URL >>>  ### websocket:  transmitted message Payload : {"DUP":false,"QoS":0,"userNameFlag":0,"last_will_Flag":0,"keep_alive":60,"retain":false,"client_id":"clientId-d6f9b2a2ab","clean_session":true,"type":"CONNECT","passwordFlag":0,"protocol_name":"MQIsdp","protocol_version":3}
+T000000-URL >>>  ------------------------------------------- frame end ---------------------------------- ^^^ ---
+T000000-URL 
+T000000-URL                         ___________________________
+T000000-URL >>>  ### websocket:    |  waiting time: 2sec      |
+T000000-URL >>>  ### websocket:    |__________________________|
+T000000-URL 
+T000000-URL-WS-REC 
+T000000-URL-WS-REC <<< ------------------------------------WebSocket Frame Received---------------------------- vvv ---
+T000000-URL-WS-REC <<<  ### websocket:fin = true ,rsv1 = false ,rsv2 = false ,rsv3 = false ,masked = false ,length = 4
+T000000-URL-WS-REC <<<  ### websocket:opcode = Binary Frame
+T000000-URL-WS-REC <<<  ### websocket:payload = {"response":"Connection Accepted","DUP":false,"QoS":0,"retain":false,"type":"CONNACK"}
+T000000-URL-WS-REC <<<  ------------------------------------------- frame end ---------------------------------- ^^^ ---
+T000000-URL-WS-REC 
+T000000-URL 
+T000000-URL >>> ----------------------------------WebSocket Frame Transmitted---------------------------- vvv ---
+T000000-URL >>>  ### websocket:  transmitted message Opcode  : Binary Frame
+T000000-URL >>>  ### websocket:  transmitted message Payload : {"subscribe_topics":[{"subscribe_topic":"testtopic/testMoona","subscribe_QoS":1}],"DUP":false,"QoS":1,"messageID":1,"retain":false,"type":"SUBSCRIBE"}
+T000000-URL >>>  ------------------------------------------- frame end ---------------------------------- ^^^ ---
+T000000-URL 
+T000000-URL                         ___________________________
+T000000-URL >>>  ### websocket:    |  waiting time: 3sec      |
+T000000-URL >>>  ### websocket:    |__________________________|
+T000000-URL 
+T000000-URL-WS-REC 
+T000000-URL-WS-REC <<< ------------------------------------WebSocket Frame Received---------------------------- vvv ---
+T000000-URL-WS-REC <<<  ### websocket:fin = true ,rsv1 = false ,rsv2 = false ,rsv3 = false ,masked = false ,length = 5
+T000000-URL-WS-REC <<<  ### websocket:opcode = Binary Frame
+T000000-URL-WS-REC <<<  ### websocket:payload = {"DUP":false,"QoS":0,"messageID":1,"retain":false,"GrantedQoS":[1],"type":"SUBACK"}
+T000000-URL-WS-REC <<<  ------------------------------------------- frame end ---------------------------------- ^^^ ---
+T000000-URL-WS-REC 
+T000000-URL 
+T000000-URL >>> ----------------------------------WebSocket Frame Transmitted---------------------------- vvv ---
+T000000-URL >>>  ### websocket:  transmitted message Opcode  : Binary Frame
+T000000-URL >>>  ### websocket:  transmitted message Payload : {"subscribe_topics":[{"subscribe_topic":"testtopic/testAmir","subscribe_QoS":2}],"DUP":false,"QoS":1,"messageID":1,"retain":false,"type":"SUBSCRIBE"}
+T000000-URL >>>  ------------------------------------------- frame end ---------------------------------- ^^^ ---
+T000000-URL 
+T000000-URL                         ___________________________
+T000000-URL >>>  ### websocket:    |  waiting time: 5sec      |
+T000000-URL >>>  ### websocket:    |__________________________|
+T000000-URL 
+T000000-URL-WS-REC 
+T000000-URL-WS-REC <<< ------------------------------------WebSocket Frame Received---------------------------- vvv ---
+T000000-URL-WS-REC <<<  ### websocket:fin = true ,rsv1 = false ,rsv2 = false ,rsv3 = false ,masked = false ,length = 5
+T000000-URL-WS-REC <<<  ### websocket:opcode = Binary Frame
+T000000-URL-WS-REC <<<  ### websocket:payload = {"DUP":false,"QoS":0,"messageID":1,"retain":false,"GrantedQoS":[2],"type":"SUBACK"}
+T000000-URL-WS-REC <<<  ------------------------------------------- frame end ---------------------------------- ^^^ ---
+T000000-URL-WS-REC 
+T000000-URL 
+T000000-URL >>> ----------------------------------WebSocket Frame Transmitted---------------------------- vvv ---
+T000000-URL >>>  ### websocket:  transmitted message Opcode  : Binary Frame
+T000000-URL >>>  ### websocket:  transmitted message Payload : {"DUP":false,"QoS":0,"contents":"mmm","publish_topic":"testtopic/testAmir","retain":false,"type":"PUBLISH"}
+T000000-URL >>>  ------------------------------------------- frame end ---------------------------------- ^^^ ---
+T000000-URL 
+T000000-URL                         ___________________________
+T000000-URL >>>  ### websocket:    |  waiting time: 0sec      |
+T000000-URL >>>  ### websocket:    |__________________________|
+T000000-URL 
+T000000-URL-WS-REC 
+T000000-URL-WS-REC <<< ------------------------------------WebSocket Frame Received---------------------------- vvv ---
+T000000-URL-WS-REC <<<  ### websocket:fin = true ,rsv1 = false ,rsv2 = false ,rsv3 = false ,masked = false ,length = 25
+T000000-URL-WS-REC <<<  ### websocket:opcode = Binary Frame
+T000000-URL-WS-REC <<<  ### websocket:payload = {"DUP":false,"QoS":0,"contents":"mmm","publish_topic":"testtopic/testAmir","retain":false,"type":"PUBLISH"}
+T000000-URL-WS-REC <<<  ------------------------------------------- frame end ---------------------------------- ^^^ ---
+T000000-URL-WS-REC 
+T000000-URL-WS-REC                         _____________________________________
+T000000-URL-WS-REC >>>  ### websocket:    |      MQTT reply message sent        |
+T000000-URL-WS-REC >>>  ### websocket:    |      ID:0 , PUBREC                |
+T000000-URL-WS-REC >>>  ### websocket:    |_____________________________________|
+T000000-URL-WS-REC 
+T000000-URL 
+T000000-URL >>> ----------------------------------WebSocket Frame Transmitted---------------------------- vvv ---
+T000000-URL >>>  ### websocket:  transmitted message Opcode  : Binary Frame
+T000000-URL >>>  ### websocket:  transmitted message Payload : {"DUP":false,"QoS":0,"contents":"This is a collaborative process, so dig in and try to help out! There's tons of details missing, just waiting for you to add them! So send us a pull request, please!","publish_topic":"testtopic/testMoona","retain":false,"type":"PUBLISH"}
+T000000-URL >>>  ------------------------------------------- frame end ---------------------------------- ^^^ ---
+T000000-URL 
+T000000-URL                         ___________________________
+T000000-URL >>>  ### websocket:    |  waiting time: 2sec      |
+T000000-URL >>>  ### websocket:    |__________________________|
+T000000-URL 
+T000000-URL-WS-REC 
+T000000-URL-WS-REC <<< ------------------------------------WebSocket Frame Received---------------------------- vvv ---
+T000000-URL-WS-REC <<<  ### websocket:fin = true ,rsv1 = false ,rsv2 = false ,rsv3 = false ,masked = false ,length = 189
+T000000-URL-WS-REC <<<  ### websocket:opcode = Binary Frame
+T000000-URL-WS-REC <<<  ### websocket:payload = {"DUP":false,"QoS":0,"contents":"This is a collaborative process, so dig in and try to help out! There's tons of details missing, just waiting for you to add them! So send us a pull request, please!","publish_topic":"testtopic/testMoona","retain":false,"type":"PUBLISH"}
+T000000-URL-WS-REC <<<  ------------------------------------------- frame end ---------------------------------- ^^^ ---
+T000000-URL-WS-REC 
+T000000-URL-WS-REC                         _____________________________________
+T000000-URL-WS-REC >>>  ### websocket:    |      MQTT reply message sent        |
+T000000-URL-WS-REC >>>  ### websocket:    |      ID:0 , PUBREC                |
+T000000-URL-WS-REC >>>  ### websocket:    |_____________________________________|
+T000000-URL-WS-REC 
+T000000-URL 
+T000000-URL >>> ----------------------------------WebSocket Frame Transmitted---------------------------- vvv ---
+T000000-URL >>>  ### websocket:  transmitted message Opcode  : Binary Frame
+T000000-URL >>>  ### websocket:  transmitted message Payload : {"DUP":false,"QoS":1,"messageID":1,"contents":"mmm","publish_topic":"testtopic/testAmir","retain":false,"type":"PUBLISH"}
+T000000-URL >>>  ------------------------------------------- frame end ---------------------------------- ^^^ ---
+T000000-URL 
+T000000-URL                         ___________________________
+T000000-URL >>>  ### websocket:    |  waiting time: 5sec      |
+T000000-URL >>>  ### websocket:    |__________________________|
+T000000-URL 
+T000000-URL-WS-REC 
+T000000-URL-WS-REC <<< ------------------------------------WebSocket Frame Received---------------------------- vvv ---
+T000000-URL-WS-REC <<<  ### websocket:fin = true ,rsv1 = false ,rsv2 = false ,rsv3 = false ,masked = false ,length = 4
+T000000-URL-WS-REC <<<  ### websocket:opcode = Binary Frame
+T000000-URL-WS-REC <<<  ### websocket:payload = {"DUP":false,"QoS":0,"messageID":1,"retain":false,"type":"PUBACK"}
+T000000-URL-WS-REC <<<  ------------------------------------------- frame end ---------------------------------- ^^^ ---
+T000000-URL-WS-REC 
+T000000-URL-WS-REC 
+T000000-URL-WS-REC <<< ------------------------------------WebSocket Frame Received---------------------------- vvv ---
+T000000-URL-WS-REC <<<  ### websocket:fin = true ,rsv1 = false ,rsv2 = false ,rsv3 = false ,masked = false ,length = 27
+T000000-URL-WS-REC <<<  ### websocket:opcode = Binary Frame
+T000000-URL-WS-REC <<<  ### websocket:payload = {"DUP":false,"QoS":1,"messageID":1,"contents":"mmm","publish_topic":"testtopic/testAmir","retain":false,"type":"PUBLISH"}
+T000000-URL-WS-REC <<<  ------------------------------------------- frame end ---------------------------------- ^^^ ---
+T000000-URL-WS-REC 
+T000000-URL-WS-REC                         _____________________________________
+T000000-URL-WS-REC >>>  ### websocket:    |      MQTT reply message sent        |
+T000000-URL-WS-REC >>>  ### websocket:    |      ID:1 , PUBACK                |
+T000000-URL-WS-REC >>>  ### websocket:    |_____________________________________|
+T000000-URL-WS-REC 
+T000000-URL 
+T000000-URL >>> ----------------------------------WebSocket Frame Transmitted---------------------------- vvv ---
+T000000-URL >>>  ### websocket:  transmitted message Opcode  : Binary Frame
+T000000-URL >>>  ### websocket:  transmitted message Payload : {"DUP":false,"QoS":1,"messageID":1,"retain":false,"type":"UNSUBSCRIBE","unsubscribe_topic":["testtopic/testAmir"]}
+T000000-URL >>>  ------------------------------------------- frame end ---------------------------------- ^^^ ---
+T000000-URL 
+T000000-URL                         ___________________________
+T000000-URL >>>  ### websocket:    |  waiting time: 2sec      |
+T000000-URL >>>  ### websocket:    |__________________________|
+T000000-URL 
+T000000-URL-WS-REC 
+T000000-URL-WS-REC <<< ------------------------------------WebSocket Frame Received---------------------------- vvv ---
+T000000-URL-WS-REC <<<  ### websocket:fin = true ,rsv1 = false ,rsv2 = false ,rsv3 = false ,masked = false ,length = 4
+T000000-URL-WS-REC <<<  ### websocket:opcode = Binary Frame
+T000000-URL-WS-REC <<<  ### websocket:payload = {"DUP":false,"QoS":0,"messageID":1,"retain":false,"type":"UNSUBACK"}
+T000000-URL-WS-REC <<<  ------------------------------------------- frame end ---------------------------------- ^^^ ---
+T000000-URL-WS-REC 
+T000000-URL >>>  ### websocket: Close Connection is sent.
+T000000-URL 
+T000000-URL >>> ----------------------------------WebSocket Frame Transmitted---------------------------- vvv ---
+T000000-URL >>>  ### websocket:  transmitted message Opcode  : Binary Frame
+T000000-URL >>>  ### websocket:  transmitted message Payload : {"DUP":false,"QoS":0,"retain":false,"type":"DISCONNECT"}
+T000000-URL >>>  ------------------------------------------- frame end ---------------------------------- ^^^ ---
+T000000-URL 
+T000000-URL >>>  ### websocket: MQTT Ping Thread join for 43 millis.
+T000000-URL >>>  ### websocket: receiverThread join for 43 millis.
+T000000-URL >>>  ### websocket: MQTT Ping Thread Stoped.
+T000000-URL >>>  ### websocket: communication is done.
+T000000    101 (Switching Protocols), [No Content Type], --- bytes, 23731 ms
+T000000 [2] GET http://shuttle3:8000/mqtt ...
+T000000-URL >>> req header: GET /mqtt HTTP/1.1
+T000000-URL >>> req header: Host: shuttle3:8000
+T000000-URL >>> req header: User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10.12; rv:50.0) Gecko/20100101 Firefox/50.0
+T000000-URL >>> req header: Accept: text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8
+T000000-URL >>> req header: Accept-Language: en-GB,en;q=0.5
+T000000-URL >>> req header: Accept-Encoding: gzip, deflate
+T000000-URL >>> req header: Sec-WebSocket-Version: 13
+T000000-URL >>> req header: Origin: http://www.hivemq.com
+T000000-URL >>> req header: Sec-WebSocket-Protocol: mqttv3.1
+T000000-URL >>> req header: Sec-WebSocket-Extensions: permessage-deflate
+T000000-URL >>> req header: Sec-WebSocket-Key: +1A2t7eNDRaYoNxSXs+Utw==
+T000000-URL >>> req header: Connection: Keep-Alive, Upgrade
+T000000-URL >>> req header: Pragma: no-cache
+T000000-URL >>> req header: Cache-Control: no-cache
+T000000-URL >>> req header: Upgrade: websocket
+T000000-URL >>> ### retry for HTTP 1.1
+T000000-URL >>> req header: GET /mqtt HTTP/1.1
+T000000-URL >>> req header: Host: shuttle3:8000
+T000000-URL >>> req header: User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10.12; rv:50.0) Gecko/20100101 Firefox/50.0
+T000000-URL >>> req header: Accept: text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8
+T000000-URL >>> req header: Accept-Language: en-GB,en;q=0.5
+T000000-URL >>> req header: Accept-Encoding: gzip, deflate
+T000000-URL >>> req header: Sec-WebSocket-Version: 13
+T000000-URL >>> req header: Origin: http://www.hivemq.com
+T000000-URL >>> req header: Sec-WebSocket-Protocol: mqttv3.1
+T000000-URL >>> req header: Sec-WebSocket-Extensions: permessage-deflate
+T000000-URL >>> req header: Sec-WebSocket-Key: +1A2t7eNDRaYoNxSXs+Utw==
+T000000-URL >>> req header: Connection: Keep-Alive, Upgrade
+T000000-URL >>> req header: Pragma: no-cache
+T000000-URL >>> req header: Cache-Control: no-cache
+T000000-URL >>> req header: Upgrade: websocket
+T000000-URL <<< rcv header: HTTP/1.1 101 Switching Protocols
+T000000-URL <<< rcv header: upgrade: websocket
+T000000-URL <<< rcv header: connection: upgrade
+T000000-URL <<< rcv header: sec-websocket-accept: cm5rKy0O6mCDg0AWs8kSMmmEnbU=
+T000000-URL <<< rcv header: sec-websocket-protocol: mqttv3.1
+T000000-URL >>>  ### websocket:  connection successful
+T000000-URL >>>  ### websocket:  session duration will be 14seconds
+T000000-URL                         ____________________________________
+T000000-URL >>>  ### websocket:    |  waiting time: 0sec at start.      |
+T000000-URL >>>  ### websocket:    |____________________________________|
+T000000-URL 
+T000000-URL 
+T000000-URL >>> ----------------------------------WebSocket Frame Transmitted---------------------------- vvv ---
+T000000-URL >>>  ### websocket:  transmitted message Opcode  : Binary Frame
+T000000-URL >>>  ### websocket:  transmitted message Payload : {"DUP":false,"QoS":0,"userNameFlag":0,"last_will_Flag":0,"keep_alive":60,"retain":false,"client_id":"clientId-wwoJgBJRm3","clean_session":true,"type":"CONNECT","passwordFlag":0,"protocol_name":"MQIsdp","protocol_version":3}
+T000000-URL >>>  ------------------------------------------- frame end ---------------------------------- ^^^ ---
+T000000-URL 
+T000000-URL                         ___________________________
+T000000-URL >>>  ### websocket:    |  waiting time: 4sec      |
+T000000-URL >>>  ### websocket:    |__________________________|
+T000000-URL 
+T000000-URL-WS-REC 
+T000000-URL-WS-REC <<< ------------------------------------WebSocket Frame Received---------------------------- vvv ---
+T000000-URL-WS-REC <<<  ### websocket:fin = true ,rsv1 = false ,rsv2 = false ,rsv3 = false ,masked = false ,length = 4
+T000000-URL-WS-REC <<<  ### websocket:opcode = Binary Frame
+T000000-URL-WS-REC <<<  ### websocket:payload = {"response":"Connection Accepted","DUP":false,"QoS":0,"retain":false,"type":"CONNACK"}
+T000000-URL-WS-REC <<<  ------------------------------------------- frame end ---------------------------------- ^^^ ---
+T000000-URL-WS-REC 
+T000000-URL 
+T000000-URL >>> ----------------------------------WebSocket Frame Transmitted---------------------------- vvv ---
+T000000-URL >>>  ### websocket:  transmitted message Opcode  : Binary Frame
+T000000-URL >>>  ### websocket:  transmitted message Payload : {"subscribe_topics":[{"subscribe_topic":"testtopic/testAmir","subscribe_QoS":2}],"DUP":false,"QoS":1,"messageID":1,"retain":false,"type":"SUBSCRIBE"}
+T000000-URL >>>  ------------------------------------------- frame end ---------------------------------- ^^^ ---
+T000000-URL 
+T000000-URL                         ___________________________
+T000000-URL >>>  ### websocket:    |  waiting time: 3sec      |
+T000000-URL >>>  ### websocket:    |__________________________|
+T000000-URL 
+T000000-URL-WS-REC 
+T000000-URL-WS-REC <<< ------------------------------------WebSocket Frame Received---------------------------- vvv ---
+T000000-URL-WS-REC <<<  ### websocket:fin = true ,rsv1 = false ,rsv2 = false ,rsv3 = false ,masked = false ,length = 5
+T000000-URL-WS-REC <<<  ### websocket:opcode = Binary Frame
+T000000-URL-WS-REC <<<  ### websocket:payload = {"DUP":false,"QoS":0,"messageID":1,"retain":false,"GrantedQoS":[2],"type":"SUBACK"}
+T000000-URL-WS-REC <<<  ------------------------------------------- frame end ---------------------------------- ^^^ ---
+T000000-URL-WS-REC 
+T000000-URL 
+T000000-URL >>> ----------------------------------WebSocket Frame Transmitted---------------------------- vvv ---
+T000000-URL >>>  ### websocket:  transmitted message Opcode  : Binary Frame
+T000000-URL >>>  ### websocket:  transmitted message Payload : {"DUP":false,"QoS":1,"messageID":1,"contents":"fgbgb","publish_topic":"testtopic/testAmir","retain":false,"type":"PUBLISH"}
+T000000-URL >>>  ------------------------------------------- frame end ---------------------------------- ^^^ ---
+T000000-URL 
+T000000-URL                         ___________________________
+T000000-URL >>>  ### websocket:    |  waiting time: 2sec      |
+T000000-URL >>>  ### websocket:    |__________________________|
+T000000-URL 
+T000000-URL-WS-REC 
+T000000-URL-WS-REC <<< ------------------------------------WebSocket Frame Received---------------------------- vvv ---
+T000000-URL-WS-REC <<<  ### websocket:fin = true ,rsv1 = false ,rsv2 = false ,rsv3 = false ,masked = false ,length = 4
+T000000-URL-WS-REC <<<  ### websocket:opcode = Binary Frame
+T000000-URL-WS-REC <<<  ### websocket:payload = {"DUP":false,"QoS":0,"messageID":1,"retain":false,"type":"PUBACK"}
+T000000-URL-WS-REC <<<  ------------------------------------------- frame end ---------------------------------- ^^^ ---
+T000000-URL-WS-REC 
+T000000-URL-WS-REC 
+T000000-URL-WS-REC <<< ------------------------------------WebSocket Frame Received---------------------------- vvv ---
+T000000-URL-WS-REC <<<  ### websocket:fin = true ,rsv1 = false ,rsv2 = false ,rsv3 = false ,masked = false ,length = 29
+T000000-URL-WS-REC <<<  ### websocket:opcode = Binary Frame
+T000000-URL-WS-REC <<<  ### websocket:payload = {"DUP":false,"QoS":1,"messageID":1,"contents":"fgbgb","publish_topic":"testtopic/testAmir","retain":false,"type":"PUBLISH"}
+T000000-URL-WS-REC <<<  ------------------------------------------- frame end ---------------------------------- ^^^ ---
+T000000-URL-WS-REC 
+T000000-URL-WS-REC                         _____________________________________
+T000000-URL-WS-REC >>>  ### websocket:    |      MQTT reply message sent        |
+T000000-URL-WS-REC >>>  ### websocket:    |      ID:1 , PUBACK                |
+T000000-URL-WS-REC >>>  ### websocket:    |_____________________________________|
+T000000-URL-WS-REC 
+T000000-URL 
+T000000-URL >>> ----------------------------------WebSocket Frame Transmitted---------------------------- vvv ---
+T000000-URL >>>  ### websocket:  transmitted message Opcode  : Binary Frame
+T000000-URL >>>  ### websocket:  transmitted message Payload : {"DUP":false,"QoS":0,"contents":"fgbgb","publish_topic":"testtopic/testAmir","retain":false,"type":"PUBLISH"}
+T000000-URL >>>  ------------------------------------------- frame end ---------------------------------- ^^^ ---
+T000000-URL 
+T000000-URL                         ___________________________
+T000000-URL >>>  ### websocket:    |  waiting time: 2sec      |
+T000000-URL >>>  ### websocket:    |__________________________|
+T000000-URL 
+T000000-URL-WS-REC 
+T000000-URL-WS-REC <<< ------------------------------------WebSocket Frame Received---------------------------- vvv ---
+T000000-URL-WS-REC <<<  ### websocket:fin = true ,rsv1 = false ,rsv2 = false ,rsv3 = false ,masked = false ,length = 27
+T000000-URL-WS-REC <<<  ### websocket:opcode = Binary Frame
+T000000-URL-WS-REC <<<  ### websocket:payload = {"DUP":false,"QoS":0,"contents":"fgbgb","publish_topic":"testtopic/testAmir","retain":false,"type":"PUBLISH"}
+T000000-URL-WS-REC <<<  ------------------------------------------- frame end ---------------------------------- ^^^ ---
+T000000-URL-WS-REC 
+T000000-URL-WS-REC                         _____________________________________
+T000000-URL-WS-REC >>>  ### websocket:    |      MQTT reply message sent        |
+T000000-URL-WS-REC >>>  ### websocket:    |      ID:0 , PUBREC                |
+T000000-URL-WS-REC >>>  ### websocket:    |_____________________________________|
+T000000-URL-WS-REC 
+T000000-URL 
+T000000-URL >>> ----------------------------------WebSocket Frame Transmitted---------------------------- vvv ---
+T000000-URL >>>  ### websocket:  transmitted message Opcode  : Binary Frame
+T000000-URL >>>  ### websocket:  transmitted message Payload : {"DUP":false,"QoS":1,"messageID":1,"retain":false,"type":"UNSUBSCRIBE","unsubscribe_topic":["testtopic/testAmir"]}
+T000000-URL >>>  ------------------------------------------- frame end ---------------------------------- ^^^ ---
+T000000-URL 
+T000000-URL                         ___________________________
+T000000-URL >>>  ### websocket:    |  waiting time: 1sec      |
+T000000-URL >>>  ### websocket:    |__________________________|
+T000000-URL 
+T000000-URL-WS-REC 
+T000000-URL-WS-REC <<< ------------------------------------WebSocket Frame Received---------------------------- vvv ---
+T000000-URL-WS-REC <<<  ### websocket:fin = true ,rsv1 = false ,rsv2 = false ,rsv3 = false ,masked = false ,length = 4
+T000000-URL-WS-REC <<<  ### websocket:opcode = Binary Frame
+T000000-URL-WS-REC <<<  ### websocket:payload = {"DUP":false,"QoS":0,"messageID":1,"retain":false,"type":"UNSUBACK"}
+T000000-URL-WS-REC <<<  ------------------------------------------- frame end ---------------------------------- ^^^ ---
+T000000-URL-WS-REC 
+T000000-URL >>>  ### websocket: Close Connection is sent.
+T000000-URL 
+T000000-URL >>> ----------------------------------WebSocket Frame Transmitted---------------------------- vvv ---
+T000000-URL >>>  ### websocket:  transmitted message Opcode  : Binary Frame
+T000000-URL >>>  ### websocket:  transmitted message Payload : {"DUP":false,"QoS":0,"retain":false,"type":"DISCONNECT"}
+T000000-URL >>>  ------------------------------------------- frame end ---------------------------------- ^^^ ---
+T000000-URL 
+T000000-URL >>>  ### websocket: MQTT Ping Thread join for 11 millis.
+T000000-URL >>>  ### websocket: receiverThread join for 11 millis.
+T000000-URL >>>  ### websocket: MQTT Ping Thread Stoped.
+T000000-URL >>>  ### websocket: communication is done.
+T000000    101 (Switching Protocols), [No Content Type], --- bytes, 14935 ms
+T000000 Page 1 Time = 38755 ms
+T000000
+T000000 --- loop passed ---  16 Jan 2017 13:54:01.226 --- [remaining loops = 0]
+# 
+# 
+# = =========================
+# = === Final Test Result ===
+# = =========================
+# 
+# 
+# TEST: test1
+# -----------
+# 
+# *** Warning: Debug loops enabled ***
+# *** Warning: Debug HTTP protocol headers enabled ***
+# 
+# 
+# --- test parameter ---
+# concurrent users: 1
+# planned test duration: 60 seconds
+# planned loops per user: 1
+# http request timeout: 60 seconds
+# startup delay: 200 milliseconds
+# http protocol version: V1.1
+# statistic sampling interval: 15 seconds
+# additional sampling rate per web page call: 100 %
+# additional sampling rate per url call: 20 %
+# extended sampling level per url call: disabled (recommended)
+# result file: test1_16Jan17_135321_1u.prxres
+# 
+# --- test date ---
+# test start:    16 Jan 2017 13:53:21
+# test end:      16 Jan 2017 13:54:01
+# test duration: 41 sec
+# 
+# --- test sequence ---
+# [0] Page #1: Start Page
+# [1] - GET http://shuttle3:8000/mqtt
+# [2] - GET http://shuttle3:8000/mqtt
+# 
+# --- result details ---
+# [0] Page #1: Start Page (0 ms delay)
+# [1]   passed= 1, failed= 0, average time= 23'731 ms, min= 23'731 ms, max= 23'731 ms, size= 1'000 bytes
+# [2]   passed= 1, failed= 0, average time= 14'935 ms, min= 14'935 ms, max= 14'935 ms, size= 804 bytes
+# 
+# --- summary ---
+# url calls:
+#  - total passed= 2
+#  - total failed= 0
+#  - failure rate= 0.0 %
+#  - network connect time= 7 ms
+#  - recycled network connections= 0.00 %
+# session results per single user - per loop (averages):
+#  - session time= 38'666 ms (1 page with total 0 ms delay)
+#  - sum of url response time per session= 38'666 ms (2 urls)
+#  - transmitted data= 1'804 bytes
+#  - session throughput= 0.05 kbytes/sec
+# loadtest summary:
+#  - total 0.05 web transactions per second
+#  - total 0.04 kbytes/sec network throughput over http
+#  - session failure rate= 0.0 %
+# 
+
+>>> ----- ------------------------------------------------------- ----- <<<
+>>>       REMOTE CONTROLLED TEST DONE - GOODBYE AND GOOD LUCK!          <<<
+>>> ----- ------------------------------------------------------- ----- <<<
+
+Result File: test1_16Jan17_135321_1u.prxres
