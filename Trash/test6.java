@@ -1776,8 +1776,8 @@ public class test6 extends HttpLoadTest implements Runnable, ThreadStepInterface
 		webSocketData.addWebSocketSubscribeFrame(topicFrame_1 , qosFrame_1,offsetFrame_1);
 	
 		long delayFrame_2 = 2000;
-		int indexFrame_2 = 4;
-		webSocketData.addWebSocketDelay(delayFrame_2 , indexFrame_2);
+		int offsetFrame_2 = 4;
+		webSocketData.addWebSocketDelay(delayFrame_2 , offsetFrame_2);
 	
 		return webSocketData;
 	}
