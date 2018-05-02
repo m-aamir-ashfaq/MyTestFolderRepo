@@ -1,6 +1,6 @@
 // --- Presettings Start ---
 // Inline Script Title: complete
-// Execution Scope: Before All URLs
+// Execution Scope: Inside Loop, before Item
 // Input Var List: 
 // Output Var List: 
 // Execution Priority: 3
@@ -985,3 +985,59 @@ print jsonGetData(s7,"address.phoneNumbers.2")
 
 //print jsonArraySize(s7,"address.phoneNumbers.3") proper error if not array
 print jsonArraySize(s7,"address.phoneNumbers")
+
+
+
+//fix on 14 feb
+if !strMatchRegEx("12345678","[0-9]{8}") THEN
+abort("Unable to extract resume ID from JSON")
+ENDIF
+
+
+line = " This order was placed for QT3000! OK?"
+pattern = "(.*?)(\\d+)(.*)"
+print strCaptureRegExGroups(line,pattern)
+
+//new method on 14 feb
+arr = strCaptureRegExGroups2(line,pattern)
+
+for x = 1 to arrLen(arr)
+print x+" "+ arr(x)
+next x
+
+
+
+//15feb17 (fix related to space2_)
+//var  = getHTTPResponseContent()
+//print var
+//print jsonGetData(var,"places.1.place name")
+//print jsonXPath(var,"country")
+
+
+
+//added 25April
+
+print getUnixTimestampSeconds()
+print getUnixTimestampMillis()
+
+
+createCollectionSequence ("nameA" , "title" , "subtitle" , "yAxislabel")
+print getCollectionSequenceList()
+
+addClusterOption("nameA" , 1 , "subtitle")
+
+print hasClusterOption("nameA" , 1)
+
+
+addDataCollectionFloatItem("nameA" , 7.0)
+addDataCollectionFloatItem("nameA" , 5.0)
+addDataCollectionFloatItem("nameA" , 8.0)
+addDataCollectionFloatItem("nameA" , 11.7)
+
+print getCollectionSequenceItemType ("nameA")
+
+
+
+
+
+

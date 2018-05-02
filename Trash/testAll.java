@@ -5,8 +5,8 @@
 // -----------------------------------------
 //
 // Source: testAll.java
-// Date  : 20 Jan 2017 11:02:08 ECT
-// Author: Apica ZebraTester V5.5-A / automatically generated
+// Date  : 24 Jan 2017 09:08:57 ECT
+// Author: Apica ZebraTester V5.5-C / automatically generated
 //
 // Procedure Copyright by Ingenieurbuero David Fischer AG  |  A Company of the Apica Group
 // All Rights Reserved
@@ -96,7 +96,7 @@ import dfischer.websocket.*;
  */
 public class testAll extends HttpLoadTest implements Runnable, ThreadStepInterface, SetThreadStepInterface, SSLSessionCacheStatisticInterface, VaryingLoadInterface, VaryingTestDurationInterface, SuspendResumeInterface, GetRealTimeUserInputFieldsInterface
 {
-	public static final String prxVersion = "V5.5-A";
+	public static final String prxVersion = "V5.5-C";
 	public static final int    prxCharEncoding = 2;                         // 1 = OS Default, 2 = ISO-8859-1, 3 = UTF-8
 	public static final String testDescription = "";
 
@@ -2537,6 +2537,7 @@ public class testAll extends HttpLoadTest implements Runnable, ThreadStepInterfa
 		WebSocketData webSocketData = new WebSocketData();
 		webSocketData.setConnectionStartMillis(1484664015958L);
 		webSocketData.setConnectionStopMillis(1484664043088L);
+		webSocketData.setSecProtocol("mqtt");
 		String payLoad_0 = "{\"DUP\":false,\"QoS\":0,\"userNameFlag\":0,\"last_will_Flag\":0,\"keep_alive\":60,\"retain\":false,\"client_id\":\"clientId-xWUUfSVQNJ\",\"clean_session\":true,\"type\":\"CONNECT\",\"passwordFlag\":0,\"protocol_name\":\"MQIsdp\",\"protocol_version\":3}";
 		String payLoad_2 = "{\"subscribe_topics\":[{\"subscribe_topic\":\"testtopic/hive\",\"subscribe_QoS\":2}],\"DUP\":false,\"QoS\":1,\"messageID\":1,\"retain\":false,\"type\":\"SUBSCRIBE\"}";
 		String payLoad_4 = "{\"DUP\":false,\"QoS\":0,\"contents\":\"hive...message\",\"publish_topic\":\"testtopic/hive\",\"retain\":false,\"type\":\"PUBLISH\"}";
@@ -2545,12 +2546,13 @@ public class testAll extends HttpLoadTest implements Runnable, ThreadStepInterfa
 		String payLoad_9 = "";
 
 
-		webSocketData.addWebSocketFrame(new WebSocketFrame( true  , true  , false , (byte) 2 , 1484664015960L,1484902563083L , "UTF-8" , payLoad_0 ));
-		webSocketData.addWebSocketFrame(new WebSocketFrame( true  , true  , false , (byte) 2 , 1484664026181L,1484902564637L , "UTF-8" , payLoad_2 ));
-		webSocketData.addWebSocketFrame(new WebSocketFrame( true  , true  , false , (byte) 2 , 1484664037942L,1484902565574L , "UTF-8" , payLoad_4 ));
-		webSocketData.addWebSocketFrame(new WebSocketFrame( true  , true  , false , (byte) 2 , 1484664041155L,1484902566604L , "UTF-8" , payLoad_6 ));
-		webSocketData.addWebSocketFrame(new WebSocketFrame( true  , true  , false , (byte) 2 , 1484664043053L,1484902567540L , "UTF-8" , payLoad_8 ));
-		webSocketData.addWebSocketFrame(new WebSocketFrame( true  , true  , false , (byte) 8 , 1484664043054L,1484664043056L , "UTF-8" , payLoad_9 ));
+		webSocketData.addWebSocketFrame(new WebSocketFrame( true  , true  , false , (byte) 2 , 1484664015960L,1484664015973L , payLoad_0, WebSocketFrame.MQTT ));
+		webSocketData.addWebSocketFrame(new WebSocketFrame( true  , true  , false , (byte) 2 , 1484664026181L,1484664026184L , payLoad_2, WebSocketFrame.MQTT ));
+		webSocketData.addWebSocketFrame(new WebSocketFrame( true  , true  , false , (byte) 2 , 1484664037942L,1484664037944L , payLoad_4, WebSocketFrame.MQTT ));
+		webSocketData.addWebSocketFrame(new WebSocketFrame( true  , true  , false , (byte) 2 , 1484664041155L,1484664041156L , payLoad_6, WebSocketFrame.MQTT ));
+		webSocketData.addWebSocketFrame(new WebSocketFrame( true  , true  , false , (byte) 2 , 1484664043053L,1484664043054L , payLoad_8, WebSocketFrame.MQTT ));
+		webSocketData.addWebSocketFrame(new WebSocketFrame( true  , true  , false , (byte) 8 , 1484664043054L,1484664043056L , payLoad_9, WebSocketFrame.MQTT ));
+	
 		return webSocketData;
 	}
 	
@@ -2561,6 +2563,7 @@ public class testAll extends HttpLoadTest implements Runnable, ThreadStepInterfa
 		WebSocketData webSocketData = new WebSocketData();
 		webSocketData.setConnectionStartMillis(1484664054433L);
 		webSocketData.setConnectionStopMillis(1484664080023L);
+		webSocketData.setSecProtocol("mqtt");
 		String payLoad_0 = "{\"DUP\":false,\"QoS\":0,\"userNameFlag\":0,\"last_will_Flag\":0,\"keep_alive\":60,\"retain\":false,\"client_id\":\"clientId-xWUUfSVQNJ\",\"clean_session\":true,\"type\":\"CONNECT\",\"passwordFlag\":0,\"protocol_name\":\"MQIsdp\",\"protocol_version\":3}";
 		String payLoad_2 = "{\"subscribe_topics\":[{\"subscribe_topic\":\"testtopic/shuttle\",\"subscribe_QoS\":2}],\"DUP\":false,\"QoS\":1,\"messageID\":1,\"retain\":false,\"type\":\"SUBSCRIBE\"}";
 		String payLoad_4 = "{\"DUP\":false,\"QoS\":0,\"contents\":\"shuttle...message\",\"publish_topic\":\"testtopic/shuttle\",\"retain\":false,\"type\":\"PUBLISH\"}";
@@ -2569,12 +2572,13 @@ public class testAll extends HttpLoadTest implements Runnable, ThreadStepInterfa
 		String payLoad_9 = "";
 
 
-		webSocketData.addWebSocketFrame(new WebSocketFrame( true  , true  , false , (byte) 2 , 1484664054435L,1484664054436L , "UTF-8" , payLoad_0 ));
-		webSocketData.addWebSocketFrame(new WebSocketFrame( true  , true  , false , (byte) 2 , 1484664065299L,1484664065300L , "UTF-8" , payLoad_2 ));
-		webSocketData.addWebSocketFrame(new WebSocketFrame( true  , true  , false , (byte) 2 , 1484664074723L,1484664074724L , "UTF-8" , payLoad_4 ));
-		webSocketData.addWebSocketFrame(new WebSocketFrame( true  , true  , false , (byte) 2 , 1484664078044L,1484664078045L , "UTF-8" , payLoad_6 ));
-		webSocketData.addWebSocketFrame(new WebSocketFrame( true  , true  , false , (byte) 2 , 1484664080017L,1484664080018L , "UTF-8" , payLoad_8 ));
-		webSocketData.addWebSocketFrame(new WebSocketFrame( true  , true  , false , (byte) 8 , 1484664080018L,1484664080020L , "UTF-8" , payLoad_9 ));
+		webSocketData.addWebSocketFrame(new WebSocketFrame( true  , true  , false , (byte) 2 , 1484664054435L,1484664054436L , payLoad_0, WebSocketFrame.MQTT ));
+		webSocketData.addWebSocketFrame(new WebSocketFrame( true  , true  , false , (byte) 2 , 1484664065299L,1484664065300L , payLoad_2, WebSocketFrame.MQTT ));
+		webSocketData.addWebSocketFrame(new WebSocketFrame( true  , true  , false , (byte) 2 , 1484664074723L,1484664074724L , payLoad_4, WebSocketFrame.MQTT ));
+		webSocketData.addWebSocketFrame(new WebSocketFrame( true  , true  , false , (byte) 2 , 1484664078044L,1484664078045L , payLoad_6, WebSocketFrame.MQTT ));
+		webSocketData.addWebSocketFrame(new WebSocketFrame( true  , true  , false , (byte) 2 , 1484664080017L,1484664080018L , payLoad_8, WebSocketFrame.MQTT ));
+		webSocketData.addWebSocketFrame(new WebSocketFrame( true  , true  , false , (byte) 8 , 1484664080018L,1484664080020L , payLoad_9, WebSocketFrame.MQTT ));
+	
 		return webSocketData;
 	}
 	
@@ -2585,6 +2589,7 @@ public class testAll extends HttpLoadTest implements Runnable, ThreadStepInterfa
 		WebSocketData webSocketData = new WebSocketData();
 		webSocketData.setConnectionStartMillis(1484664106386L);
 		webSocketData.setConnectionStopMillis(1484664106544L);
+		webSocketData.setSecProtocol("mqtt");
 		String payLoad_0 = "{\"DUP\":false,\"QoS\":0,\"userNameFlag\":0,\"last_will_Flag\":0,\"keep_alive\":60,\"retain\":false,\"client_id\":\"mqttjs_35535a520a74f322\",\"clean_session\":true,\"type\":\"CONNECT\",\"passwordFlag\":0,\"protocol_name\":\"MQIsdp\",\"protocol_version\":3}";
 		String payLoad_2 = "{\"subscribe_topics\":[{\"subscribe_topic\":\"mitsuruog\",\"subscribe_QoS\":0}],\"DUP\":false,\"QoS\":1,\"messageID\":-27483,\"retain\":false,\"type\":\"SUBSCRIBE\"}";
 		String payLoad_3 = "{\"DUP\":false,\"QoS\":0,\"contents\":\"Hello mitsuruog :)\",\"publish_topic\":\"mitsuruog\",\"retain\":false,\"type\":\"PUBLISH\"}";
@@ -2594,13 +2599,14 @@ public class testAll extends HttpLoadTest implements Runnable, ThreadStepInterfa
 		String payLoad_7 = "";
 
 
-		webSocketData.addWebSocketFrame(new WebSocketFrame( true  , true  , false , (byte) 2 , 1484664106388L,1484664106390L , "UTF-8" , payLoad_0 ));
-		webSocketData.addWebSocketFrame(new WebSocketFrame( true  , true  , false , (byte) 2 , 1484664106455L,1484664106457L , "UTF-8" , payLoad_2 ));
-		webSocketData.addWebSocketFrame(new WebSocketFrame( true  , true  , false , (byte) 2 , 1484664106457L,1484664106458L , "UTF-8" , payLoad_3 ));
-		webSocketData.addWebSocketFrame(new WebSocketFrame( true  , true  , false , (byte) 2 , 1484664106458L,1484664106459L , "UTF-8" , payLoad_4 ));
-		webSocketData.addWebSocketFrame(new WebSocketFrame( true  , true  , false , (byte) 2 , 1484664106459L,1484664106460L , "UTF-8" , payLoad_5 ));
-		webSocketData.addWebSocketFrame(new WebSocketFrame( true  , true  , false , (byte) 2 , 1484664106461L,1484664106461L , "UTF-8" , payLoad_6 ));
-		webSocketData.addWebSocketFrame(new WebSocketFrame( true  , true  , false , (byte) 8 , 1484664106461L,1484664106462L , "UTF-8" , payLoad_7 ));
+		webSocketData.addWebSocketFrame(new WebSocketFrame( true  , true  , false , (byte) 2 , 1484664106388L,1484664106390L , payLoad_0, WebSocketFrame.MQTT ));
+		webSocketData.addWebSocketFrame(new WebSocketFrame( true  , true  , false , (byte) 2 , 1484664106455L,1484664106457L , payLoad_2, WebSocketFrame.MQTT ));
+		webSocketData.addWebSocketFrame(new WebSocketFrame( true  , true  , false , (byte) 2 , 1484664106457L,1484664106458L , payLoad_3, WebSocketFrame.MQTT ));
+		webSocketData.addWebSocketFrame(new WebSocketFrame( true  , true  , false , (byte) 2 , 1484664106458L,1484664106459L , payLoad_4, WebSocketFrame.MQTT ));
+		webSocketData.addWebSocketFrame(new WebSocketFrame( true  , true  , false , (byte) 2 , 1484664106459L,1484664106460L , payLoad_5, WebSocketFrame.MQTT ));
+		webSocketData.addWebSocketFrame(new WebSocketFrame( true  , true  , false , (byte) 2 , 1484664106461L,1484664106461L , payLoad_6, WebSocketFrame.MQTT ));
+		webSocketData.addWebSocketFrame(new WebSocketFrame( true  , true  , false , (byte) 8 , 1484664106461L,1484664106462L , payLoad_7, WebSocketFrame.MQTT ));
+	
 		return webSocketData;
 	}
 	
@@ -2611,6 +2617,7 @@ public class testAll extends HttpLoadTest implements Runnable, ThreadStepInterfa
 		WebSocketData webSocketData = new WebSocketData();
 		webSocketData.setConnectionStartMillis(1484664106477L);
 		webSocketData.setConnectionStopMillis(1484664115342L);
+		webSocketData.setSecProtocol("mqtt");
 		String payLoad_0 = "{\"DUP\":false,\"QoS\":0,\"userNameFlag\":0,\"last_will_Flag\":0,\"keep_alive\":60,\"retain\":false,\"client_id\":\"mqttjs_c0414307e98ef7f9\",\"clean_session\":true,\"type\":\"CONNECT\",\"passwordFlag\":0,\"protocol_name\":\"MQIsdp\",\"protocol_version\":3}";
 		String payLoad_2 = "{\"subscribe_topics\":[{\"subscribe_topic\":\"mitsuruog\",\"subscribe_QoS\":0}],\"DUP\":false,\"QoS\":1,\"messageID\":-27136,\"retain\":false,\"type\":\"SUBSCRIBE\"}";
 		String payLoad_4 = "{\"DUP\":false,\"QoS\":0,\"contents\":\"Hello mitsuruog :)\",\"publish_topic\":\"mitsuruog\",\"retain\":false,\"type\":\"PUBLISH\"}";
@@ -2619,12 +2626,13 @@ public class testAll extends HttpLoadTest implements Runnable, ThreadStepInterfa
 		String payLoad_9 = "";
 
 
-		webSocketData.addWebSocketFrame(new WebSocketFrame( true  , true  , false , (byte) 2 , 1484664106479L,1484664106480L , "UTF-8" , payLoad_0 ));
-		webSocketData.addWebSocketFrame(new WebSocketFrame( true  , true  , false , (byte) 2 , 1484664108525L,1484664108526L , "UTF-8" , payLoad_2 ));
-		webSocketData.addWebSocketFrame(new WebSocketFrame( true  , true  , false , (byte) 2 , 1484664110376L,1484664110377L , "UTF-8" , payLoad_4 ));
-		webSocketData.addWebSocketFrame(new WebSocketFrame( true  , true  , false , (byte) 2 , 1484664113568L,1484664113569L , "UTF-8" , payLoad_6 ));
-		webSocketData.addWebSocketFrame(new WebSocketFrame( true  , true  , false , (byte) 2 , 1484664115292L,1484664115293L , "UTF-8" , payLoad_8 ));
-		webSocketData.addWebSocketFrame(new WebSocketFrame( true  , true  , false , (byte) 8 , 1484664115293L,1484664115294L , "UTF-8" , payLoad_9 ));
+		webSocketData.addWebSocketFrame(new WebSocketFrame( true  , true  , false , (byte) 2 , 1484664106479L,1484664106480L , payLoad_0, WebSocketFrame.MQTT ));
+		webSocketData.addWebSocketFrame(new WebSocketFrame( true  , true  , false , (byte) 2 , 1484664108525L,1484664108526L , payLoad_2, WebSocketFrame.MQTT ));
+		webSocketData.addWebSocketFrame(new WebSocketFrame( true  , true  , false , (byte) 2 , 1484664110376L,1484664110377L , payLoad_4, WebSocketFrame.MQTT ));
+		webSocketData.addWebSocketFrame(new WebSocketFrame( true  , true  , false , (byte) 2 , 1484664113568L,1484664113569L , payLoad_6, WebSocketFrame.MQTT ));
+		webSocketData.addWebSocketFrame(new WebSocketFrame( true  , true  , false , (byte) 2 , 1484664115292L,1484664115293L , payLoad_8, WebSocketFrame.MQTT ));
+		webSocketData.addWebSocketFrame(new WebSocketFrame( true  , true  , false , (byte) 8 , 1484664115293L,1484664115294L , payLoad_9, WebSocketFrame.MQTT ));
+	
 		return webSocketData;
 	}
 	
@@ -2635,6 +2643,7 @@ public class testAll extends HttpLoadTest implements Runnable, ThreadStepInterfa
 		WebSocketData webSocketData = new WebSocketData();
 		webSocketData.setConnectionStartMillis(1484664128949L);
 		webSocketData.setConnectionStopMillis(1484664162252L);
+		webSocketData.setSecProtocol("mqtt");
 		String payLoad_0 = "{\"DUP\":false,\"QoS\":0,\"userNameFlag\":0,\"last_will_Flag\":0,\"keep_alive\":-1,\"retain\":false,\"client_id\":\"mjsws/54jLJwyMDOSsQU\",\"clean_session\":true,\"type\":\"CONNECT\",\"passwordFlag\":0,\"protocol_name\":\"MQIsdp\",\"protocol_version\":3}";
 		String payLoad_2 = "{\"subscribe_topics\":[{\"subscribe_topic\":\"http://test.mosquitto.org\",\"subscribe_QoS\":0}],\"DUP\":false,\"QoS\":1,\"messageID\":1,\"retain\":false,\"type\":\"SUBSCRIBE\"}";
 		String payLoad_4 = "{\"subscribe_topics\":[{\"subscribe_topic\":\"test/mosquitto/org\",\"subscribe_QoS\":0}],\"DUP\":false,\"QoS\":1,\"messageID\":2,\"retain\":false,\"type\":\"SUBSCRIBE\"}";
@@ -2644,13 +2653,14 @@ public class testAll extends HttpLoadTest implements Runnable, ThreadStepInterfa
 		String payLoad_11 = "";
 
 
-		webSocketData.addWebSocketFrame(new WebSocketFrame( true  , true  , false , (byte) 2 , 1484664128951L,1484664128952L , "UTF-8" , payLoad_0 ));
-		webSocketData.addWebSocketFrame(new WebSocketFrame( true  , true  , false , (byte) 2 , 1484664140009L,1484664140010L , "UTF-8" , payLoad_2 ));
-		webSocketData.addWebSocketFrame(new WebSocketFrame( true  , true  , false , (byte) 2 , 1484664150253L,1484664150254L , "UTF-8" , payLoad_4 ));
-		webSocketData.addWebSocketFrame(new WebSocketFrame( true  , true  , false , (byte) 2 , 1484664155413L,1484664155414L , "UTF-8" , payLoad_6 ));
-		webSocketData.addWebSocketFrame(new WebSocketFrame( true  , true  , false , (byte) 2 , 1484664159278L,1484664159279L , "UTF-8" , payLoad_8 ));
-		webSocketData.addWebSocketFrame(new WebSocketFrame( true  , true  , false , (byte) 2 , 1484664162197L,1484664162198L , "UTF-8" , payLoad_10 ));
-		webSocketData.addWebSocketFrame(new WebSocketFrame( true  , true  , false , (byte) 8 , 1484664162198L,1484664162200L , "UTF-8" , payLoad_11 ));
+		webSocketData.addWebSocketFrame(new WebSocketFrame( true  , true  , false , (byte) 2 , 1484664128951L,1484664128952L , payLoad_0, WebSocketFrame.MQTT ));
+		webSocketData.addWebSocketFrame(new WebSocketFrame( true  , true  , false , (byte) 2 , 1484664140009L,1484664140010L , payLoad_2, WebSocketFrame.MQTT ));
+		webSocketData.addWebSocketFrame(new WebSocketFrame( true  , true  , false , (byte) 2 , 1484664150253L,1484664150254L , payLoad_4, WebSocketFrame.MQTT ));
+		webSocketData.addWebSocketFrame(new WebSocketFrame( true  , true  , false , (byte) 2 , 1484664155413L,1484664155414L , payLoad_6, WebSocketFrame.MQTT ));
+		webSocketData.addWebSocketFrame(new WebSocketFrame( true  , true  , false , (byte) 2 , 1484664159278L,1484664159279L , payLoad_8, WebSocketFrame.MQTT ));
+		webSocketData.addWebSocketFrame(new WebSocketFrame( true  , true  , false , (byte) 2 , 1484664162197L,1484664162198L , payLoad_10, WebSocketFrame.MQTT ));
+		webSocketData.addWebSocketFrame(new WebSocketFrame( true  , true  , false , (byte) 8 , 1484664162198L,1484664162200L , payLoad_11, WebSocketFrame.MQTT ));
+	
 		return webSocketData;
 	}
 

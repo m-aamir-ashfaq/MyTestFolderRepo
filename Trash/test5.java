@@ -5,8 +5,8 @@
 // -----------------------------------------
 //
 // Source: test5.java
-// Date  : 10 Jan 2017 13:27:33 ECT
-// Author: Apica ZebraTester V5.5-B / automatically generated
+// Date  : 17 Feb 2017 13:11:41 ECT
+// Author: Apica ZebraTester V5.5-C / automatically generated
 //
 // Procedure Copyright by Ingenieurbuero David Fischer AG  |  A Company of the Apica Group
 // All Rights Reserved
@@ -46,6 +46,7 @@ import dfischer.utils.HttpTestURLThreadHandler;
 import dfischer.utils.InlineScriptExecutionException;
 import dfischer.utils.InlineScriptExecutor;
 import dfischer.utils.InnerLoopContext;
+import dfischer.utils.UrlLoopContext;
 import dfischer.utils.Lib;
 import dfischer.utils.LoadtestInlineScriptContext;
 import dfischer.utils.LoadtestInlineScriptVar;
@@ -96,11 +97,11 @@ import dfischer.websocket.*;
  */
 public class test5 extends HttpLoadTest implements Runnable, ThreadStepInterface, SetThreadStepInterface, SSLSessionCacheStatisticInterface, VaryingLoadInterface, VaryingTestDurationInterface, SuspendResumeInterface, GetRealTimeUserInputFieldsInterface
 {
-	public static final String prxVersion = "V5.5-B";
+	public static final String prxVersion = "V5.5-C";
 	public static final int    prxCharEncoding = 2;                         // 1 = OS Default, 2 = ISO-8859-1, 3 = UTF-8
 	public static final String testDescription = "";
 
-	public static String USER_AGENT_1 = "Mozilla/5.0 (Macintosh; Intel Mac OS X 10.12; rv:50.0) Gecko/20100101 Firefox/50.0";
+	public static String USER_AGENT_1 = "Mozilla/5.0 (Macintosh; Intel Mac OS X 10.12; rv:51.0) Gecko/20100101 Firefox/51.0";
 
 	private static final boolean CONTAINS_PARALLEL_EXECUTED_URLS = false;
 	private static final int MAX_PARALLEL_THREADS_PER_USER = 6;                       // default value for max. parallel executed URLs per user
@@ -186,12 +187,7 @@ public class test5 extends HttpLoadTest implements Runnable, ThreadStepInterface
 	private RegExpBasedExtractor regExpBasedExtractor = null;   // re-used, scratch, used to extract vars from http response
 	private XpathBasedExtractor xpathBasedExtractor = null;   // re-used, scratch, used to extract vars from http response
 	
-	private static String shuttle3 = "shuttle3";                                 // var declaration from web admin var handler: scope = global
-	private static String varSubQoS = "1";                                       // var declaration from web admin var handler: scope = global
-	private static String varTopic = "testTopic/#";                              // var declaration from web admin var handler: scope = global
-	private static String varPubQoS = "0";                                       // var declaration from web admin var handler: scope = global
-	private static String varPubContent = "thhhhhhiiiiisssss is ...";            // var declaration from web admin var handler: scope = global
-	private static String clientID = "dummy";                                    // var declaration from web admin var handler: scope = global
+	private static String var2 = "";                                             // var declaration from web admin var handler: scope = global
 
 	private volatile UserTransactionRuntimeHandler transactionHandler = new UserTransactionRuntimeHandler();		// re-used, support to manage user-defined transactions
 
@@ -381,32 +377,22 @@ public class test5 extends HttpLoadTest implements Runnable, ThreadStepInterface
 
 
 
-		// --- HTTP REQUEST: Test [1] <- WEB ADMIN Index 1 ---
-		// execute inline script "getClientID"
-		inlineScriptContext = executeInlineScript_1484051225847(threadStep, totalLoopCounter, innerLoopContext);
-		if (inlineScriptContext.isScriptAbort())
-		{
-			log("*** INLINE SCRIPT \"" + inlineScriptContext.getScriptTitle() + "\" ABORTED / CURRENT LOOP ABORTED ***");
-			log("Abort Message = " + inlineScriptContext.getScriptAbortMessage());
-			endOfExecuteLoop(false, null, threadStep, loopPluginContext);
-			return false;
-		}
-		
+		// --- HTTP REQUEST: Test [1] <- WEB ADMIN Index 7 ---
 		String requestProt0001 = "http";
-		String requestHost0001 = shuttle3;
-		int    requestPort0001 = 8000;
-		String requestFile0001 = "/mqtt";
+		String requestHost0001 = "echo.websocket.org";
+		int    requestPort0001 = 80;
+		String requestFile0001 = "/" +
+				"?encoding=text";
 		String requestHeader0001 = "GET " + requestFile0001 + " HTTP/" + httpProtocolVersion + "\r\n" + 
-				"Host: " + ParseUrl.reconstructHostHeaderField(requestProt0001, requestHost0001, requestPort0001) + "\r\n" + 		// recorded value = Host: broker.mqttdashboard.com:8000
+				"Host: echo.websocket.org\r\n" + 
 				"User-Agent: " + USER_AGENT_1 + "\r\n" + 
 				"Accept: text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8\r\n" + 
 				"Accept-Language: en-GB,en;q=0.5\r\n" + 
 				"Accept-Encoding: gzip, deflate\r\n" + 
 				"Sec-WebSocket-Version: 13\r\n" + 
-				"Origin: http://www.hivemq.com\r\n" + 
-				"Sec-WebSocket-Protocol: mqttv3.1\r\n" + 
+				"Origin: http://websocket.org\r\n" + 
 				"Sec-WebSocket-Extensions: permessage-deflate\r\n" + 
-				"Sec-WebSocket-Key: w8z0kV3k+fKfoCNw6/wRLg==\r\n" + 
+				"Sec-WebSocket-Key: Z6i/8Pv6YAyvB28giv5aEg==\r\n" + 
 				"Connection: Keep-Alive, Upgrade\r\n" + 
 				"Pragma: no-cache\r\n" + 
 				"Cache-Control: no-cache\r\n" + 
@@ -419,7 +405,7 @@ public class test5 extends HttpLoadTest implements Runnable, ThreadStepInterface
 		performanceData.setInfoText(threadStep, testURL, -1);		// hint: param #3 is the maximum acceptable response time in milliseconds (-1 = not configured)
 		log("[" + threadStep + "] " + testURL.getRequestInfoText() + " ...");
 
-		webSocketData = getWebSocketData_1482241076725();
+		webSocketData = getWebSocketData_1486401994091();
 		testURL.setWebSocketContext(new HttpTestWebsocketContext(webSocketData, null, null));
 
 
@@ -445,6 +431,7 @@ public class test5 extends HttpLoadTest implements Runnable, ThreadStepInterface
 			threadStep = setPassed(performanceData, threadStep, testURL);
 		else
 			threadStep = threadStep + 1;		// url call failed - performance data already updated
+
 
 
 
@@ -1367,12 +1354,7 @@ public class test5 extends HttpLoadTest implements Runnable, ThreadStepInterface
 		// log the initial value of all global vars
 		if (debugLoops || debugFailedLoops)
 		{
-			System.out.println("global var <<< clientID = " + clientID);
-			System.out.println("global var <<< shuttle3 = " + shuttle3);
-			System.out.println("global var <<< varPubContent = " + varPubContent);
-			System.out.println("global var <<< varPubQoS = " + varPubQoS);
-			System.out.println("global var <<< varSubQoS = " + varSubQoS);
-			System.out.println("global var <<< varTopic = " + varTopic);
+			System.out.println("global var <<< var2 = " + var2);
 			System.out.println();
 		}
 		
@@ -1695,80 +1677,23 @@ public class test5 extends HttpLoadTest implements Runnable, ThreadStepInterface
 
 
 	
-	// source code of inline script "getClientID"
-	public static String getInlineScriptCode_1484051225847()
-	{
-		return "clientID= generateGUID(\"clientId-xxxxxxxxxx\")";
-	}
-	
-	
-	/**
-	* Execute the inline script "getClientID"
-	* 
-	* @param threadStep 	the current execution step of the simulated user (page break or URL call)
-	* @param totalLoopCounter 	the total number of executed loops - counted overall simulated users
-	* @param innerLoopContext 	the context of the current inner loop, or null if the inline script in not executed inside an inner loop
-	*
-	* @return the context of the inline script
-	*/
-	public LoadtestInlineScriptContext executeInlineScript_1484051225847(int threadStep, int totalLoopCounter, InnerLoopContext innerLoopContext)
-	{
-		LoadtestInlineScriptContext inlineScriptContext = new LoadtestInlineScriptContext("getClientID", ProxySnifferVarSourceInlineScript.EXEC_SCOPE_LOOP_ITEM_START, "", this, LoadtestInlineScriptContext.RESULT_TYPE_SET_OUTPUT_VARS, 15, threadNumber, threadLoopCounter, socketPool, cookieHandler);
-		inlineScriptContext.setThreadStep(threadStep);
-		InlineScriptExecutor inlineScriptExecutor = new InlineScriptExecutor(getInlineScriptCode_1484051225847(), inlineScriptContext);
-		log("Executing inline script \"" + inlineScriptContext.getScriptTitle() + "\"");
-		LoadtestInlineScriptVar inputVar1 = new LoadtestInlineScriptVar("clientID", Lib.nullToBlank(clientID), 3);		// note: parameter no. 3 is the scope of the var
-		inlineScriptContext.addInputVar(inputVar1);
-		LoadtestInlineScriptVar outputVar1 = new LoadtestInlineScriptVar("clientID", Lib.nullToBlank(clientID), 3);		// note: parameter no. 3 is the scope of the var
-		inlineScriptContext.addOutputVar(outputVar1);
-		inlineScriptExecutor.execute();		// execute inline script
-		clientID = inlineScriptContext.getOutputVar("clientID").getVarValue();
-		log("<<< clientID = " + clientID);
-		for (String stdoutLine : inlineScriptContext.getOutputStreamData())
-			log(inlineScriptContext.getScriptTitle() + ": " + stdoutLine);
-		for (String stderrLine : inlineScriptContext.getErrorStreamData())
-			System.err.println(inlineScriptContext.getScriptTitle() + ": " + stderrLine);
-		if (!inlineScriptExecutor.wasSuccessFulExecution())
-		{
-			if (!inlineScriptContext.isScriptAbort())
-				throw new InlineScriptExecutionException("*** Execution of inline script \"" + inlineScriptContext.getScriptTitle() + "\" failed ***");
-		}
-		return inlineScriptContext;
-	}
-	
 	// source code getting the webSocket context.
-	public WebSocketData getWebSocketData_1482241076725()
+	public WebSocketData getWebSocketData_1486401994091()
 	{
 
 		WebSocketData webSocketData = new WebSocketData();
-		webSocketData.setConnectionStartMillis(1482241076784L);
-		webSocketData.setConnectionStopMillis(1482241093805L);
-		webSocketData.setSecProtocol("mqtt");
-		String payLoad_0 = "{\"DUP\":false,\"QoS\":0,\"userNameFlag\":0,\"last_will_Flag\":0,\"keep_alive\":60,\"retain\":false,\"client_id\":\"clientId-FQggYVoM3i\",\"clean_session\":true,\"type\":\"CONNECT\",\"passwordFlag\":0,\"protocol_name\":\"MQIsdp\",\"protocol_version\":3}";
-		String payLoad_2 = "{\"subscribe_topics\":[{\"subscribe_topic\":\"testtopic/topicAmir\",\"subscribe_QoS\":2}],\"DUP\":false,\"QoS\":1,\"messageID\":1,\"retain\":false,\"type\":\"SUBSCRIBE\"}";
-		String payLoad_5 = "{\"DUP\":false,\"QoS\":0,\"messageID\":40,\"retain\":false,\"type\":\"PUBACK\"}";
-		String payLoad_6 = "{\"DUP\":false,\"QoS\":2,\"messageID\":1,\"contents\":\"ONEEE\",\"publish_topic\":\"testtopic/topicAmir\",\"retain\":false,\"type\":\"PUBLISH\"}";
-		String payLoad_9 = "{\"DUP\":false,\"QoS\":0,\"messageID\":1,\"retain\":false,\"type\":\"PUBREL\"}";
-		String payLoad_10 = "{\"DUP\":false,\"QoS\":0,\"messageID\":41,\"retain\":false,\"type\":\"PUBREC\"}";
-		String payLoad_13 = "{\"DUP\":false,\"QoS\":0,\"messageID\":41,\"retain\":false,\"type\":\"PUBCOMP\"}";
-		String payLoad_14 = "{\"DUP\":false,\"QoS\":1,\"messageID\":1,\"retain\":false,\"type\":\"UNSUBSCRIBE\",\"unsubscribe_topic\":[\"testtopic/topicAmir\"]}";
-		String payLoad_16 = "{\"DUP\":false,\"QoS\":0,\"retain\":false,\"type\":\"DISCONNECT\"}";
-		String payLoad_17 = "{\"DUP\":false,\"QoS\":0,\"retain\":false,\"type\":\"Reserved\"}";
-
-		// replace field  "client_id" with variable 'clientID'  of frame no 0
-		payLoad_0 = Lib.replaceJsonField(payLoad_0, "client_id", clientID);
+		webSocketData.setConnectionStartMillis(1486401994200L);
+		webSocketData.setConnectionStopMillis(1486402003521L);
+		webSocketData.setSecProtocol("plain");
+		String payLoad_0 = "Rock it with HTML5 WebSocket 1";
+		String payLoad_2 = "Rock it with HTML5 WebSocket 2";
+		String payLoad_4 = "\u0003\u00fd";
 
 
-		webSocketData.addWebSocketFrame(new WebSocketFrame( true  , true  , false , (byte) 2 , 1482241076789L,1482241076791L , payLoad_0, WebSocketFrame.MQTT ));
-		webSocketData.addWebSocketFrame(new WebSocketFrame( true  , true  , false , (byte) 2 , 1482241079304L,1482241079312L , payLoad_2, WebSocketFrame.MQTT ));
-		webSocketData.addWebSocketFrame(new WebSocketFrame( true  , true  , false , (byte) 2 , 1482241079364L,1482241079365L , payLoad_5, WebSocketFrame.MQTT ));
-		webSocketData.addWebSocketFrame(new WebSocketFrame( true  , true  , false , (byte) 2 , 1482241085690L,1482241085692L , payLoad_6, WebSocketFrame.MQTT ));
-		webSocketData.addWebSocketFrame(new WebSocketFrame( true  , true  , false , (byte) 2 , 1482241085734L,1482241085738L , payLoad_9, WebSocketFrame.MQTT ));
-		webSocketData.addWebSocketFrame(new WebSocketFrame( true  , true  , false , (byte) 2 , 1482241085741L,1482241085743L , payLoad_10, WebSocketFrame.MQTT ));
-		webSocketData.addWebSocketFrame(new WebSocketFrame( true  , true  , false , (byte) 2 , 1482241085833L,1482241085834L , payLoad_13, WebSocketFrame.MQTT ));
-		webSocketData.addWebSocketFrame(new WebSocketFrame( true  , true  , false , (byte) 2 , 1482241090750L,1482241090752L , payLoad_14, WebSocketFrame.MQTT ));
-		webSocketData.addWebSocketFrame(new WebSocketFrame( true  , true  , false , (byte) 2 , 1482241093772L,1482241093774L , payLoad_16, WebSocketFrame.MQTT ));
-		webSocketData.addWebSocketFrame(new WebSocketFrame( true  , true  , false , (byte) 8 , 1482241093774L,1482241093775L , payLoad_17, WebSocketFrame.MQTT ));
+		webSocketData.addWebSocketFrame(new WebSocketFrame( true  , true  , false , (byte) 1 , 1486401996391L,1486401996392L  , payLoad_0, WebSocketFrame.PLAIN  ));
+		webSocketData.addWebSocketFrame(new WebSocketFrame( true  , true  , false , (byte) 1 , 1486401999897L,1486401999897L  , payLoad_2, WebSocketFrame.PLAIN  ));
+		webSocketData.addWebSocketFrame(new WebSocketFrame( true  , true  , false , (byte) 8 , 1486402003411L,1486402003413L  , payLoad_4, WebSocketFrame.PLAIN  ));
+	
 		return webSocketData;
 	}
 

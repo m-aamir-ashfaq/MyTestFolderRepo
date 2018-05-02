@@ -1,0 +1,3 @@
+rizwan@live.com,rizwanPass,rizwam,jaweed
+altaf@live.com,altafPass,altaf,hussainMQM
+sarfraz@live.com,sarfrazPass,sarfraz,honey

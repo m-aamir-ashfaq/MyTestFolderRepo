@@ -5,7 +5,7 @@
   <startFromExecAgentName>Local Exec Agent</startFromExecAgentName>
   <startFromClusterName></startFromClusterName>
   <isPureJUnitLoadTest>false</isPureJUnitLoadTest>
-  <concurrentUsers>1</concurrentUsers>
+  <concurrentUsers>10</concurrentUsers>
   <testDuration>60</testDuration>
   <loopsPerUser>1</loopsPerUser>
   <startupDelayPerUser>200</startupDelayPerUser>

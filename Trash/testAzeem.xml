@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<loadTestTemplate>
+  <proxySnifferVersion>V5.5-C</proxySnifferVersion>
+  <loadTestProgramPath>/Users/amirashfaq/Source/Apica.ProxySniffer/PrxCore/MyTests/AfterInnerLoop/testAzeem.class</loadTestProgramPath>
+  <startFromExecAgentName>Local Exec Agent</startFromExecAgentName>
+  <startFromClusterName></startFromClusterName>
+  <isPureJUnitLoadTest>false</isPureJUnitLoadTest>
+  <concurrentUsers>1</concurrentUsers>
+  <testDuration>300</testDuration>
+  <loopsPerUser>1</loopsPerUser>
+  <startupDelayPerUser>200</startupDelayPerUser>
+  <downlinkBandwidth>0</downlinkBandwidth>
+  <uplinkBandwidth>0</uplinkBandwidth>
+  <requestTimeout>60</requestTimeout>
+  <maxErrorSnapshots>-20</maxErrorSnapshots>
+  <statisticSamplingInterval>15</statisticSamplingInterval>
+  <percentilePageSamplingPercent>100</percentilePageSamplingPercent>
+  <percentileUrlSamplingPercent>20</percentileUrlSamplingPercent>
+  <percentileUrlSamplingPercentAddOption>0</percentileUrlSamplingPercentAddOption>
+  <debugOptions></debugOptions>
+  <additionalOptions></additionalOptions>
+  <sslOptions>all</sslOptions>
+  <pmaTemplateFileName></pmaTemplateFileName>
+  <testRunAnnotation></testRunAnnotation>
+  <userInputFields/>
+</loadTestTemplate>
